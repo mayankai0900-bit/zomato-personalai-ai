@@ -1,0 +1,501 @@
+customer_id,city,age,customer_segment,derived_top_cuisine,top_3_cuisines,derived_avg_order_value,orders_observed,avg_customer_rating,observed_discount_rate,weekend_order_share,late_night_share,repeat_order_share,unique_restaurants_tried,dietary_preference,healthy_affinity,spicy_affinity,exploration_affinity,loyalty_affinity
+C0001,Mumbai,19,Food Explorer,South Indian,"South Indian, Chinese, Healthy",574.0,9,4.22,0.67,0.33,0.11,0.22,8,Vegetarian,0.12,0.27,0.27,0.53
+C0002,Kolkata,44,Food Explorer,Chinese,"Chinese, Pizza, Italian",373.0,13,3.85,0.46,0.46,0.23,0.69,8,Vegan,0.18,0.18,0.87,0.4
+C0003,Bengaluru,20,Health Conscious,Chinese,"Chinese, Maharashtrian, Italian",541.0,22,4.09,0.41,0.09,0.14,0.5,16,Vegetarian,0.76,0.94,0.16,0.65
+C0004,Mumbai,42,Food Explorer,Chinese,"Chinese, Healthy, Burgers",498.0,7,3.71,0.57,0.14,0.14,0.0,7,No Preference,0.55,0.31,0.16,0.63
+C0005,Bengaluru,53,Food Explorer,North Indian,"North Indian, Chinese, Biryani",617.0,15,3.93,0.2,0.13,0.07,0.33,12,Jain,0.28,0.52,0.55,0.69
+C0006,Hyderabad,27,Budget Explorer,South Indian,"South Indian, Biryani, Cafe",663.0,13,4.31,0.77,0.23,0.08,0.31,11,Vegetarian,0.52,0.74,0.9,0.25
+C0007,Delhi,28,Convenience Seeker,Maharashtrian,"Maharashtrian, Burgers, Healthy",617.0,6,3.83,0.83,0.33,0.33,0.33,5,Vegetarian,0.68,0.56,0.11,0.69
+C0008,Pune,25,Health Conscious,Pizza,"Pizza, North Indian, Biryani",457.0,19,3.95,0.89,0.42,0.11,0.53,14,Low-Calorie,0.82,0.53,0.19,0.62
+C0009,Pune,28,Food Explorer,Biryani,"Biryani, Pizza, Cafe",557.0,6,4.0,0.83,0.17,0.17,0.33,5,Vegetarian,0.15,0.85,0.77,0.38
+C0010,Mumbai,49,Food Explorer,Healthy,"Healthy, Cafe, Burgers",642.0,9,4.33,0.33,0.33,0.11,0.22,8,No Preference,0.89,0.74,0.59,0.87
+C0011,Bengaluru,43,Food Explorer,Healthy,"Healthy, Chinese, Cafe",503.0,18,4.22,0.22,0.33,0.0,0.5,12,No Preference,0.7,0.15,0.57,0.16
+C0012,Mumbai,39,Convenience Seeker,Chinese,"Chinese, Maharashtrian, Healthy",429.0,17,3.94,0.82,0.35,0.18,0.35,14,Vegetarian,0.79,0.26,0.48,0.74
+C0013,Hyderabad,40,Food Explorer,Desserts,"Desserts, Thai, Cafe",666.0,6,4.0,0.67,0.17,0.17,0.33,5,Vegetarian,0.56,0.22,0.19,0.29
+C0014,Hyderabad,33,Food Explorer,Thai,"Thai, Desserts, Pizza",513.0,15,3.73,0.93,0.27,0.07,0.6,10,No Preference,0.51,0.28,0.78,0.27
+C0015,Mumbai,28,Budget Explorer,Chinese,"Chinese, Maharashtrian, South Indian",560.0,12,4.0,0.75,0.42,0.0,0.33,10,High-Protein,0.51,0.26,0.73,0.65
+C0016,Mumbai,55,Food Explorer,Burgers,"Burgers, Biryani, Cafe",595.0,5,3.8,0.8,1.0,0.2,0.0,5,No Preference,0.26,0.61,0.87,0.21
+C0017,Bengaluru,43,Convenience Seeker,Maharashtrian,"Maharashtrian, Desserts, Biryani",665.0,18,4.22,0.44,0.22,0.33,0.56,12,Vegetarian,0.27,0.71,0.52,0.85
+C0018,Pune,26,Health Conscious,Biryani,"Biryani, Pizza, Cafe",481.0,17,3.82,0.24,0.12,0.12,0.47,13,Vegetarian,0.85,0.85,0.31,0.85
+C0019,Delhi,46,Food Explorer,Cafe,"Cafe, Thai, North Indian",403.0,14,4.07,0.79,0.21,0.21,0.43,11,Vegetarian,0.19,0.57,0.21,0.24
+C0020,Delhi,39,Food Explorer,Pizza,"Pizza, Chinese, South Indian",445.0,8,4.12,0.38,0.25,0.0,0.5,6,Vegetarian,0.64,0.32,0.1,0.73
+C0021,Kolkata,45,Health Conscious,Chinese,"Chinese, Italian, Maharashtrian",405.0,17,4.29,0.18,0.41,0.06,0.82,9,Vegetarian,0.78,0.83,0.35,0.82
+C0022,Delhi,33,Food Explorer,Chinese,"Chinese, Healthy, North Indian",478.0,19,3.74,0.26,0.37,0.11,0.53,13,Low-Calorie,0.45,0.25,0.74,0.28
+C0023,Hyderabad,33,Health Conscious,Maharashtrian,"Maharashtrian, Burgers, Italian",528.0,9,3.89,0.22,0.22,0.11,0.44,7,No Preference,0.78,0.29,0.47,0.38
+C0024,Delhi,43,Health Conscious,Chinese,"Chinese, Healthy, Burgers",497.0,20,3.8,0.95,0.2,0.1,0.65,12,No Preference,0.92,0.25,0.85,0.24
+C0025,Bengaluru,20,Food Explorer,Biryani,"Biryani, Burgers, Chinese",566.0,10,4.1,1.0,0.3,0.0,0.2,9,No Preference,0.54,0.79,0.14,0.48
+C0026,Delhi,41,Food Explorer,Pizza,"Pizza, Chinese, Desserts",495.0,11,3.55,0.55,0.27,0.18,0.55,8,Vegetarian,0.35,0.21,0.43,0.45
+C0027,Pune,29,Food Explorer,North Indian,"North Indian, Biryani, Pizza",516.0,10,4.4,0.5,0.1,0.2,0.4,8,Jain,0.48,0.28,0.62,0.5
+C0028,Delhi,23,Food Explorer,Italian,"Italian, Chinese, South Indian",421.0,20,4.05,0.3,0.1,0.05,0.65,12,No Preference,0.5,0.82,0.12,0.33
+C0029,Hyderabad,54,Food Explorer,Desserts,"Desserts, Italian, South Indian",589.0,12,4.17,0.25,0.17,0.33,0.5,9,No Preference,0.46,0.25,0.72,0.23
+C0030,Chennai,47,Food Explorer,Chinese,"Chinese, Biryani, Thai",408.0,18,4.0,1.0,0.33,0.11,0.89,7,No Preference,0.62,0.71,0.86,0.82
+C0031,Kolkata,46,Food Explorer,Italian,"Italian, Pizza, Chinese",253.0,6,3.83,0.33,0.17,0.17,0.67,4,No Preference,0.47,0.71,0.49,0.33
+C0032,Pune,38,Food Explorer,Pizza,"Pizza, Cafe, North Indian",465.0,13,4.62,0.15,0.23,0.0,0.62,9,No Preference,0.28,0.46,0.53,0.46
+C0033,Ahmedabad,19,Budget Explorer,Pizza,"Pizza, Burgers, South Indian",476.0,14,4.07,0.93,0.21,0.21,0.43,11,No Preference,0.61,0.29,0.7,0.56
+C0034,Hyderabad,49,Convenience Seeker,Desserts,"Desserts, South Indian, Biryani",620.0,17,4.18,0.82,0.24,0.18,0.76,8,Vegan,0.6,0.66,0.53,0.83
+C0035,Hyderabad,26,Budget Explorer,Pizza,"Pizza, Burgers, Cafe",509.0,7,4.43,0.71,0.57,0.0,0.43,5,No Preference,0.31,0.17,0.7,0.77
+C0036,Kolkata,21,Food Explorer,Thai,"Thai, Chinese, Pizza",413.0,25,4.12,0.28,0.0,0.12,0.88,10,No Preference,0.67,0.58,0.22,0.24
+C0037,Bengaluru,41,Health Conscious,Chinese,"Chinese, Desserts, Healthy",514.0,19,4.16,0.21,0.32,0.16,0.63,12,Vegan,0.91,0.44,0.35,0.66
+C0038,Mumbai,55,Food Explorer,South Indian,"South Indian, Maharashtrian, Biryani",607.0,17,3.82,0.65,0.24,0.06,0.65,11,Vegetarian,0.16,0.65,0.53,0.65
+C0039,Hyderabad,49,Health Conscious,South Indian,"South Indian, Biryani, Burgers",677.0,35,3.89,0.49,0.14,0.17,0.86,15,High-Protein,0.79,0.56,0.87,0.35
+C0040,Hyderabad,55,Health Conscious,Biryani,"Biryani, Pizza, Desserts",494.0,21,4.0,0.43,0.29,0.24,0.81,10,No Preference,0.82,0.25,0.4,0.17
+C0041,Bengaluru,39,Convenience Seeker,Chinese,"Chinese, Pizza, Healthy",434.0,11,3.82,0.45,0.18,0.27,0.36,9,Vegetarian,0.69,0.65,0.49,0.72
+C0042,Mumbai,23,Budget Explorer,Biryani,"Biryani, Cafe, Chinese",556.0,16,3.88,0.69,0.12,0.06,0.38,13,No Preference,0.4,0.49,0.9,0.56
+C0043,Bengaluru,25,Food Explorer,South Indian,"South Indian, Biryani, Healthy",521.0,15,4.07,0.8,0.2,0.13,0.4,12,Low-Calorie,0.61,0.93,0.57,0.72
+C0044,Bengaluru,32,Convenience Seeker,Desserts,"Desserts, Maharashtrian, Biryani",590.0,22,3.82,0.55,0.27,0.05,0.59,15,No Preference,0.52,0.84,0.2,0.8
+C0045,Chennai,48,Food Explorer,Biryani,"Biryani, Burgers, South Indian",435.0,20,4.25,0.35,0.3,0.1,0.95,7,Low-Calorie,0.23,0.79,0.56,0.66
+C0046,Mumbai,33,Health Conscious,Maharashtrian,"Maharashtrian, Desserts, Burgers",632.0,13,3.85,0.62,0.38,0.31,0.46,10,Vegetarian,0.94,0.36,0.45,0.8
+C0047,Mumbai,31,Food Explorer,Chinese,"Chinese, South Indian, Burgers",426.0,17,4.06,0.24,0.41,0.12,0.53,12,No Preference,0.3,0.7,0.58,0.37
+C0048,Hyderabad,22,Food Explorer,North Indian,"North Indian, Pizza, Desserts",601.0,8,4.0,0.5,0.5,0.12,0.75,5,Vegetarian,0.16,0.24,0.83,0.77
+C0049,Ahmedabad,36,Food Explorer,Pizza,"Pizza, Cafe, Maharashtrian",391.0,12,4.17,0.83,0.33,0.25,0.0,12,Vegetarian,0.37,0.31,0.13,0.47
+C0050,Ahmedabad,55,Food Explorer,Desserts,"Desserts, Italian, Cafe",418.0,15,3.93,0.8,0.33,0.13,0.27,13,Vegetarian,0.64,0.52,0.25,0.59
+C0051,Pune,44,Food Explorer,Biryani,"Biryani, North Indian, Desserts",506.0,21,4.0,0.9,0.14,0.14,0.62,14,No Preference,0.37,0.37,0.54,0.49
+C0052,Pune,50,Food Explorer,Biryani,"Biryani, Pizza, Italian",521.0,12,3.92,0.83,0.17,0.0,0.5,9,No Preference,0.33,0.21,0.45,0.19
+C0053,Chennai,25,Food Explorer,Biryani,"Biryani, Burgers, Chinese",413.0,21,4.33,0.57,0.33,0.19,0.95,8,Vegetarian,0.49,0.2,0.89,0.83
+C0054,Chennai,36,Food Explorer,Thai,"Thai, Biryani, Chinese",509.0,5,3.4,0.6,0.6,0.0,0.4,4,Low-Calorie,0.22,0.16,0.58,0.71
+C0055,Hyderabad,39,Food Explorer,Biryani,"Biryani, Chinese, Burgers",572.0,12,3.67,0.75,0.42,0.0,0.67,7,Vegetarian,0.38,0.75,0.46,0.51
+C0056,Pune,30,Health Conscious,Biryani,"Biryani, Cafe, Italian",461.0,25,4.04,0.8,0.32,0.16,0.84,14,No Preference,0.93,0.52,0.63,0.77
+C0057,Chennai,55,Health Conscious,Biryani,"Biryani, Chinese, Burgers",444.0,32,4.16,0.25,0.22,0.09,0.97,9,Vegetarian,0.76,0.33,0.88,0.21
+C0058,Pune,23,Health Conscious,North Indian,"North Indian, South Indian, Cafe",390.0,21,3.81,0.1,0.24,0.05,0.52,14,Low-Calorie,0.95,0.73,0.6,0.84
+C0059,Mumbai,24,Health Conscious,Cafe,"Cafe, South Indian, Biryani",560.0,22,4.0,0.32,0.18,0.36,0.41,17,No Preference,0.77,0.24,0.52,0.57
+C0060,Pune,33,Food Explorer,Biryani,"Biryani, Cafe, Pizza",407.0,11,3.91,0.64,0.27,0.18,0.0,11,Vegetarian,0.56,0.16,0.47,0.37
+C0061,Ahmedabad,37,Food Explorer,Chinese,"Chinese, Italian, Burgers",388.0,11,4.09,0.27,0.36,0.09,0.18,10,No Preference,0.69,0.12,0.39,0.37
+C0062,Pune,35,Convenience Seeker,North Indian,"North Indian, Biryani, Desserts",390.0,11,3.82,0.82,0.45,0.27,0.55,8,High-Protein,0.29,0.26,0.28,0.75
+C0063,Delhi,24,Food Explorer,Italian,"Italian, North Indian, Chinese",423.0,5,3.8,0.6,0.4,0.4,0.0,5,Vegetarian,0.56,0.93,0.24,0.25
+C0064,Bengaluru,28,Food Explorer,Italian,"Italian, Chinese, Healthy",530.0,26,4.0,0.38,0.19,0.08,0.73,15,Vegetarian,0.67,0.67,0.7,0.32
+C0065,Kolkata,41,Food Explorer,Italian,"Italian, Thai, Pizza",422.0,12,4.17,0.83,0.25,0.25,0.5,8,Vegetarian,0.42,0.67,0.4,0.63
+C0066,Kolkata,38,Food Explorer,Chinese,"Chinese, Italian, Thai",344.0,10,4.1,0.2,0.0,0.4,0.5,7,Jain,0.2,0.3,0.13,0.9
+C0067,Pune,47,Food Explorer,Cafe,"Cafe, Biryani, Pizza",463.0,18,4.11,0.78,0.28,0.33,0.44,14,No Preference,0.34,0.69,0.59,0.85
+C0068,Hyderabad,33,Food Explorer,South Indian,"South Indian, Biryani, Desserts",655.0,22,3.95,0.27,0.23,0.32,0.73,13,Vegetarian,0.18,0.28,0.86,0.77
+C0069,Mumbai,21,Health Conscious,South Indian,"South Indian, Chinese, Desserts",591.0,17,4.12,0.24,0.29,0.06,0.29,14,No Preference,0.87,0.1,0.36,0.26
+C0070,Delhi,26,Food Explorer,Cafe,"Cafe, Burgers, South Indian",577.0,17,3.53,0.35,0.35,0.29,0.53,12,Vegetarian,0.33,0.21,0.57,0.16
+C0071,Mumbai,22,Budget Explorer,Maharashtrian,"Maharashtrian, Cafe, Burgers",712.0,15,4.07,0.87,0.33,0.13,0.4,12,Vegetarian,0.54,0.49,0.73,0.8
+C0072,Mumbai,48,Food Explorer,Chinese,"Chinese, Desserts, South Indian",513.0,35,4.0,0.14,0.29,0.2,0.71,19,Vegetarian,0.64,0.57,0.15,0.36
+C0073,Chennai,36,Food Explorer,Biryani,"Biryani, Chinese, Thai",449.0,25,3.92,0.68,0.28,0.16,0.92,8,Vegan,0.48,0.29,0.68,0.31
+C0074,Hyderabad,43,Convenience Seeker,Chinese,"Chinese, Burgers, Biryani",605.0,20,3.95,0.1,0.3,0.15,0.85,10,No Preference,0.18,0.18,0.15,0.77
+C0075,Delhi,53,Convenience Seeker,Italian,"Italian, Chinese, Maharashtrian",583.0,14,4.0,0.93,0.07,0.14,0.5,10,No Preference,0.14,0.34,0.44,0.84
+C0076,Mumbai,54,Food Explorer,Maharashtrian,"Maharashtrian, Desserts, Cafe",573.0,19,3.58,0.74,0.37,0.16,0.53,14,No Preference,0.46,0.58,0.32,0.32
+C0077,Kolkata,19,Food Explorer,Maharashtrian,"Maharashtrian, Chinese, Italian",374.0,11,4.18,0.55,0.0,0.18,0.55,7,No Preference,0.58,0.44,0.1,0.8
+C0078,Mumbai,23,Food Explorer,Maharashtrian,"Maharashtrian, South Indian, Chinese",441.0,17,4.24,0.41,0.35,0.12,0.35,14,No Preference,0.23,0.74,0.58,0.81
+C0079,Mumbai,35,Food Explorer,Maharashtrian,"Maharashtrian, Healthy, Chinese",589.0,16,3.56,0.62,0.19,0.19,0.5,12,No Preference,0.6,0.55,0.19,0.66
+C0080,Bengaluru,43,Food Explorer,Biryani,"Biryani, South Indian, Maharashtrian",576.0,20,4.0,0.4,0.25,0.2,0.4,16,Low-Calorie,0.21,0.55,0.5,0.47
+C0081,Kolkata,40,Budget Explorer,Italian,"Italian, Maharashtrian, Pizza",366.0,10,4.2,0.7,0.4,0.2,0.4,8,No Preference,0.46,0.2,0.56,0.68
+C0082,Pune,28,Food Explorer,Cafe,"Cafe, North Indian, Maharashtrian",333.0,10,4.1,0.4,0.3,0.2,0.2,9,No Preference,0.39,0.38,0.42,0.38
+C0083,Chennai,25,Food Explorer,Burgers,"Burgers, Chinese, Biryani",459.0,17,3.88,0.29,0.18,0.18,0.71,8,Vegetarian,0.66,0.25,0.58,0.72
+C0084,Chennai,47,Food Explorer,Chinese,"Chinese, Biryani, South Indian",413.0,11,3.91,1.0,0.27,0.18,0.73,6,High-Protein,0.47,0.5,0.88,0.39
+C0085,Bengaluru,55,Budget Explorer,South Indian,"South Indian, Maharashtrian, Cafe",406.0,8,4.0,0.88,0.12,0.12,0.0,8,Vegetarian,0.62,0.53,0.79,0.79
+C0086,Kolkata,20,Food Explorer,Pizza,"Pizza, Italian, Maharashtrian",381.0,17,3.82,0.24,0.24,0.18,0.94,8,No Preference,0.39,0.71,0.18,0.82
+C0087,Delhi,20,Food Explorer,Italian,"Italian, Cafe, Pizza",357.0,17,4.24,0.71,0.24,0.24,0.47,12,Vegetarian,0.14,0.64,0.72,0.66
+C0088,Pune,24,Health Conscious,Pizza,"Pizza, Biryani, Thai",445.0,18,4.11,0.11,0.33,0.17,0.61,12,Vegetarian,0.92,0.69,0.21,0.41
+C0089,Mumbai,37,Health Conscious,Chinese,"Chinese, Desserts, South Indian",404.0,12,4.42,0.92,0.25,0.17,0.33,10,Vegetarian,0.91,0.39,0.11,0.38
+C0090,Delhi,32,Food Explorer,Chinese,"Chinese, Pizza, Cafe",498.0,12,4.17,0.92,0.17,0.0,0.75,7,Vegetarian,0.21,0.42,0.37,0.72
+C0091,Delhi,46,Health Conscious,Italian,"Italian, South Indian, Desserts",497.0,7,3.71,0.71,0.14,0.43,0.29,6,Low-Calorie,0.79,0.5,0.53,0.38
+C0092,Pune,54,Food Explorer,Biryani,"Biryani, Pizza, North Indian",556.0,10,4.2,0.8,0.1,0.1,0.2,9,Vegetarian,0.65,0.84,0.21,0.34
+C0093,Mumbai,51,Food Explorer,Healthy,"Healthy, South Indian, Maharashtrian",625.0,16,4.06,0.56,0.44,0.25,0.5,12,No Preference,0.4,0.12,0.28,0.49
+C0094,Chennai,41,Food Explorer,Biryani,"Biryani, Thai, Chinese",504.0,8,4.25,0.75,0.5,0.25,0.75,5,No Preference,0.34,0.81,0.73,0.25
+C0095,Delhi,48,Food Explorer,Chinese,"Chinese, Cafe, Healthy",439.0,14,4.21,0.64,0.36,0.07,0.43,11,No Preference,0.36,0.14,0.19,0.37
+C0096,Hyderabad,22,Food Explorer,Desserts,"Desserts, Biryani, Pizza",424.0,7,4.29,0.86,0.14,0.0,0.29,6,Vegetarian,0.59,0.26,0.1,0.41
+C0097,Chennai,41,Food Explorer,Biryani,"Biryani, South Indian, Thai",389.0,10,3.8,0.4,0.3,0.0,0.6,6,Vegan,0.32,0.11,0.61,0.89
+C0098,Pune,33,Food Explorer,Cafe,"Cafe, Biryani, North Indian",374.0,27,4.07,0.89,0.26,0.15,0.7,15,No Preference,0.69,0.64,0.72,0.5
+C0099,Mumbai,47,Health Conscious,Maharashtrian,"Maharashtrian, Chinese, Biryani",494.0,15,3.73,0.47,0.47,0.2,0.27,13,High-Protein,0.74,0.26,0.53,0.34
+C0100,Mumbai,39,Health Conscious,Maharashtrian,"Maharashtrian, Chinese, Cafe",630.0,10,4.0,0.5,0.1,0.3,0.2,9,High-Protein,0.89,0.54,0.5,0.52
+C0101,Hyderabad,23,Budget Explorer,South Indian,"South Indian, Biryani, Maharashtrian",660.0,11,3.91,0.91,0.27,0.0,0.55,8,No Preference,0.69,0.4,0.58,0.47
+C0102,Pune,45,Food Explorer,North Indian,"North Indian, Cafe, Biryani",378.0,8,4.25,1.0,0.25,0.25,0.5,6,Vegetarian,0.62,0.76,0.86,0.26
+C0103,Mumbai,33,Food Explorer,Maharashtrian,"Maharashtrian, Chinese, Healthy",571.0,26,4.08,0.38,0.23,0.08,0.38,20,Vegetarian,0.44,0.65,0.56,0.55
+C0104,Mumbai,19,Food Explorer,Chinese,"Chinese, South Indian, Maharashtrian",552.0,18,4.22,0.28,0.22,0.28,0.33,15,No Preference,0.27,0.22,0.66,0.9
+C0105,Delhi,46,Food Explorer,Burgers,"Burgers, Healthy, Chinese",518.0,13,3.85,0.46,0.23,0.31,0.31,11,No Preference,0.7,0.25,0.23,0.68
+C0106,Bengaluru,25,Convenience Seeker,Biryani,"Biryani, South Indian, Desserts",531.0,16,3.88,0.56,0.25,0.06,0.25,14,No Preference,0.16,0.44,0.2,0.81
+C0107,Chennai,51,Convenience Seeker,Chinese,"Chinese, Biryani, South Indian",456.0,18,4.11,0.61,0.17,0.17,0.89,8,No Preference,0.76,0.64,0.38,0.81
+C0108,Delhi,45,Convenience Seeker,North Indian,"North Indian, Italian, Healthy",372.0,25,4.16,0.56,0.16,0.12,0.8,13,Vegetarian,0.86,0.82,0.38,0.86
+C0109,Kolkata,35,Food Explorer,Pizza,"Pizza, Chinese, Italian",375.0,21,3.95,0.62,0.33,0.29,0.86,10,No Preference,0.39,0.89,0.6,0.83
+C0110,Mumbai,23,Health Conscious,Maharashtrian,"Maharashtrian, Chinese, Cafe",592.0,18,4.22,0.61,0.28,0.06,0.11,17,Vegetarian,0.91,0.51,0.6,0.37
+C0111,Pune,37,Health Conscious,North Indian,"North Indian, Burgers, Biryani",366.0,14,3.71,0.21,0.29,0.29,0.43,10,No Preference,0.94,0.39,0.79,0.39
+C0112,Pune,50,Food Explorer,Biryani,"Biryani, Cafe, Thai",504.0,17,3.94,0.18,0.29,0.18,0.65,10,No Preference,0.31,0.84,0.41,0.61
+C0113,Pune,54,Health Conscious,Biryani,"Biryani, Pizza, South Indian",418.0,16,3.88,0.44,0.31,0.19,0.62,11,Low-Calorie,0.92,0.28,0.86,0.53
+C0114,Mumbai,36,Food Explorer,Desserts,"Desserts, Cafe, Chinese",514.0,19,4.0,0.32,0.21,0.05,0.58,12,Vegetarian,0.44,0.14,0.31,0.42
+C0115,Kolkata,30,Convenience Seeker,Chinese,"Chinese, Italian, Pizza",308.0,15,4.2,0.93,0.27,0.0,0.8,6,Vegetarian,0.43,0.78,0.2,0.88
+C0116,Pune,27,Food Explorer,Cafe,"Cafe, Burgers, Pizza",400.0,13,4.0,0.46,0.08,0.0,0.38,10,No Preference,0.54,0.38,0.47,0.6
+C0117,Delhi,43,Food Explorer,Cafe,"Cafe, Desserts, Italian",424.0,5,4.4,0.8,0.4,0.2,0.4,4,No Preference,0.67,0.93,0.75,0.43
+C0118,Mumbai,48,Food Explorer,Maharashtrian,"Maharashtrian, Chinese, Healthy",551.0,18,3.72,0.33,0.17,0.11,0.28,15,No Preference,0.23,0.68,0.6,0.78
+C0119,Mumbai,30,Budget Explorer,Maharashtrian,"Maharashtrian, Biryani, Desserts",493.0,10,4.4,0.9,0.2,0.2,0.4,8,No Preference,0.15,0.22,0.8,0.7
+C0120,Pune,48,Budget Explorer,Biryani,"Biryani, North Indian, Cafe",412.0,20,3.8,0.75,0.35,0.2,0.7,13,High-Protein,0.32,0.51,0.64,0.75
+C0121,Bengaluru,53,Food Explorer,Biryani,"Biryani, Chinese, South Indian",516.0,13,3.69,0.54,0.31,0.15,0.15,12,Vegetarian,0.2,0.68,0.74,0.36
+C0122,Pune,40,Food Explorer,Pizza,"Pizza, Cafe, Thai",487.0,14,3.93,0.57,0.14,0.14,0.57,10,No Preference,0.58,0.33,0.76,0.35
+C0123,Ahmedabad,33,Health Conscious,Cafe,"Cafe, Thai, Pizza",434.0,7,4.29,0.14,0.29,0.0,0.0,7,Vegetarian,0.92,0.93,0.64,0.25
+C0124,Chennai,48,Convenience Seeker,Biryani,"Biryani, Burgers, Chinese",513.0,18,3.72,0.11,0.28,0.06,0.94,6,No Preference,0.9,0.88,0.53,0.69
+C0125,Delhi,20,Food Explorer,Chinese,"Chinese, Pizza, Italian",396.0,17,3.88,0.65,0.29,0.06,0.53,12,High-Protein,0.65,0.55,0.37,0.49
+C0126,Delhi,50,Food Explorer,Cafe,"Cafe, Chinese, Burgers",561.0,7,4.0,0.71,0.14,0.14,0.0,7,No Preference,0.67,0.26,0.37,0.37
+C0127,Pune,45,Food Explorer,North Indian,"North Indian, Pizza, Desserts",607.0,5,4.4,1.0,0.4,0.0,0.4,4,No Preference,0.33,0.38,0.41,0.49
+C0128,Ahmedabad,18,Food Explorer,Biryani,"Biryani, Healthy, South Indian",563.0,8,4.25,0.25,0.5,0.12,0.0,8,No Preference,0.75,0.69,0.84,0.82
+C0129,Bengaluru,41,Budget Explorer,North Indian,"North Indian, Cafe, South Indian",523.0,8,4.12,0.75,0.25,0.12,0.0,8,No Preference,0.8,0.75,0.71,0.75
+C0130,Mumbai,51,Food Explorer,Chinese,"Chinese, Healthy, Maharashtrian",579.0,20,3.45,0.75,0.3,0.1,0.4,16,High-Protein,0.38,0.54,0.56,0.26
+C0131,Delhi,55,Food Explorer,Italian,"Italian, Chinese, Cafe",498.0,15,3.93,0.4,0.2,0.13,0.47,11,Jain,0.36,0.12,0.55,0.65
+C0132,Mumbai,31,Food Explorer,Chinese,"Chinese, Desserts, Healthy",591.0,17,3.76,0.88,0.29,0.06,0.53,12,Vegetarian,0.45,0.75,0.85,0.17
+C0133,Hyderabad,41,Food Explorer,Thai,"Thai, North Indian, Desserts",710.0,13,3.92,0.85,0.23,0.15,0.69,7,No Preference,0.21,0.93,0.89,0.44
+C0134,Mumbai,37,Food Explorer,Chinese,"Chinese, Healthy, South Indian",527.0,20,4.4,0.3,0.35,0.0,0.55,14,Vegetarian,0.2,0.79,0.85,0.69
+C0135,Mumbai,33,Health Conscious,Desserts,"Desserts, Cafe, South Indian",537.0,9,4.0,0.22,0.33,0.11,0.22,8,No Preference,0.76,0.22,0.53,0.72
+C0136,Bengaluru,54,Food Explorer,Desserts,"Desserts, South Indian, Maharashtrian",545.0,22,3.82,0.55,0.27,0.09,0.59,14,No Preference,0.6,0.72,0.32,0.57
+C0137,Hyderabad,53,Food Explorer,South Indian,"South Indian, Desserts, Burgers",619.0,23,4.13,0.35,0.3,0.17,0.83,11,Vegetarian,0.5,0.82,0.4,0.72
+C0138,Delhi,47,Food Explorer,Chinese,"Chinese, Burgers, South Indian",482.0,12,4.0,0.33,0.17,0.08,0.58,8,Vegetarian,0.18,0.72,0.84,0.79
+C0139,Bengaluru,42,Health Conscious,Maharashtrian,"Maharashtrian, Biryani, Desserts",588.0,8,3.88,0.75,0.25,0.12,0.25,7,Jain,0.91,0.11,0.8,0.4
+C0140,Mumbai,48,Food Explorer,Cafe,"Cafe, Chinese, South Indian",571.0,18,4.17,0.89,0.33,0.0,0.33,15,No Preference,0.32,0.54,0.53,0.42
+C0141,Mumbai,48,Food Explorer,Chinese,"Chinese, South Indian, Biryani",376.0,10,4.3,0.7,0.2,0.3,0.2,9,No Preference,0.71,0.35,0.54,0.59
+C0142,Bengaluru,42,Food Explorer,Maharashtrian,"Maharashtrian, Biryani, Pizza",621.0,9,3.89,0.67,0.11,0.0,0.22,8,Vegetarian,0.24,0.78,0.61,0.52
+C0143,Kolkata,49,Food Explorer,Italian,"Italian, Desserts, Healthy",419.0,24,3.96,0.92,0.38,0.25,0.88,10,Low-Calorie,0.45,0.82,0.63,0.72
+C0144,Delhi,18,Food Explorer,Chinese,"Chinese, North Indian, Burgers",487.0,11,4.09,0.64,0.18,0.27,0.36,9,Vegetarian,0.11,0.71,0.53,0.46
+C0145,Bengaluru,19,Health Conscious,Desserts,"Desserts, Pizza, Healthy",608.0,21,4.1,0.19,0.29,0.24,0.57,14,Jain,0.79,0.33,0.25,0.54
+C0146,Pune,43,Food Explorer,Biryani,"Biryani, Cafe, Pizza",627.0,11,3.73,0.91,0.36,0.09,0.36,9,No Preference,0.57,0.15,0.17,0.43
+C0147,Delhi,23,Food Explorer,Cafe,"Cafe, Desserts, South Indian",425.0,14,4.07,0.93,0.43,0.21,0.64,9,Vegetarian,0.58,0.33,0.82,0.67
+C0148,Bengaluru,52,Food Explorer,Maharashtrian,"Maharashtrian, Desserts, Biryani",580.0,24,3.83,0.58,0.21,0.17,0.75,14,No Preference,0.24,0.3,0.42,0.21
+C0149,Pune,52,Food Explorer,Cafe,"Cafe, Italian, Thai",298.0,14,3.93,1.0,0.36,0.14,0.43,11,Vegan,0.39,0.75,0.45,0.78
+C0150,Pune,38,Food Explorer,Biryani,"Biryani, Italian, Cafe",380.0,13,4.31,0.46,0.31,0.38,0.54,8,No Preference,0.63,0.78,0.63,0.21
+C0151,Mumbai,35,Convenience Seeker,Desserts,"Desserts, South Indian, Healthy",629.0,15,4.33,0.33,0.27,0.0,0.4,12,Vegetarian,0.19,0.17,0.46,0.72
+C0152,Kolkata,53,Food Explorer,Pizza,"Pizza, Desserts, Chinese",418.0,12,3.67,0.58,0.25,0.25,0.75,7,No Preference,0.76,0.72,0.11,0.46
+C0153,Bengaluru,54,Health Conscious,Maharashtrian,"Maharashtrian, South Indian, Healthy",478.0,26,3.69,0.27,0.31,0.15,0.62,16,No Preference,0.77,0.41,0.32,0.37
+C0154,Chennai,30,Health Conscious,Biryani,"Biryani, Burgers, Thai",382.0,8,3.88,0.38,0.25,0.38,0.25,7,Low-Calorie,0.8,0.65,0.45,0.47
+C0155,Bengaluru,38,Food Explorer,Biryani,"Biryani, North Indian, Healthy",545.0,20,4.4,0.15,0.45,0.25,0.45,15,No Preference,0.31,0.42,0.49,0.58
+C0156,Pune,41,Convenience Seeker,Biryani,"Biryani, North Indian, Cafe",434.0,24,4.25,0.62,0.46,0.21,0.75,14,Low-Calorie,0.47,0.35,0.47,0.68
+C0157,Hyderabad,49,Food Explorer,Biryani,"Biryani, North Indian, South Indian",715.0,12,4.33,0.25,0.42,0.17,0.42,9,Vegetarian,0.53,0.88,0.48,0.45
+C0158,Kolkata,20,Food Explorer,Chinese,"Chinese, Italian, Healthy",430.0,22,4.18,0.55,0.41,0.09,0.77,10,Vegetarian,0.58,0.65,0.23,0.61
+C0159,Pune,45,Food Explorer,Cafe,"Cafe, Biryani, Pizza",530.0,13,3.92,0.46,0.31,0.23,0.54,9,Vegetarian,0.68,0.69,0.4,0.5
+C0160,Mumbai,48,Food Explorer,Chinese,"Chinese, South Indian, Burgers",574.0,18,4.11,0.39,0.33,0.17,0.5,12,Jain,0.18,0.71,0.52,0.41
+C0161,Mumbai,37,Food Explorer,Chinese,"Chinese, Biryani, Healthy",596.0,6,3.67,0.17,0.0,0.17,0.0,6,Jain,0.24,0.58,0.3,0.28
+C0162,Bengaluru,43,Food Explorer,Chinese,"Chinese, Healthy, Desserts",390.0,8,4.38,0.75,0.12,0.0,0.0,8,No Preference,0.34,0.7,0.1,0.31
+C0163,Ahmedabad,24,Food Explorer,Biryani,"Biryani, Pizza, Burgers",515.0,20,4.0,0.45,0.3,0.35,0.1,19,Vegetarian,0.43,0.2,0.35,0.44
+C0164,Hyderabad,29,Food Explorer,Desserts,"Desserts, Burgers, South Indian",610.0,33,3.94,0.33,0.36,0.18,0.94,12,Vegetarian,0.46,0.22,0.65,0.53
+C0165,Delhi,49,Health Conscious,Chinese,"Chinese, South Indian, Burgers",481.0,21,4.05,0.43,0.33,0.05,0.38,17,Vegetarian,0.91,0.51,0.6,0.8
+C0166,Pune,53,Food Explorer,Cafe,"Cafe, Biryani, Thai",431.0,23,4.48,0.3,0.35,0.04,0.61,15,Vegetarian,0.33,0.56,0.71,0.37
+C0167,Hyderabad,54,Convenience Seeker,Pizza,"Pizza, Biryani, Desserts",576.0,18,4.06,0.5,0.17,0.0,0.67,11,No Preference,0.56,0.94,0.13,0.69
+C0168,Bengaluru,37,Food Explorer,Chinese,"Chinese, Biryani, Maharashtrian",500.0,11,3.91,0.36,0.27,0.09,0.36,9,No Preference,0.7,0.64,0.57,0.41
+C0169,Delhi,31,Health Conscious,South Indian,"South Indian, Italian, Cafe",372.0,17,3.82,0.59,0.41,0.06,0.47,12,Vegetarian,0.83,0.94,0.33,0.35
+C0170,Mumbai,26,Food Explorer,Pizza,"Pizza, Biryani, Chinese",509.0,7,4.14,0.86,0.29,0.14,0.29,6,No Preference,0.52,0.59,0.71,0.66
+C0171,Hyderabad,42,Health Conscious,Italian,"Italian, South Indian, Chinese",661.0,19,4.37,0.74,0.42,0.11,0.68,10,Vegetarian,0.84,0.82,0.49,0.59
+C0172,Hyderabad,40,Health Conscious,Biryani,"Biryani, Desserts, South Indian",613.0,12,4.17,0.33,0.33,0.25,0.5,9,Low-Calorie,0.82,0.77,0.54,0.25
+C0173,Mumbai,20,Food Explorer,Biryani,"Biryani, Chinese, Healthy",554.0,23,3.91,0.13,0.22,0.13,0.3,19,No Preference,0.21,0.65,0.26,0.67
+C0174,Bengaluru,23,Budget Explorer,Chinese,"Chinese, Biryani, Desserts",460.0,12,4.08,0.58,0.33,0.0,0.33,10,High-Protein,0.18,0.18,0.7,0.47
+C0175,Mumbai,26,Food Explorer,Chinese,"Chinese, Maharashtrian, Desserts",501.0,27,3.85,0.96,0.22,0.22,0.56,18,No Preference,0.43,0.72,0.21,0.2
+C0176,Pune,41,Food Explorer,Cafe,"Cafe, North Indian, South Indian",362.0,22,3.95,0.55,0.32,0.14,0.59,15,Low-Calorie,0.28,0.74,0.23,0.41
+C0177,Hyderabad,31,Food Explorer,Desserts,"Desserts, Maharashtrian, South Indian",490.0,6,4.5,0.33,0.17,0.17,0.0,6,Vegetarian,0.31,0.61,0.3,0.63
+C0178,Bengaluru,19,Food Explorer,Healthy,"Healthy, Maharashtrian, Pizza",453.0,16,4.44,0.25,0.44,0.25,0.38,13,No Preference,0.2,0.52,0.86,0.52
+C0179,Chennai,18,Food Explorer,Biryani,"Biryani, South Indian",343.0,17,3.82,0.65,0.29,0.12,0.94,5,High-Protein,0.16,0.6,0.48,0.89
+C0180,Delhi,20,Food Explorer,Healthy,"Healthy, Chinese, North Indian",332.0,15,4.13,0.4,0.27,0.2,0.2,13,No Preference,0.23,0.17,0.61,0.55
+C0181,Delhi,27,Health Conscious,Chinese,"Chinese, Cafe, Pizza",547.0,7,4.43,0.43,0.14,0.43,0.0,7,Vegan,0.89,0.2,0.29,0.33
+C0182,Mumbai,37,Food Explorer,South Indian,"South Indian, Chinese, Healthy",463.0,6,4.17,0.33,0.17,0.17,0.0,6,Vegetarian,0.42,0.74,0.76,0.34
+C0183,Mumbai,19,Convenience Seeker,Maharashtrian,"Maharashtrian, Cafe, Desserts",579.0,12,4.17,0.5,0.08,0.0,0.0,12,No Preference,0.24,0.23,0.14,0.79
+C0184,Ahmedabad,25,Health Conscious,Burgers,"Burgers, North Indian, South Indian",473.0,9,4.0,0.78,0.22,0.11,0.0,9,High-Protein,0.83,0.57,0.22,0.85
+C0185,Hyderabad,32,Food Explorer,South Indian,"South Indian, Desserts, Biryani",611.0,16,3.81,0.06,0.12,0.12,0.5,11,No Preference,0.54,0.14,0.14,0.32
+C0186,Hyderabad,36,Food Explorer,South Indian,"South Indian, Biryani, Burgers",681.0,23,4.09,0.91,0.39,0.17,0.83,12,No Preference,0.93,0.95,0.29,0.43
+C0187,Kolkata,33,Food Explorer,Italian,"Italian, Chinese, Maharashtrian",380.0,17,4.18,0.88,0.18,0.0,0.82,9,No Preference,0.42,0.73,0.37,0.72
+C0188,Delhi,51,Convenience Seeker,North Indian,"North Indian, Italian, Cafe",356.0,17,4.29,0.65,0.47,0.06,0.53,11,Vegetarian,0.49,0.74,0.43,0.82
+C0189,Chennai,26,Health Conscious,Biryani,"Biryani, Chinese, Thai",418.0,8,3.75,0.75,0.25,0.0,0.75,4,No Preference,0.73,0.37,0.74,0.68
+C0190,Mumbai,30,Food Explorer,South Indian,"South Indian, Biryani, Pizza",556.0,11,4.0,0.27,0.27,0.27,0.36,9,No Preference,0.48,0.49,0.39,0.73
+C0191,Mumbai,28,Food Explorer,Cafe,"Cafe, Maharashtrian, South Indian",518.0,21,4.0,0.71,0.33,0.14,0.24,18,No Preference,0.35,0.8,0.42,0.19
+C0192,Pune,46,Food Explorer,Cafe,"Cafe, Biryani, North Indian",438.0,17,4.12,0.06,0.18,0.06,0.59,11,Vegetarian,0.44,0.68,0.28,0.3
+C0193,Mumbai,55,Food Explorer,Chinese,"Chinese, Maharashtrian, South Indian",572.0,23,3.78,0.52,0.13,0.17,0.48,17,Low-Calorie,0.38,0.14,0.82,0.77
+C0194,Delhi,54,Food Explorer,Italian,"Italian, South Indian, Healthy",419.0,13,4.15,0.31,0.46,0.15,0.46,10,No Preference,0.13,0.63,0.32,0.81
+C0195,Bengaluru,49,Food Explorer,Desserts,"Desserts, Biryani, Chinese",599.0,9,3.89,0.67,0.22,0.33,0.22,8,No Preference,0.78,0.78,0.52,0.62
+C0196,Pune,48,Convenience Seeker,Biryani,"Biryani, Italian, Maharashtrian",397.0,22,4.0,0.09,0.18,0.09,0.5,16,Vegetarian,0.34,0.79,0.12,0.76
+C0197,Pune,55,Food Explorer,Pizza,"Pizza, Cafe, Maharashtrian",407.0,19,3.84,0.89,0.21,0.11,0.63,13,Vegetarian,0.59,0.94,0.71,0.86
+C0198,Delhi,29,Convenience Seeker,Cafe,"Cafe, North Indian, Burgers",460.0,13,4.08,0.23,0.31,0.31,0.69,7,High-Protein,0.81,0.79,0.21,0.86
+C0199,Kolkata,37,Food Explorer,Italian,"Italian, Chinese, Healthy",411.0,7,4.71,0.57,0.29,0.14,0.29,6,No Preference,0.39,0.25,0.59,0.75
+C0200,Pune,21,Budget Explorer,Cafe,"Cafe, Biryani, South Indian",375.0,10,3.8,0.9,0.4,0.2,0.6,6,Vegan,0.19,0.36,0.85,0.45
+C0201,Delhi,45,Food Explorer,South Indian,"South Indian, Healthy, Pizza",493.0,24,4.17,0.29,0.33,0.17,0.71,12,Vegetarian,0.69,0.21,0.24,0.38
+C0202,Ahmedabad,43,Convenience Seeker,Maharashtrian,"Maharashtrian, Biryani, Chinese",550.0,13,4.0,0.31,0.38,0.15,0.0,13,High-Protein,0.3,0.94,0.21,0.71
+C0203,Mumbai,39,Health Conscious,Desserts,"Desserts, Healthy, Chinese",558.0,32,4.09,0.22,0.28,0.28,0.75,18,Vegetarian,0.92,0.85,0.41,0.7
+C0204,Pune,40,Health Conscious,Pizza,"Pizza, Biryani, Desserts",449.0,26,4.04,0.31,0.27,0.19,0.77,14,Vegetarian,0.91,0.16,0.34,0.39
+C0205,Pune,28,Food Explorer,Biryani,"Biryani, Cafe, Pizza",506.0,31,4.06,0.68,0.23,0.16,0.77,16,Vegetarian,0.47,0.15,0.62,0.61
+C0206,Delhi,44,Food Explorer,Italian,"Italian, Chinese, Cafe",547.0,12,4.08,0.08,0.17,0.42,0.58,8,No Preference,0.15,0.1,0.54,0.52
+C0207,Chennai,30,Convenience Seeker,Biryani,"Biryani, Thai, Burgers",451.0,12,4.33,0.25,0.08,0.0,0.83,5,No Preference,0.33,0.65,0.48,0.82
+C0208,Pune,42,Food Explorer,North Indian,"North Indian, Cafe, Desserts",308.0,8,4.25,0.25,0.12,0.12,0.38,6,No Preference,0.17,0.39,0.7,0.65
+C0209,Ahmedabad,32,Food Explorer,Maharashtrian,"Maharashtrian, Biryani, Thai",513.0,11,3.55,0.82,0.45,0.09,0.18,10,No Preference,0.44,0.83,0.29,0.37
+C0210,Ahmedabad,51,Food Explorer,Maharashtrian,"Maharashtrian, Italian, Pizza",516.0,18,3.83,0.83,0.17,0.22,0.22,16,No Preference,0.46,0.94,0.75,0.24
+C0211,Delhi,34,Food Explorer,Chinese,"Chinese, Thai, North Indian",426.0,16,4.19,0.88,0.38,0.06,0.44,12,No Preference,0.7,0.6,0.83,0.16
+C0212,Mumbai,44,Food Explorer,Maharashtrian,"Maharashtrian, Desserts, Chinese",505.0,16,4.12,0.44,0.31,0.12,0.62,10,Vegan,0.39,0.45,0.33,0.55
+C0213,Chennai,54,Food Explorer,Biryani,"Biryani, Burgers, South Indian",444.0,10,3.7,0.9,0.1,0.2,0.6,6,No Preference,0.3,0.73,0.81,0.4
+C0214,Pune,19,Food Explorer,Pizza,"Pizza, Cafe, Biryani",512.0,15,4.07,0.67,0.2,0.2,0.8,7,No Preference,0.73,0.76,0.28,0.38
+C0215,Hyderabad,23,Food Explorer,South Indian,"South Indian, Biryani, Thai",734.0,12,3.92,0.75,0.33,0.08,0.58,8,Vegan,0.22,0.82,0.35,0.53
+C0216,Mumbai,29,Food Explorer,Biryani,"Biryani, Maharashtrian, Chinese",624.0,23,4.09,0.65,0.22,0.26,0.39,18,No Preference,0.44,0.88,0.39,0.5
+C0217,Bengaluru,41,Budget Explorer,Italian,"Italian, Healthy, South Indian",418.0,19,4.21,0.74,0.21,0.16,0.58,13,Vegetarian,0.12,0.14,0.76,0.22
+C0218,Delhi,32,Food Explorer,Pizza,"Pizza, Italian, North Indian",365.0,16,4.5,1.0,0.5,0.06,0.69,9,No Preference,0.25,0.78,0.48,0.25
+C0219,Bengaluru,35,Food Explorer,South Indian,"South Indian, Burgers, Chinese",529.0,13,3.77,0.38,0.31,0.08,0.31,11,No Preference,0.95,0.92,0.57,0.16
+C0220,Kolkata,36,Food Explorer,Italian,"Italian, Chinese, Maharashtrian",342.0,29,4.41,0.9,0.34,0.07,0.9,10,No Preference,0.35,0.23,0.67,0.82
+C0221,Mumbai,43,Food Explorer,Healthy,"Healthy, Cafe, North Indian",472.0,8,3.88,0.25,0.38,0.25,0.25,7,Vegetarian,0.59,0.26,0.13,0.68
+C0222,Bengaluru,52,Food Explorer,Desserts,"Desserts, North Indian, Chinese",695.0,8,4.25,0.88,0.25,0.12,0.62,5,Vegetarian,0.32,0.79,0.18,0.25
+C0223,Delhi,39,Food Explorer,Chinese,"Chinese, Cafe, Desserts",408.0,12,4.33,0.67,0.25,0.08,0.33,10,No Preference,0.64,0.59,0.19,0.19
+C0224,Chennai,30,Food Explorer,Biryani,"Biryani, Chinese, Burgers",426.0,22,4.18,0.86,0.27,0.23,0.95,8,Vegetarian,0.58,0.87,0.26,0.46
+C0225,Pune,29,Convenience Seeker,Italian,"Italian, Thai, Biryani",418.0,19,3.89,0.26,0.26,0.0,0.63,12,No Preference,0.52,0.75,0.23,0.72
+C0226,Hyderabad,45,Food Explorer,South Indian,"South Indian, Thai, Pizza",598.0,18,3.83,0.33,0.33,0.17,0.56,13,No Preference,0.26,0.68,0.36,0.77
+C0227,Bengaluru,32,Food Explorer,Chinese,"Chinese, South Indian, Biryani",568.0,15,3.8,0.67,0.2,0.07,0.0,15,Vegetarian,0.61,0.39,0.33,0.7
+C0228,Delhi,39,Food Explorer,Chinese,"Chinese, Pizza, Cafe",403.0,13,4.15,0.15,0.46,0.23,0.31,11,Low-Calorie,0.53,0.2,0.27,0.17
+C0229,Mumbai,42,Food Explorer,North Indian,"North Indian, Maharashtrian, South Indian",443.0,7,4.29,0.43,0.29,0.29,0.57,5,Vegetarian,0.42,0.57,0.65,0.46
+C0230,Delhi,31,Budget Explorer,Chinese,"Chinese, Desserts, South Indian",536.0,28,4.04,0.61,0.21,0.04,0.71,15,Vegetarian,0.63,0.34,0.82,0.53
+C0231,Chennai,30,Health Conscious,Biryani,"Biryani, South Indian, Thai",424.0,20,3.95,0.55,0.25,0.15,0.9,8,Low-Calorie,0.89,0.38,0.5,0.31
+C0232,Mumbai,25,Food Explorer,Chinese,"Chinese, South Indian, Healthy",510.0,26,3.88,0.35,0.23,0.42,0.54,17,Vegan,0.35,0.49,0.28,0.89
+C0233,Delhi,20,Food Explorer,Cafe,"Cafe, Burgers, South Indian",452.0,20,3.95,0.75,0.3,0.2,0.5,14,No Preference,0.24,0.4,0.78,0.65
+C0234,Bengaluru,23,Health Conscious,Desserts,"Desserts, Chinese, North Indian",458.0,6,4.5,0.5,0.17,0.17,0.0,6,No Preference,0.78,0.2,0.74,0.64
+C0235,Mumbai,28,Health Conscious,Maharashtrian,"Maharashtrian, Cafe, Chinese",462.0,11,4.18,0.36,0.27,0.09,0.55,8,Jain,0.81,0.93,0.12,0.66
+C0236,Chennai,25,Health Conscious,Biryani,"Biryani, Chinese, Burgers",464.0,14,4.21,0.79,0.43,0.07,0.86,7,Vegetarian,0.93,0.67,0.56,0.57
+C0237,Chennai,24,Health Conscious,Biryani,"Biryani, Chinese",387.0,9,4.22,0.89,0.11,0.0,0.78,4,No Preference,0.89,0.53,0.59,0.16
+C0238,Chennai,28,Food Explorer,Biryani,"Biryani, South Indian, Burgers",423.0,16,4.44,0.38,0.19,0.06,0.75,9,No Preference,0.49,0.78,0.42,0.33
+C0239,Chennai,46,Food Explorer,Biryani,"Biryani, Burgers, Chinese",373.0,23,4.22,0.61,0.52,0.13,0.87,8,No Preference,0.63,0.36,0.17,0.6
+C0240,Delhi,47,Budget Explorer,Cafe,"Cafe, North Indian, Chinese",349.0,19,4.16,0.68,0.26,0.21,0.58,13,Jain,0.2,0.75,0.63,0.69
+C0241,Pune,40,Food Explorer,Biryani,"Biryani, Pizza, Cafe",469.0,16,4.12,0.88,0.38,0.19,0.62,11,No Preference,0.27,0.2,0.43,0.34
+C0242,Delhi,47,Budget Explorer,Chinese,"Chinese, Pizza, Italian",492.0,7,4.71,0.86,0.14,0.29,0.29,6,No Preference,0.92,0.1,0.57,0.53
+C0243,Kolkata,45,Food Explorer,Chinese,"Chinese, Healthy, Desserts",433.0,13,4.0,0.23,0.46,0.0,0.77,7,Vegetarian,0.53,0.43,0.58,0.81
+C0244,Bengaluru,35,Convenience Seeker,Chinese,"Chinese, Healthy, South Indian",404.0,18,4.11,0.61,0.11,0.17,0.44,13,Jain,0.83,0.71,0.34,0.68
+C0245,Delhi,30,Food Explorer,Chinese,"Chinese, Pizza, Maharashtrian",397.0,7,4.0,0.71,0.57,0.14,0.29,6,No Preference,0.37,0.2,0.5,0.67
+C0246,Chennai,55,Food Explorer,Biryani,"Biryani, Thai, Chinese",425.0,21,3.86,0.9,0.43,0.14,1.0,7,Vegetarian,0.22,0.67,0.52,0.17
+C0247,Delhi,36,Budget Explorer,North Indian,"North Indian, Chinese, Healthy",475.0,17,4.35,0.76,0.41,0.12,0.65,11,No Preference,0.84,0.73,0.79,0.7
+C0248,Bengaluru,50,Convenience Seeker,Italian,"Italian, Biryani, Healthy",531.0,19,3.89,0.26,0.32,0.21,0.53,13,No Preference,0.83,0.48,0.26,0.8
+C0249,Pune,55,Food Explorer,Biryani,"Biryani, North Indian, Cafe",470.0,6,4.17,0.17,0.17,0.17,0.33,5,No Preference,0.13,0.34,0.69,0.24
+C0250,Delhi,55,Budget Explorer,South Indian,"South Indian, Cafe, Italian",441.0,12,4.42,0.5,0.08,0.08,0.33,10,No Preference,0.77,0.57,0.77,0.38
+C0251,Pune,51,Food Explorer,Cafe,"Cafe, Biryani, Italian",407.0,13,4.31,0.46,0.23,0.15,0.38,10,Vegan,0.38,0.41,0.28,0.31
+C0252,Chennai,48,Food Explorer,Biryani,"Biryani, Thai, South Indian",423.0,11,4.09,0.73,0.18,0.18,0.82,6,No Preference,0.68,0.37,0.6,0.87
+C0253,Mumbai,42,Food Explorer,Healthy,"Healthy, Chinese, Burgers",458.0,12,3.92,0.67,0.17,0.25,0.33,10,High-Protein,0.37,0.17,0.34,0.64
+C0254,Kolkata,52,Health Conscious,Chinese,"Chinese, Italian, Pizza",345.0,11,3.64,0.64,0.09,0.09,0.91,5,Vegetarian,0.93,0.76,0.53,0.68
+C0255,Mumbai,27,Food Explorer,Burgers,"Burgers, Maharashtrian, Chinese",517.0,25,4.08,0.36,0.24,0.2,0.24,21,No Preference,0.45,0.48,0.76,0.83
+C0256,Pune,19,Food Explorer,Pizza,"Pizza, Biryani, Cafe",393.0,21,4.05,0.76,0.38,0.24,0.52,14,Vegetarian,0.53,0.35,0.78,0.42
+C0257,Mumbai,36,Budget Explorer,Desserts,"Desserts, Chinese, Biryani",471.0,26,4.08,0.85,0.31,0.31,0.58,17,Vegetarian,0.64,0.35,0.78,0.37
+C0258,Pune,18,Convenience Seeker,Pizza,"Pizza, Cafe, Biryani",473.0,23,4.0,0.52,0.22,0.17,0.65,15,No Preference,0.87,0.39,0.34,0.71
+C0259,Chennai,27,Budget Explorer,Chinese,"Chinese, Biryani, Burgers",438.0,19,3.58,0.47,0.37,0.21,0.95,8,No Preference,0.57,0.65,0.7,0.89
+C0260,Mumbai,34,Budget Explorer,Chinese,"Chinese, Maharashtrian, Cafe",607.0,25,4.0,0.8,0.2,0.16,0.48,18,Low-Calorie,0.37,0.48,0.6,0.83
+C0261,Bengaluru,55,Health Conscious,Healthy,"Healthy, Biryani, Italian",528.0,18,4.06,0.22,0.22,0.06,0.56,12,Low-Calorie,0.81,0.21,0.69,0.48
+C0262,Chennai,47,Food Explorer,Chinese,"Chinese, Biryani, Burgers",429.0,7,4.0,0.0,0.0,0.29,0.43,5,Vegetarian,0.27,0.72,0.76,0.82
+C0263,Mumbai,19,Food Explorer,Desserts,"Desserts, Maharashtrian, Cafe",483.0,10,4.1,0.1,0.1,0.1,0.2,9,No Preference,0.66,0.23,0.82,0.55
+C0264,Ahmedabad,36,Health Conscious,Chinese,"Chinese, South Indian, Cafe",518.0,23,3.96,0.35,0.35,0.17,0.26,20,No Preference,0.74,0.22,0.89,0.66
+C0265,Ahmedabad,54,Health Conscious,Italian,"Italian, Maharashtrian, Healthy",495.0,15,4.2,0.47,0.33,0.13,0.0,15,No Preference,0.77,0.43,0.63,0.54
+C0266,Mumbai,20,Health Conscious,Desserts,"Desserts, Healthy, Cafe",604.0,23,3.91,0.61,0.04,0.09,0.26,20,Jain,0.86,0.17,0.4,0.59
+C0267,Bengaluru,51,Food Explorer,Biryani,"Biryani, Desserts, North Indian",838.0,17,4.12,0.94,0.24,0.24,0.65,10,Vegan,0.34,0.23,0.28,0.54
+C0268,Mumbai,32,Food Explorer,Cafe,"Cafe, Chinese, Biryani",589.0,11,4.0,0.73,0.27,0.18,0.0,11,Vegetarian,0.21,0.6,0.43,0.33
+C0269,Chennai,20,Convenience Seeker,South Indian,"South Indian, Chinese, Biryani",371.0,14,3.86,0.79,0.21,0.29,0.86,6,High-Protein,0.66,0.34,0.11,0.69
+C0270,Hyderabad,48,Convenience Seeker,Thai,"Thai, Biryani, Chinese",539.0,10,4.1,0.3,0.3,0.2,0.6,6,No Preference,0.39,0.49,0.31,0.69
+C0271,Bengaluru,42,Convenience Seeker,South Indian,"South Indian, North Indian, Healthy",593.0,11,4.09,0.91,0.45,0.27,0.36,9,Vegetarian,0.61,0.85,0.24,0.83
+C0272,Mumbai,23,Health Conscious,Maharashtrian,"Maharashtrian, Chinese, Healthy",573.0,14,4.36,0.43,0.29,0.07,0.14,13,Jain,0.78,0.77,0.52,0.32
+C0273,Ahmedabad,54,Health Conscious,Healthy,"Healthy, South Indian, Biryani",527.0,17,3.94,0.71,0.12,0.0,0.12,16,Vegan,0.77,0.59,0.25,0.68
+C0274,Mumbai,42,Food Explorer,Chinese,"Chinese, Biryani, Maharashtrian",656.0,14,4.07,0.86,0.36,0.14,0.14,13,No Preference,0.62,0.94,0.53,0.57
+C0275,Delhi,44,Food Explorer,Italian,"Italian, South Indian, Chinese",497.0,20,4.0,1.0,0.35,0.1,0.7,10,No Preference,0.22,0.83,0.72,0.45
+C0276,Bengaluru,46,Health Conscious,Healthy,"Healthy, South Indian, Maharashtrian",375.0,10,4.2,0.6,0.3,0.3,0.7,6,Vegan,0.78,0.8,0.41,0.63
+C0277,Hyderabad,23,Convenience Seeker,Biryani,"Biryani, Pizza, Burgers",661.0,14,3.93,0.5,0.36,0.0,0.79,8,Vegetarian,0.15,0.76,0.33,0.87
+C0278,Chennai,46,Budget Explorer,Biryani,"Biryani, Chinese, Thai",430.0,16,4.31,0.38,0.38,0.12,0.88,8,No Preference,0.41,0.66,0.59,0.66
+C0279,Mumbai,35,Convenience Seeker,Cafe,"Cafe, South Indian, Chinese",618.0,24,4.08,0.79,0.38,0.29,0.46,17,Vegetarian,0.58,0.6,0.54,0.69
+C0280,Bengaluru,32,Food Explorer,Biryani,"Biryani, South Indian, North Indian",560.0,8,3.88,0.5,0.12,0.12,0.0,8,Vegetarian,0.2,0.54,0.5,0.4
+C0281,Kolkata,54,Food Explorer,Thai,"Thai, Desserts, Italian",458.0,17,4.06,0.94,0.41,0.0,0.88,5,Vegetarian,0.12,0.2,0.47,0.59
+C0282,Bengaluru,32,Health Conscious,Maharashtrian,"Maharashtrian, Desserts, South Indian",646.0,16,3.88,0.19,0.75,0.12,0.44,12,Vegetarian,0.89,0.51,0.76,0.21
+C0283,Ahmedabad,35,Health Conscious,Desserts,"Desserts, Chinese, Biryani",489.0,12,3.83,0.5,0.33,0.08,0.0,12,Vegetarian,0.81,0.4,0.28,0.78
+C0284,Mumbai,23,Food Explorer,Healthy,"Healthy, Desserts, Maharashtrian",480.0,22,4.09,0.41,0.32,0.23,0.55,16,Jain,0.52,0.94,0.82,0.8
+C0285,Bengaluru,43,Food Explorer,Biryani,"Biryani, South Indian, North Indian",523.0,32,3.91,0.5,0.22,0.12,0.72,19,Vegetarian,0.25,0.93,0.41,0.66
+C0286,Hyderabad,38,Health Conscious,South Indian,"South Indian, Biryani, Italian",604.0,25,4.04,0.88,0.32,0.16,0.8,13,Vegetarian,0.91,0.39,0.31,0.35
+C0287,Hyderabad,31,Food Explorer,South Indian,"South Indian, North Indian, Italian",636.0,12,3.83,0.67,0.58,0.33,0.33,10,High-Protein,0.71,0.78,0.65,0.76
+C0288,Pune,30,Food Explorer,Cafe,"Cafe, North Indian, Pizza",375.0,21,4.24,0.57,0.38,0.19,0.71,12,Vegetarian,0.71,0.77,0.78,0.54
+C0289,Kolkata,54,Food Explorer,Italian,"Italian, Desserts, Chinese",428.0,7,4.43,0.86,0.43,0.29,0.29,6,No Preference,0.58,0.89,0.37,0.42
+C0290,Mumbai,44,Food Explorer,Desserts,"Desserts, Chinese, South Indian",657.0,24,4.0,0.5,0.42,0.12,0.58,15,No Preference,0.53,0.76,0.33,0.39
+C0291,Mumbai,42,Budget Explorer,Desserts,"Desserts, South Indian, North Indian",563.0,6,3.5,0.83,0.5,0.0,0.0,6,High-Protein,0.39,0.37,0.83,0.21
+C0292,Bengaluru,43,Health Conscious,Chinese,"Chinese, Desserts, Maharashtrian",575.0,25,3.68,0.28,0.24,0.08,0.6,17,Vegetarian,0.9,0.7,0.68,0.65
+C0293,Delhi,43,Budget Explorer,Italian,"Italian, Desserts, Maharashtrian",462.0,17,4.06,0.82,0.35,0.12,0.71,10,No Preference,0.89,0.43,0.59,0.21
+C0294,Bengaluru,46,Food Explorer,South Indian,"South Indian, Italian, Desserts",439.0,8,4.0,0.0,0.38,0.38,0.0,8,No Preference,0.33,0.48,0.88,0.56
+C0295,Kolkata,29,Health Conscious,Italian,"Italian, Thai, Maharashtrian",336.0,16,3.75,0.38,0.19,0.19,0.81,9,High-Protein,0.78,0.48,0.38,0.55
+C0296,Bengaluru,27,Budget Explorer,Healthy,"Healthy, Biryani, Maharashtrian",394.0,12,3.67,0.83,0.42,0.33,0.42,9,No Preference,0.75,0.78,0.7,0.37
+C0297,Mumbai,53,Food Explorer,Chinese,"Chinese, Maharashtrian, South Indian",544.0,26,3.92,0.62,0.38,0.12,0.5,19,No Preference,0.63,0.54,0.28,0.21
+C0298,Bengaluru,36,Food Explorer,Biryani,"Biryani, Chinese, Desserts",624.0,9,4.0,0.22,0.33,0.22,0.22,8,High-Protein,0.52,0.37,0.46,0.68
+C0299,Kolkata,19,Food Explorer,Pizza,"Pizza, Chinese, Thai",346.0,28,3.89,0.25,0.32,0.29,0.89,10,No Preference,0.36,0.78,0.49,0.41
+C0300,Hyderabad,20,Health Conscious,South Indian,"South Indian, North Indian, Maharashtrian",722.0,12,4.17,0.58,0.17,0.17,0.67,6,No Preference,0.8,0.2,0.77,0.76
+C0301,Bengaluru,42,Budget Explorer,North Indian,"North Indian, Biryani, Desserts",663.0,20,4.15,0.85,0.2,0.2,0.75,10,Vegetarian,0.37,0.63,0.65,0.38
+C0302,Kolkata,51,Food Explorer,Pizza,"Pizza, Italian, Thai",417.0,16,4.12,0.25,0.38,0.25,0.62,10,No Preference,0.24,0.33,0.61,0.39
+C0303,Bengaluru,18,Health Conscious,Italian,"Italian, Healthy, Maharashtrian",527.0,10,4.3,0.4,0.3,0.4,0.6,7,Vegetarian,0.89,0.95,0.17,0.61
+C0304,Mumbai,40,Food Explorer,South Indian,"South Indian, Chinese, Maharashtrian",404.0,17,3.71,0.71,0.29,0.18,0.35,14,Vegetarian,0.26,0.69,0.74,0.48
+C0305,Delhi,34,Food Explorer,Italian,"Italian, North Indian, Maharashtrian",477.0,19,3.74,0.11,0.21,0.16,0.58,13,No Preference,0.81,0.88,0.69,0.36
+C0306,Mumbai,51,Food Explorer,Chinese,"Chinese, Maharashtrian, Cafe",596.0,18,4.28,0.67,0.17,0.17,0.11,17,No Preference,0.41,0.63,0.81,0.61
+C0307,Mumbai,52,Food Explorer,Desserts,"Desserts, Chinese, Cafe",561.0,10,4.1,0.5,0.2,0.3,0.0,10,Vegan,0.16,0.81,0.19,0.54
+C0308,Mumbai,30,Food Explorer,Chinese,"Chinese, South Indian, Healthy",571.0,21,3.95,0.52,0.38,0.14,0.57,13,Vegetarian,0.62,0.16,0.3,0.42
+C0309,Delhi,49,Food Explorer,Chinese,"Chinese, Desserts, South Indian",566.0,15,3.93,0.93,0.2,0.2,0.6,10,No Preference,0.72,0.81,0.59,0.55
+C0310,Delhi,51,Convenience Seeker,Chinese,"Chinese, Cafe, North Indian",434.0,22,3.73,0.23,0.27,0.14,0.59,15,No Preference,0.45,0.19,0.24,0.71
+C0311,Pune,47,Food Explorer,Biryani,"Biryani, North Indian, Cafe",501.0,7,3.71,0.57,0.14,0.29,0.0,7,Vegetarian,0.37,0.94,0.45,0.41
+C0312,Pune,44,Convenience Seeker,Biryani,"Biryani, Burgers, Desserts",421.0,10,4.0,0.5,0.4,0.2,0.2,9,No Preference,0.48,0.44,0.3,0.87
+C0313,Bengaluru,19,Health Conscious,Pizza,"Pizza, Healthy, Chinese",360.0,9,3.89,0.44,0.22,0.0,0.67,4,No Preference,0.88,0.53,0.85,0.77
+C0314,Ahmedabad,27,Food Explorer,South Indian,"South Indian, Chinese, Italian",614.0,6,4.33,0.33,0.17,0.0,0.0,6,No Preference,0.58,0.28,0.34,0.58
+C0315,Pune,48,Food Explorer,Cafe,"Cafe, North Indian, Thai",402.0,14,3.93,0.36,0.29,0.29,0.43,11,Jain,0.15,0.76,0.56,0.21
+C0316,Hyderabad,44,Food Explorer,Biryani,"Biryani, Pizza, Desserts",563.0,17,3.88,0.65,0.12,0.06,0.59,11,Jain,0.58,0.38,0.52,0.39
+C0317,Delhi,21,Health Conscious,Cafe,"Cafe, Desserts, Chinese",477.0,32,4.06,0.72,0.28,0.19,0.69,17,Vegetarian,0.73,0.57,0.37,0.51
+C0318,Pune,50,Food Explorer,Cafe,"Cafe, North Indian, Pizza",358.0,5,4.0,0.8,0.2,0.0,0.0,5,Vegetarian,0.31,0.16,0.59,0.7
+C0319,Pune,54,Food Explorer,Pizza,"Pizza, Biryani, Burgers",460.0,8,3.75,0.75,0.12,0.38,0.0,8,No Preference,0.62,0.94,0.34,0.89
+C0320,Delhi,46,Health Conscious,Italian,"Italian, Pizza, Chinese",425.0,17,4.18,0.88,0.41,0.12,0.41,13,Vegetarian,0.89,0.84,0.14,0.86
+C0321,Mumbai,39,Food Explorer,Biryani,"Biryani, Desserts, Maharashtrian",501.0,10,3.9,0.3,0.0,0.1,0.0,10,No Preference,0.94,0.69,0.54,0.62
+C0322,Pune,55,Food Explorer,North Indian,"North Indian, Burgers, Thai",420.0,12,3.92,0.42,0.42,0.17,0.17,11,No Preference,0.66,0.88,0.15,0.65
+C0323,Mumbai,19,Food Explorer,Chinese,"Chinese, Maharashtrian, Desserts",523.0,20,4.0,0.7,0.25,0.25,0.4,16,No Preference,0.17,0.27,0.49,0.6
+C0324,Kolkata,19,Food Explorer,Italian,"Italian, Chinese, Maharashtrian",441.0,13,4.23,0.23,0.23,0.23,0.46,10,No Preference,0.95,0.93,0.38,0.38
+C0325,Mumbai,34,Health Conscious,Chinese,"Chinese, Cafe, South Indian",551.0,9,4.44,1.0,0.33,0.22,0.22,8,Low-Calorie,0.92,0.62,0.17,0.44
+C0326,Bengaluru,44,Food Explorer,Healthy,"Healthy, South Indian, Maharashtrian",520.0,16,4.19,0.38,0.44,0.12,0.38,13,High-Protein,0.27,0.22,0.56,0.66
+C0327,Chennai,26,Health Conscious,Biryani,"Biryani, Chinese, Burgers",443.0,22,3.73,0.77,0.32,0.09,0.86,9,Low-Calorie,0.85,0.72,0.19,0.39
+C0328,Hyderabad,44,Food Explorer,Desserts,"Desserts, South Indian, Biryani",485.0,11,4.36,0.18,0.18,0.09,0.64,7,No Preference,0.58,0.3,0.59,0.35
+C0329,Mumbai,40,Food Explorer,Healthy,"Healthy, Maharashtrian, Burgers",523.0,5,4.4,0.6,0.2,0.2,0.0,5,Vegetarian,0.24,0.29,0.41,0.51
+C0330,Mumbai,35,Health Conscious,Cafe,"Cafe, Biryani, North Indian",540.0,11,3.64,0.91,0.36,0.45,0.55,8,Vegan,0.84,0.85,0.59,0.67
+C0331,Mumbai,42,Health Conscious,Cafe,"Cafe, Maharashtrian, Chinese",569.0,20,4.05,0.85,0.2,0.1,0.3,16,Vegetarian,0.85,0.85,0.19,0.49
+C0332,Kolkata,43,Food Explorer,Healthy,"Healthy, Italian, Pizza",432.0,11,4.0,0.45,0.45,0.36,0.45,8,Low-Calorie,0.46,0.62,0.76,0.5
+C0333,Chennai,27,Food Explorer,Biryani,"Biryani, Chinese, South Indian",451.0,9,4.33,0.78,0.11,0.11,0.67,6,Vegetarian,0.37,0.12,0.54,0.44
+C0334,Delhi,47,Food Explorer,Cafe,"Cafe, South Indian, Thai",451.0,14,4.29,0.36,0.5,0.14,0.64,8,High-Protein,0.55,0.43,0.46,0.42
+C0335,Chennai,28,Food Explorer,Biryani,"Biryani, Burgers, Chinese",389.0,16,4.0,0.88,0.5,0.19,0.94,6,High-Protein,0.14,0.36,0.22,0.73
+C0336,Hyderabad,36,Budget Explorer,South Indian,"South Indian, Desserts, North Indian",660.0,17,3.88,0.53,0.35,0.12,0.65,11,No Preference,0.52,0.28,0.75,0.61
+C0337,Hyderabad,44,Food Explorer,South Indian,"South Indian, Maharashtrian, Italian",603.0,10,4.1,0.5,0.5,0.4,0.7,6,No Preference,0.15,0.4,0.27,0.29
+C0338,Mumbai,54,Food Explorer,Chinese,"Chinese, Maharashtrian, Healthy",451.0,16,4.19,0.38,0.25,0.06,0.25,14,No Preference,0.58,0.92,0.66,0.58
+C0339,Pune,20,Health Conscious,Burgers,"Burgers, Biryani, Thai",397.0,20,4.0,0.95,0.45,0.15,0.7,12,High-Protein,0.83,0.38,0.48,0.24
+C0340,Delhi,31,Food Explorer,Maharashtrian,"Maharashtrian, Pizza, Italian",524.0,9,3.89,0.33,0.33,0.33,0.33,7,Vegetarian,0.62,0.37,0.89,0.37
+C0341,Pune,26,Food Explorer,Cafe,"Cafe, North Indian, Italian",377.0,15,4.13,0.4,0.53,0.4,0.6,10,Vegetarian,0.5,0.78,0.25,0.24
+C0342,Delhi,44,Food Explorer,Burgers,"Burgers, Healthy, Cafe",509.0,21,3.76,0.43,0.33,0.05,0.71,12,Jain,0.53,0.38,0.73,0.38
+C0343,Pune,39,Food Explorer,Cafe,"Cafe, Pizza, Biryani",432.0,31,4.0,0.42,0.23,0.19,0.81,14,Jain,0.65,0.51,0.83,0.75
+C0344,Kolkata,39,Food Explorer,Italian,"Italian, Thai, Maharashtrian",404.0,13,4.15,0.77,0.15,0.31,0.62,8,Jain,0.38,0.88,0.11,0.58
+C0345,Mumbai,27,Food Explorer,Biryani,"Biryani, South Indian, Chinese",746.0,9,4.11,0.44,0.33,0.22,0.22,8,Vegetarian,0.7,0.37,0.79,0.71
+C0346,Hyderabad,23,Health Conscious,South Indian,"South Indian, Chinese, Burgers",602.0,18,3.94,0.5,0.22,0.11,0.72,10,Jain,0.88,0.48,0.73,0.73
+C0347,Chennai,50,Food Explorer,Biryani,"Biryani, South Indian, Chinese",392.0,10,4.2,0.9,0.4,0.2,0.8,6,No Preference,0.21,0.72,0.85,0.66
+C0348,Chennai,25,Budget Explorer,Biryani,"Biryani, Chinese, South Indian",428.0,19,4.26,0.84,0.26,0.05,0.89,9,Jain,0.12,0.74,0.71,0.71
+C0349,Delhi,38,Food Explorer,Cafe,"Cafe, Desserts, Healthy",406.0,18,4.06,0.44,0.44,0.22,0.5,13,No Preference,0.58,0.19,0.19,0.87
+C0350,Kolkata,38,Food Explorer,Pizza,"Pizza, Maharashtrian, Desserts",287.0,11,4.18,0.55,0.27,0.18,0.82,5,Vegetarian,0.5,0.67,0.45,0.25
+C0351,Mumbai,23,Food Explorer,Cafe,"Cafe, South Indian, Maharashtrian",570.0,11,4.18,0.27,0.09,0.27,0.36,9,High-Protein,0.55,0.93,0.67,0.65
+C0352,Hyderabad,54,Food Explorer,Biryani,"Biryani, South Indian, Italian",607.0,6,4.17,0.67,0.5,0.0,0.33,5,No Preference,0.83,0.62,0.29,0.32
+C0353,Pune,29,Food Explorer,Biryani,"Biryani, North Indian, Desserts",585.0,5,3.8,0.2,0.2,0.0,0.4,4,Vegetarian,0.61,0.21,0.24,0.73
+C0354,Mumbai,38,Food Explorer,Maharashtrian,"Maharashtrian, Chinese, Healthy",503.0,20,4.0,0.85,0.2,0.15,0.5,15,Vegetarian,0.39,0.79,0.88,0.44
+C0355,Hyderabad,54,Food Explorer,South Indian,"South Indian, Biryani, Chinese",672.0,10,4.2,0.5,0.6,0.1,0.5,7,Vegetarian,0.38,0.18,0.19,0.6
+C0356,Bengaluru,43,Food Explorer,Desserts,"Desserts, Maharashtrian, Pizza",600.0,17,4.18,0.65,0.18,0.12,0.47,12,Vegan,0.59,0.74,0.27,0.25
+C0357,Delhi,27,Health Conscious,Chinese,"Chinese, Cafe, Italian",455.0,22,4.0,0.95,0.09,0.14,0.5,15,Vegetarian,0.88,0.9,0.74,0.66
+C0358,Pune,23,Health Conscious,Biryani,"Biryani, Thai, Cafe",461.0,9,4.11,0.89,0.22,0.22,0.44,7,Jain,0.93,0.19,0.1,0.57
+C0359,Mumbai,33,Food Explorer,Chinese,"Chinese, Cafe, Maharashtrian",636.0,11,4.27,0.18,0.27,0.09,0.18,10,No Preference,0.57,0.82,0.24,0.25
+C0360,Hyderabad,27,Food Explorer,Desserts,"Desserts, Burgers, Thai",446.0,5,4.2,0.2,0.2,0.2,0.4,4,No Preference,0.22,0.22,0.63,0.88
+C0361,Hyderabad,45,Health Conscious,South Indian,"South Indian, Cafe, Thai",546.0,5,4.4,0.2,0.2,0.2,0.4,4,Vegetarian,0.72,0.71,0.11,0.52
+C0362,Kolkata,54,Convenience Seeker,Italian,"Italian, Chinese, Maharashtrian",431.0,7,3.71,0.57,0.43,0.29,0.86,4,Vegetarian,0.94,0.94,0.21,0.7
+C0363,Hyderabad,51,Budget Explorer,South Indian,"South Indian, Desserts, Pizza",580.0,22,4.0,0.45,0.18,0.14,0.86,12,No Preference,0.55,0.11,0.59,0.83
+C0364,Chennai,54,Food Explorer,Burgers,"Burgers, Biryani, South Indian",381.0,20,4.05,0.75,0.45,0.1,0.8,8,No Preference,0.24,0.14,0.15,0.5
+C0365,Mumbai,36,Food Explorer,Chinese,"Chinese, Burgers, Desserts",474.0,24,4.0,0.62,0.25,0.12,0.58,17,High-Protein,0.61,0.87,0.31,0.71
+C0366,Hyderabad,41,Food Explorer,South Indian,"South Indian, Thai, Cafe",679.0,11,4.0,0.27,0.09,0.36,0.45,8,Vegetarian,0.23,0.52,0.22,0.85
+C0367,Pune,33,Food Explorer,Pizza,"Pizza, Cafe, Biryani",503.0,13,3.54,0.23,0.08,0.08,0.46,10,Vegetarian,0.5,0.5,0.14,0.5
+C0368,Kolkata,32,Food Explorer,Pizza,"Pizza, Maharashtrian, Italian",361.0,22,4.0,0.09,0.27,0.09,0.86,9,No Preference,0.92,0.68,0.46,0.66
+C0369,Kolkata,40,Food Explorer,Italian,"Italian, Pizza, Chinese",378.0,15,4.2,0.27,0.07,0.13,0.6,10,No Preference,0.31,0.67,0.47,0.66
+C0370,Chennai,39,Food Explorer,Biryani,"Biryani, Burgers, Chinese",357.0,16,4.25,0.38,0.12,0.19,1.0,6,No Preference,0.34,0.26,0.46,0.31
+C0371,Mumbai,21,Budget Explorer,Chinese,"Chinese, Biryani, Burgers",642.0,7,3.71,0.71,0.57,0.0,0.57,5,Vegetarian,0.78,0.26,0.71,0.64
+C0372,Delhi,34,Health Conscious,Desserts,"Desserts, Chinese, South Indian",607.0,5,4.0,0.8,0.4,0.0,0.4,4,Vegetarian,0.76,0.34,0.72,0.34
+C0373,Pune,39,Food Explorer,Pizza,"Pizza, Biryani, Maharashtrian",446.0,15,4.07,0.07,0.13,0.27,0.4,12,No Preference,0.56,0.47,0.62,0.23
+C0374,Mumbai,46,Food Explorer,Chinese,"Chinese, Desserts, South Indian",566.0,27,4.19,0.15,0.19,0.22,0.59,18,Vegetarian,0.13,0.43,0.62,0.15
+C0375,Pune,43,Health Conscious,Biryani,"Biryani, Cafe, Pizza",470.0,9,4.11,0.67,0.0,0.11,0.0,9,Vegetarian,0.91,0.8,0.53,0.15
+C0376,Ahmedabad,52,Budget Explorer,Pizza,"Pizza, Chinese, Thai",443.0,20,3.9,0.65,0.3,0.1,0.1,19,No Preference,0.35,0.27,0.77,0.72
+C0377,Pune,30,Food Explorer,Cafe,"Cafe, North Indian, Burgers",367.0,17,4.0,0.65,0.24,0.06,0.47,13,Vegetarian,0.71,0.6,0.21,0.29
+C0378,Mumbai,52,Food Explorer,Desserts,"Desserts, Chinese, Maharashtrian",486.0,8,3.75,0.5,0.12,0.0,0.25,7,No Preference,0.54,0.9,0.27,0.64
+C0379,Kolkata,27,Convenience Seeker,Chinese,"Chinese, Healthy, Italian",382.0,23,4.09,0.57,0.43,0.13,0.78,10,Vegetarian,0.21,0.25,0.14,0.68
+C0380,Bengaluru,24,Food Explorer,Italian,"Italian, Maharashtrian, Chinese",377.0,13,4.0,0.69,0.38,0.15,0.23,11,Jain,0.39,0.81,0.15,0.3
+C0381,Pune,38,Food Explorer,Biryani,"Biryani, Maharashtrian, Thai",389.0,25,3.96,0.52,0.48,0.08,0.64,15,No Preference,0.45,0.69,0.2,0.26
+C0382,Hyderabad,33,Food Explorer,Chinese,"Chinese, Biryani, Desserts",591.0,21,3.95,0.52,0.14,0.1,0.62,13,Vegetarian,0.65,0.85,0.24,0.22
+C0383,Chennai,26,Health Conscious,Biryani,"Biryani, Chinese, Burgers",479.0,10,3.5,0.5,0.3,0.1,0.6,7,Vegetarian,0.91,0.63,0.24,0.52
+C0384,Pune,44,Food Explorer,Biryani,"Biryani, North Indian, Pizza",502.0,16,4.19,0.88,0.12,0.06,0.38,13,Low-Calorie,0.63,0.28,0.51,0.5
+C0385,Mumbai,27,Health Conscious,South Indian,"South Indian, Cafe, Biryani",533.0,10,4.4,0.5,0.2,0.1,0.6,7,High-Protein,0.74,0.14,0.37,0.75
+C0386,Kolkata,29,Food Explorer,Italian,"Italian, Maharashtrian, Pizza",357.0,31,4.19,0.58,0.16,0.06,0.87,10,No Preference,0.38,0.76,0.26,0.66
+C0387,Mumbai,33,Food Explorer,Chinese,"Chinese, Maharashtrian, Desserts",516.0,21,4.1,0.9,0.43,0.05,0.38,16,No Preference,0.43,0.22,0.84,0.49
+C0388,Pune,35,Food Explorer,North Indian,"North Indian, Biryani, Cafe",402.0,27,4.15,0.48,0.15,0.07,0.7,16,No Preference,0.35,0.23,0.71,0.31
+C0389,Delhi,54,Food Explorer,Chinese,"Chinese, Cafe, Italian",414.0,14,4.07,0.29,0.07,0.07,0.29,12,High-Protein,0.46,0.84,0.47,0.16
+C0390,Hyderabad,55,Food Explorer,South Indian,"South Indian, Cafe, Desserts",634.0,5,4.0,0.0,0.0,0.0,0.0,5,High-Protein,0.46,0.44,0.69,0.53
+C0391,Mumbai,46,Food Explorer,Healthy,"Healthy, Maharashtrian, South Indian",534.0,10,4.4,0.1,0.2,0.3,0.2,9,Vegetarian,0.51,0.36,0.62,0.22
+C0392,Ahmedabad,55,Food Explorer,Italian,"Italian, Cafe, Maharashtrian",436.0,10,3.9,0.9,0.1,0.1,0.0,10,High-Protein,0.63,0.43,0.66,0.15
+C0393,Chennai,20,Health Conscious,Biryani,"Biryani, Chinese, Thai",449.0,18,4.17,0.28,0.28,0.22,0.83,8,Vegetarian,0.9,0.67,0.69,0.19
+C0394,Mumbai,42,Food Explorer,Maharashtrian,"Maharashtrian, Chinese, South Indian",579.0,21,4.29,0.62,0.29,0.19,0.67,13,No Preference,0.56,0.65,0.21,0.4
+C0395,Ahmedabad,31,Food Explorer,Biryani,"Biryani, North Indian, Cafe",473.0,7,4.0,0.29,0.14,0.14,0.0,7,Vegetarian,0.5,0.55,0.5,0.77
+C0396,Bengaluru,46,Food Explorer,Desserts,"Desserts, Chinese, Biryani",634.0,20,4.2,0.4,0.35,0.15,0.6,12,No Preference,0.24,0.2,0.87,0.21
+C0397,Delhi,31,Food Explorer,North Indian,"North Indian, Cafe, Pizza",487.0,22,4.14,0.59,0.41,0.05,0.68,13,No Preference,0.26,0.12,0.69,0.17
+C0398,Chennai,39,Food Explorer,Biryani,"Biryani, Chinese, Thai",495.0,11,4.09,0.55,0.27,0.27,0.64,7,Vegan,0.21,0.77,0.46,0.38
+C0399,Bengaluru,32,Food Explorer,South Indian,"South Indian, North Indian, Maharashtrian",516.0,22,4.27,0.45,0.23,0.18,0.68,13,No Preference,0.93,0.81,0.67,0.36
+C0400,Delhi,28,Food Explorer,North Indian,"North Indian, Cafe, Desserts",346.0,5,5.0,0.4,0.0,0.0,0.0,5,No Preference,0.23,0.48,0.63,0.88
+C0401,Kolkata,37,Food Explorer,Chinese,"Chinese, Thai, Desserts",500.0,5,3.4,0.4,0.2,0.0,0.8,3,Vegan,0.65,0.35,0.54,0.53
+C0402,Ahmedabad,27,Health Conscious,Italian,"Italian, Biryani, North Indian",467.0,14,4.21,0.29,0.21,0.14,0.14,13,Vegetarian,0.81,0.48,0.35,0.45
+C0403,Mumbai,30,Budget Explorer,Cafe,"Cafe, Burgers, South Indian",532.0,7,4.29,0.71,0.43,0.0,0.0,7,No Preference,0.52,0.61,0.88,0.45
+C0404,Mumbai,41,Health Conscious,Healthy,"Healthy, Cafe, Chinese",521.0,16,3.94,0.44,0.38,0.25,0.31,13,No Preference,0.72,0.48,0.8,0.22
+C0405,Hyderabad,36,Food Explorer,Desserts,"Desserts, South Indian, Italian",496.0,18,4.17,0.28,0.33,0.0,0.78,8,No Preference,0.39,0.89,0.89,0.54
+C0406,Pune,23,Food Explorer,Pizza,"Pizza, Desserts, Burgers",358.0,8,3.38,0.75,0.38,0.25,0.25,7,No Preference,0.57,0.14,0.25,0.44
+C0407,Ahmedabad,37,Food Explorer,Biryani,"Biryani, Italian, South Indian",532.0,8,3.88,0.25,0.38,0.25,0.25,7,No Preference,0.67,0.34,0.61,0.24
+C0408,Bengaluru,19,Food Explorer,Chinese,"Chinese, Healthy, Burgers",523.0,15,3.8,0.6,0.13,0.33,0.6,10,Vegetarian,0.69,0.2,0.6,0.51
+C0409,Ahmedabad,19,Food Explorer,Biryani,"Biryani, Pizza, North Indian",548.0,16,3.75,0.19,0.25,0.06,0.12,15,No Preference,0.14,0.35,0.61,0.87
+C0410,Mumbai,50,Food Explorer,South Indian,"South Indian, Chinese, Burgers",548.0,22,4.18,0.86,0.55,0.23,0.64,14,Vegetarian,0.68,0.69,0.65,0.38
+C0411,Ahmedabad,40,Food Explorer,Burgers,"Burgers, Healthy, Chinese",599.0,11,4.36,1.0,0.18,0.0,0.18,10,No Preference,0.81,0.78,0.27,0.53
+C0412,Chennai,52,Food Explorer,Chinese,"Chinese, Thai, Biryani",511.0,12,3.92,0.25,0.25,0.08,0.83,4,Vegetarian,0.22,0.48,0.38,0.67
+C0413,Chennai,39,Health Conscious,Biryani,"Biryani, Chinese, Thai",407.0,23,4.13,0.65,0.39,0.13,0.96,9,No Preference,0.75,0.19,0.88,0.47
+C0414,Chennai,45,Food Explorer,Biryani,"Biryani, Chinese, Thai",386.0,18,4.06,0.89,0.33,0.11,0.89,7,Vegetarian,0.18,0.21,0.34,0.16
+C0415,Ahmedabad,30,Food Explorer,South Indian,"South Indian, Chinese, Pizza",416.0,26,4.08,0.42,0.38,0.27,0.08,25,No Preference,0.31,0.58,0.5,0.7
+C0416,Ahmedabad,18,Budget Explorer,Chinese,"Chinese, Biryani, Italian",419.0,9,4.67,0.67,0.33,0.22,0.0,9,No Preference,0.5,0.69,0.84,0.79
+C0417,Mumbai,29,Health Conscious,Maharashtrian,"Maharashtrian, Biryani, Cafe",555.0,14,4.36,1.0,0.14,0.14,0.43,10,Vegetarian,0.75,0.7,0.19,0.25
+C0418,Mumbai,23,Food Explorer,Maharashtrian,"Maharashtrian, South Indian, Chinese",555.0,18,3.89,0.89,0.33,0.17,0.44,13,Vegetarian,0.46,0.83,0.43,0.89
+C0419,Chennai,41,Food Explorer,Biryani,"Biryani, Chinese, Burgers",454.0,16,4.19,0.88,0.19,0.0,0.81,8,Vegetarian,0.6,0.19,0.21,0.45
+C0420,Delhi,22,Convenience Seeker,Burgers,"Burgers, Chinese, Italian",529.0,12,3.83,0.92,0.58,0.0,0.5,9,Vegetarian,0.59,0.33,0.32,0.69
+C0421,Pune,40,Food Explorer,Thai,"Thai, Biryani, Pizza",464.0,23,4.04,0.13,0.22,0.13,0.74,13,Vegetarian,0.21,0.18,0.5,0.62
+C0422,Mumbai,49,Food Explorer,Maharashtrian,"Maharashtrian, South Indian, Desserts",508.0,11,4.36,0.64,0.09,0.18,0.18,10,Vegetarian,0.52,0.5,0.63,0.54
+C0423,Chennai,49,Food Explorer,Chinese,"Chinese, Biryani, Burgers",465.0,15,4.0,0.8,0.33,0.13,0.8,7,Vegetarian,0.48,0.13,0.46,0.79
+C0424,Bengaluru,28,Food Explorer,Maharashtrian,"Maharashtrian, Healthy, Italian",538.0,11,4.18,0.82,0.27,0.18,0.18,10,Vegetarian,0.58,0.23,0.53,0.5
+C0425,Bengaluru,49,Health Conscious,Maharashtrian,"Maharashtrian, Healthy, Desserts",567.0,16,4.12,0.0,0.31,0.31,0.56,10,No Preference,0.73,0.12,0.77,0.41
+C0426,Pune,42,Food Explorer,Biryani,"Biryani, Cafe, Pizza",465.0,16,4.06,0.62,0.19,0.25,0.81,9,No Preference,0.36,0.39,0.83,0.2
+C0427,Pune,20,Food Explorer,Biryani,"Biryani, Pizza, Cafe",424.0,17,3.94,0.47,0.24,0.06,0.35,14,Vegetarian,0.43,0.59,0.89,0.43
+C0428,Mumbai,31,Food Explorer,Healthy,"Healthy, Cafe, Chinese",443.0,8,4.25,0.5,0.25,0.12,0.25,7,No Preference,0.81,0.56,0.78,0.74
+C0429,Mumbai,37,Food Explorer,Chinese,"Chinese, South Indian, Maharashtrian",538.0,24,4.08,0.58,0.08,0.12,0.67,16,Vegetarian,0.55,0.46,0.32,0.57
+C0430,Mumbai,37,Health Conscious,Chinese,"Chinese, South Indian, Cafe",598.0,10,3.9,0.0,0.6,0.0,0.2,9,Vegetarian,0.85,0.63,0.64,0.56
+C0431,Delhi,54,Budget Explorer,Italian,"Italian, Cafe, Chinese",557.0,7,3.71,1.0,0.29,0.14,0.57,5,No Preference,0.15,0.27,0.85,0.69
+C0432,Bengaluru,27,Food Explorer,Biryani,"Biryani, Pizza, Desserts",493.0,7,4.29,0.86,0.29,0.29,0.0,7,High-Protein,0.68,0.3,0.33,0.27
+C0433,Delhi,30,Health Conscious,Cafe,"Cafe, Chinese, Pizza",442.0,34,4.15,0.97,0.24,0.29,0.82,16,Vegetarian,0.77,0.34,0.32,0.17
+C0434,Mumbai,49,Health Conscious,Chinese,"Chinese, Maharashtrian, Desserts",457.0,14,4.21,0.5,0.43,0.14,0.57,10,Vegetarian,0.9,0.72,0.63,0.22
+C0435,Mumbai,54,Food Explorer,Cafe,"Cafe, Chinese, South Indian",515.0,26,3.88,0.92,0.5,0.19,0.5,18,Jain,0.38,0.6,0.2,0.76
+C0436,Bengaluru,45,Food Explorer,South Indian,"South Indian, Maharashtrian, Chinese",460.0,8,3.88,1.0,0.38,0.12,0.0,8,Low-Calorie,0.2,0.56,0.53,0.67
+C0437,Bengaluru,35,Budget Explorer,Maharashtrian,"Maharashtrian, Cafe, Chinese",611.0,9,3.67,0.89,0.33,0.11,0.0,9,Jain,0.15,0.88,0.69,0.75
+C0438,Bengaluru,53,Health Conscious,Italian,"Italian, Desserts, Biryani",448.0,11,3.91,0.36,0.27,0.27,0.36,9,High-Protein,0.89,0.88,0.11,0.87
+C0439,Bengaluru,37,Health Conscious,North Indian,"North Indian, Healthy, Maharashtrian",576.0,5,4.0,0.4,0.2,0.0,0.0,5,Vegetarian,0.73,0.89,0.72,0.52
+C0440,Hyderabad,24,Food Explorer,South Indian,"South Indian, Italian, Desserts",660.0,10,3.8,0.9,0.1,0.2,0.4,8,No Preference,0.65,0.26,0.66,0.72
+C0441,Delhi,18,Budget Explorer,North Indian,"North Indian, Pizza, Cafe",415.0,13,3.92,0.46,0.31,0.08,0.31,11,Vegetarian,0.82,0.68,0.76,0.72
+C0442,Pune,46,Food Explorer,Thai,"Thai, Biryani, Cafe",368.0,20,4.1,0.75,0.35,0.15,0.6,13,No Preference,0.84,0.9,0.43,0.29
+C0443,Bengaluru,19,Food Explorer,Maharashtrian,"Maharashtrian, Healthy, Italian",509.0,17,3.94,0.18,0.24,0.12,0.35,14,Vegetarian,0.46,0.32,0.24,0.45
+C0444,Pune,28,Health Conscious,Cafe,"Cafe, North Indian, Maharashtrian",409.0,30,3.93,0.5,0.17,0.07,0.67,16,No Preference,0.79,0.33,0.26,0.86
+C0445,Pune,26,Health Conscious,Biryani,"Biryani, Pizza, Desserts",471.0,9,4.22,0.56,0.33,0.11,0.22,8,Low-Calorie,0.93,0.3,0.73,0.17
+C0446,Bengaluru,41,Food Explorer,Desserts,"Desserts, Italian, Maharashtrian",536.0,13,4.23,0.85,0.08,0.23,0.38,10,No Preference,0.46,0.61,0.27,0.44
+C0447,Kolkata,21,Budget Explorer,Chinese,"Chinese, Pizza, Desserts",398.0,14,4.14,1.0,0.5,0.21,0.93,6,High-Protein,0.32,0.63,0.7,0.18
+C0448,Pune,41,Food Explorer,Biryani,"Biryani, North Indian, Cafe",426.0,13,4.38,0.54,0.15,0.31,0.46,10,Vegetarian,0.7,0.47,0.47,0.22
+C0449,Pune,20,Food Explorer,Biryani,"Biryani, Pizza, Cafe",602.0,16,3.88,0.5,0.25,0.12,0.56,11,High-Protein,0.47,0.24,0.84,0.54
+C0450,Chennai,27,Food Explorer,Biryani,"Biryani, Burgers, Chinese",445.0,16,4.25,0.12,0.5,0.12,0.81,8,Vegan,0.5,0.2,0.48,0.27
+C0451,Chennai,20,Food Explorer,Biryani,"Biryani, Burgers, South Indian",471.0,21,4.14,0.71,0.29,0.29,0.95,6,Vegetarian,0.34,0.81,0.38,0.3
+C0452,Bengaluru,54,Food Explorer,Desserts,"Desserts, Italian, North Indian",600.0,9,4.22,0.44,0.22,0.22,0.44,7,Vegan,0.12,0.68,0.64,0.82
+C0453,Pune,41,Food Explorer,Biryani,"Biryani, Maharashtrian, Desserts",525.0,11,4.09,0.64,0.18,0.0,0.36,9,No Preference,0.66,0.38,0.6,0.35
+C0454,Hyderabad,38,Food Explorer,South Indian,"South Indian, Chinese, Biryani",620.0,25,3.76,0.4,0.4,0.24,0.76,14,No Preference,0.3,0.76,0.17,0.34
+C0455,Mumbai,31,Food Explorer,South Indian,"South Indian, Chinese, Maharashtrian",567.0,7,4.0,0.71,0.43,0.14,0.43,5,Vegetarian,0.68,0.21,0.75,0.38
+C0456,Pune,50,Food Explorer,Cafe,"Cafe, Thai, Pizza",405.0,16,4.69,0.75,0.31,0.19,0.5,11,No Preference,0.46,0.13,0.59,0.48
+C0457,Hyderabad,32,Food Explorer,South Indian,"South Indian, Desserts, Biryani",491.0,19,3.89,0.58,0.21,0.21,0.74,11,Vegetarian,0.21,0.87,0.48,0.26
+C0458,Chennai,45,Food Explorer,Biryani,"Biryani, Chinese, South Indian",371.0,17,4.06,0.47,0.29,0.12,0.82,9,High-Protein,0.32,0.32,0.63,0.58
+C0459,Chennai,19,Convenience Seeker,Biryani,"Biryani, Chinese, South Indian",439.0,6,3.67,0.17,0.17,0.0,0.33,5,Vegan,0.74,0.48,0.35,0.69
+C0460,Pune,29,Food Explorer,Cafe,"Cafe, Biryani, North Indian",442.0,16,4.12,0.19,0.5,0.06,0.44,12,No Preference,0.49,0.44,0.11,0.64
+C0461,Chennai,37,Food Explorer,Biryani,"Biryani, Burgers, Chinese",394.0,17,4.41,0.18,0.29,0.18,0.82,8,Vegetarian,0.69,0.26,0.25,0.76
+C0462,Chennai,27,Health Conscious,Biryani,"Biryani, Chinese, South Indian",365.0,9,4.11,0.44,0.11,0.11,0.44,7,No Preference,0.73,0.48,0.19,0.83
+C0463,Mumbai,46,Health Conscious,South Indian,"South Indian, Chinese, Desserts",539.0,20,3.65,0.25,0.15,0.1,0.45,15,Jain,0.82,0.73,0.67,0.88
+C0464,Kolkata,36,Food Explorer,Italian,"Italian, Pizza, Thai",349.0,13,4.15,0.92,0.15,0.15,0.85,6,Vegetarian,0.12,0.59,0.29,0.2
+C0465,Bengaluru,44,Food Explorer,Biryani,"Biryani, Chinese, Healthy",561.0,6,4.0,0.17,0.33,0.0,0.33,5,No Preference,0.29,0.87,0.38,0.32
+C0466,Hyderabad,26,Budget Explorer,South Indian,"South Indian, Thai, Italian",590.0,30,4.03,0.83,0.4,0.07,0.87,11,Jain,0.74,0.67,0.6,0.36
+C0467,Delhi,28,Food Explorer,Burgers,"Burgers, Healthy, South Indian",563.0,10,4.3,1.0,0.4,0.3,0.4,7,No Preference,0.25,0.83,0.31,0.66
+C0468,Mumbai,39,Food Explorer,Chinese,"Chinese, Biryani, Maharashtrian",472.0,26,4.19,0.46,0.31,0.08,0.73,14,Vegetarian,0.33,0.23,0.14,0.81
+C0469,Chennai,24,Food Explorer,Biryani,"Biryani, South Indian, Thai",346.0,7,3.71,0.86,0.14,0.29,0.57,5,Low-Calorie,0.58,0.53,0.79,0.23
+C0470,Mumbai,31,Health Conscious,Cafe,"Cafe, Chinese, Desserts",475.0,17,4.06,0.35,0.53,0.12,0.59,12,Vegan,0.82,0.47,0.37,0.25
+C0471,Mumbai,33,Convenience Seeker,Healthy,"Healthy, South Indian, Maharashtrian",594.0,28,4.07,0.5,0.14,0.14,0.43,20,No Preference,0.55,0.77,0.3,0.71
+C0472,Hyderabad,44,Food Explorer,South Indian,"South Indian, Biryani, Desserts",621.0,11,4.36,0.82,0.0,0.0,0.36,9,No Preference,0.39,0.44,0.51,0.2
+C0473,Hyderabad,21,Food Explorer,Thai,"Thai, Desserts, South Indian",627.0,8,3.75,0.5,0.62,0.0,0.5,6,No Preference,0.35,0.44,0.63,0.54
+C0474,Kolkata,37,Health Conscious,Italian,"Italian, Chinese, Maharashtrian",395.0,19,4.16,0.74,0.42,0.16,0.84,10,High-Protein,0.77,0.65,0.26,0.56
+C0475,Pune,30,Food Explorer,Cafe,"Cafe, Pizza, Biryani",566.0,7,4.14,0.43,0.43,0.14,0.57,5,No Preference,0.39,0.64,0.51,0.38
+C0476,Kolkata,55,Health Conscious,Italian,"Italian, Pizza, Maharashtrian",353.0,24,3.79,0.92,0.17,0.12,0.92,9,Low-Calorie,0.74,0.9,0.51,0.24
+C0477,Ahmedabad,18,Food Explorer,Biryani,"Biryani, Chinese, Burgers",446.0,19,4.0,0.26,0.16,0.21,0.32,16,Vegetarian,0.59,0.22,0.63,0.76
+C0478,Bengaluru,24,Food Explorer,Biryani,"Biryani, Desserts, Maharashtrian",601.0,22,4.09,0.82,0.18,0.18,0.64,13,Vegetarian,0.5,0.48,0.15,0.82
+C0479,Chennai,43,Food Explorer,Biryani,"Biryani, Burgers, Thai",480.0,10,4.2,0.8,0.3,0.3,0.7,6,Vegetarian,0.24,0.53,0.69,0.46
+C0480,Hyderabad,26,Food Explorer,Pizza,"Pizza, Chinese, North Indian",633.0,15,4.07,1.0,0.4,0.07,0.53,10,Vegetarian,0.45,0.2,0.86,0.6
+C0481,Mumbai,51,Convenience Seeker,Chinese,"Chinese, Biryani, South Indian",447.0,25,3.88,0.16,0.32,0.2,0.44,19,No Preference,0.36,0.34,0.44,0.85
+C0482,Chennai,18,Health Conscious,Chinese,"Chinese, Biryani, South Indian",420.0,17,3.76,0.47,0.24,0.12,0.65,9,No Preference,0.81,0.21,0.4,0.78
+C0483,Hyderabad,46,Food Explorer,South Indian,"South Indian, Burgers, Chinese",547.0,21,4.24,0.67,0.24,0.19,0.76,11,No Preference,0.91,0.86,0.42,0.56
+C0484,Mumbai,28,Convenience Seeker,Chinese,"Chinese, Cafe, Biryani",518.0,20,4.2,0.2,0.3,0.05,0.5,14,Vegetarian,0.91,0.54,0.53,0.72
+C0485,Chennai,19,Health Conscious,Biryani,"Biryani, South Indian, Chinese",450.0,17,3.94,0.24,0.18,0.12,0.88,7,Low-Calorie,0.79,0.62,0.81,0.48
+C0486,Mumbai,49,Food Explorer,South Indian,"South Indian, Cafe, Maharashtrian",517.0,15,4.0,0.4,0.13,0.13,0.4,11,No Preference,0.22,0.32,0.18,0.28
+C0487,Bengaluru,44,Food Explorer,Chinese,"Chinese, South Indian, Biryani",492.0,14,4.0,0.14,0.36,0.07,0.57,10,No Preference,0.9,0.86,0.81,0.34
+C0488,Bengaluru,55,Food Explorer,Biryani,"Biryani, Chinese, Maharashtrian",494.0,16,4.12,0.75,0.31,0.19,0.38,13,Low-Calorie,0.3,0.85,0.49,0.46
+C0489,Ahmedabad,24,Food Explorer,Burgers,"Burgers, Biryani, Healthy",584.0,10,4.2,0.9,0.2,0.3,0.0,10,No Preference,0.56,0.24,0.73,0.26
+C0490,Hyderabad,53,Budget Explorer,Italian,"Italian, Biryani, Desserts",672.0,10,4.0,0.9,0.4,0.2,0.5,7,No Preference,0.42,0.4,0.58,0.78
+C0491,Ahmedabad,50,Budget Explorer,Cafe,"Cafe, Italian, Chinese",434.0,15,3.6,0.6,0.13,0.0,0.33,12,Vegetarian,0.85,0.28,0.68,0.9
+C0492,Pune,39,Food Explorer,Biryani,"Biryani, Cafe, North Indian",451.0,12,3.83,0.58,0.33,0.0,0.5,9,No Preference,0.65,0.1,0.11,0.67
+C0493,Mumbai,29,Convenience Seeker,Chinese,"Chinese, Maharashtrian, Cafe",461.0,13,3.46,0.62,0.31,0.23,0.31,11,Vegan,0.79,0.48,0.53,0.82
+C0494,Pune,40,Health Conscious,Biryani,"Biryani, Cafe, North Indian",424.0,34,4.38,0.5,0.47,0.21,0.74,19,No Preference,0.88,0.4,0.12,0.36
+C0495,Bengaluru,32,Convenience Seeker,North Indian,"North Indian, Desserts, Chinese",571.0,17,4.0,0.35,0.24,0.29,0.53,12,No Preference,0.58,0.52,0.42,0.8
+C0496,Ahmedabad,54,Convenience Seeker,South Indian,"South Indian, Chinese, Maharashtrian",448.0,11,4.18,0.91,0.09,0.09,0.0,11,No Preference,0.12,0.92,0.32,0.79
+C0497,Bengaluru,53,Food Explorer,South Indian,"South Indian, Maharashtrian, Healthy",505.0,17,3.82,0.24,0.29,0.06,0.35,14,Vegetarian,0.54,0.52,0.43,0.24
+C0498,Mumbai,32,Food Explorer,Chinese,"Chinese, Healthy, South Indian",554.0,8,4.25,0.25,0.38,0.12,0.5,6,No Preference,0.29,0.69,0.75,0.89
+C0499,Bengaluru,30,Food Explorer,Chinese,"Chinese, Maharashtrian, Healthy",363.0,17,3.65,0.94,0.18,0.18,0.59,10,Vegetarian,0.31,0.19,0.6,0.4
+C0500,Pune,21,Health Conscious,Biryani,"Biryani, North Indian, Cafe",483.0,13,3.77,0.23,0.15,0.0,0.54,9,Vegan,0.88,0.42,0.2,0.88

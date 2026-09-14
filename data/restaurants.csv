@@ -1,0 +1,151 @@
+restaurant_id,restaurant_name,city,area,cuisine,secondary_cuisine,price_band,average_order_value,rating,delivery_time_min,veg_score,healthy_score,spice_score,family_score,romantic_score,budget_score,premium_score,popularity_score,new_restaurant
+R0001,Royal Tandoor 1,Mumbai,Bandra,South Indian,North Indian,₹,250,3.9,38,0.43,0.67,0.25,0.71,0.62,0.42,0.49,0.27,1
+R0002,Royal Tandoor 2,Bengaluru,Indiranagar,Maharashtrian,Thai,₹,250,4.4,29,0.55,0.52,0.67,0.28,0.69,0.71,0.22,0.59,0
+R0003,The Food Project 3,Mumbai,Lower Parel,Chinese,South Indian,₹,250,4.0,24,0.64,0.83,0.88,0.29,0.58,0.47,0.56,0.67,0
+R0004,Urban Tiffin 4,Bengaluru,Indiranagar,South Indian,Biryani,₹,250,4.4,43,0.43,0.53,0.92,0.77,0.43,0.86,0.78,0.31,0
+R0005,Spice Junction 5,Pune,Hinjewadi,Pizza,Maharashtrian,₹₹₹,550,4.0,36,0.64,0.71,0.24,0.58,0.83,0.84,0.52,0.35,0
+R0006,Pizza Craft 6,Delhi,Dwarka,Chinese,Cafe,₹₹₹,550,3.5,26,0.56,0.72,0.55,0.72,0.84,0.62,0.45,0.42,0
+R0007,Urban Tiffin 7,Delhi,Connaught Place,Chinese,Healthy,₹₹₹₹,800,4.2,23,0.36,0.2,0.37,0.37,0.67,0.38,0.75,0.91,0
+R0008,Biryani House 8,Pune,Viman Nagar,Biryani,North Indian,₹₹₹,650,3.9,25,0.47,0.26,0.22,0.29,0.42,0.35,0.64,0.77,0
+R0009,Thai Street 9,Mumbai,Andheri,Biryani,South Indian,₹₹,400,4.4,30,0.36,0.4,0.33,0.84,0.38,0.35,0.33,0.4,0
+R0010,Healthy Hub 10,Mumbai,Andheri,Desserts,Cafe,₹₹,350,3.5,15,0.79,0.28,0.9,0.43,0.38,0.81,0.7,0.91,1
+R0011,Dosa District 11,Mumbai,Bandra,Chinese,Pizza,₹₹,350,4.0,36,0.34,0.48,0.48,0.65,0.93,0.38,0.23,0.66,0
+R0012,Pasta & Co 12,Kolkata,Salt Lake,Pizza,Biryani,₹₹,350,3.3,27,0.24,0.8,0.85,0.84,0.93,0.86,0.36,0.26,1
+R0013,Healthy Hub 13,Mumbai,Bandra,South Indian,Cafe,₹₹₹₹,1000,4.1,44,0.76,0.48,0.59,0.33,0.73,0.59,0.56,0.92,1
+R0014,Chaat Factory 14,Bengaluru,Koramangala,Maharashtrian,Cafe,₹₹₹,650,4.1,35,0.23,0.36,0.35,0.85,0.5,0.43,0.87,0.63,0
+R0015,Dosa District 15,Bengaluru,Koramangala,Healthy,Chinese,₹₹,300,4.3,15,0.42,0.59,0.37,0.23,0.58,0.45,0.54,0.52,0
+R0016,Healthy Hub 16,Chennai,T Nagar,Burgers,North Indian,₹₹,450,4.5,33,0.33,0.38,0.68,0.47,0.26,0.83,0.58,0.68,0
+R0017,The Curry Lab 17,Bengaluru,Indiranagar,Chinese,Thai,₹₹,300,4.4,65,0.23,0.35,0.35,0.45,0.43,0.81,0.71,0.41,0
+R0018,Thai Street 18,Kolkata,Salt Lake,Pizza,Burgers,₹,250,3.5,47,0.82,0.79,0.5,0.5,0.63,0.69,0.55,0.58,0
+R0019,Pizza Craft 19,Pune,Viman Nagar,Biryani,Healthy,₹₹,400,4.1,34,0.38,0.64,0.61,0.55,0.81,0.46,0.26,0.83,1
+R0020,Royal Tandoor 20,Hyderabad,Banjara Hills,Biryani,Maharashtrian,₹₹₹₹,800,4.2,28,0.22,0.3,0.86,0.43,0.75,0.57,0.69,0.47,0
+R0021,Desi Zaika 21,Hyderabad,Banjara Hills,Thai,Pizza,₹₹₹,650,4.1,34,0.44,0.22,0.79,0.89,0.32,0.91,0.45,0.67,1
+R0022,The Curry Lab 22,Pune,Viman Nagar,Biryani,Maharashtrian,₹₹₹,650,3.7,38,0.49,0.56,0.45,0.92,0.68,0.43,0.33,0.71,0
+R0023,Spice Junction 23,Mumbai,Powai,Cafe,South Indian,₹₹₹₹,800,4.1,21,0.35,0.88,0.49,0.35,0.42,0.59,0.54,0.48,0
+R0024,Healthy Hub 24,Delhi,Connaught Place,Burgers,South Indian,₹₹₹,650,4.1,43,0.94,0.3,0.51,0.76,0.49,0.88,0.35,0.85,0
+R0025,Biryani House 25,Hyderabad,Banjara Hills,Cafe,Maharashtrian,₹₹₹₹,800,4.1,35,0.63,0.43,0.35,0.74,0.54,0.35,0.94,0.53,1
+R0026,Chaat Factory 26,Bengaluru,Indiranagar,Healthy,Italian,₹₹₹,550,4.0,38,0.55,0.63,0.75,0.42,0.86,0.54,0.73,0.73,0
+R0027,Cafe Chapter 27,Pune,Viman Nagar,Maharashtrian,Biryani,₹₹,350,4.5,48,0.33,0.66,0.52,0.49,0.69,0.72,0.27,0.72,0
+R0028,Desi Zaika 28,Bengaluru,Indiranagar,South Indian,Burgers,₹₹,450,4.2,38,0.7,0.25,0.74,0.88,0.88,0.51,0.77,0.29,0
+R0029,Pasta & Co 29,Mumbai,Bandra,Chinese,Italian,₹₹₹₹,1000,4.3,43,0.54,0.39,0.58,0.55,0.25,0.72,0.76,0.49,1
+R0030,Spice Junction 30,Delhi,Dwarka,Thai,Pizza,₹,250,4.0,38,0.29,0.89,0.45,0.76,0.56,0.25,0.61,0.38,1
+R0031,Biryani House 31,Delhi,Saket,Italian,South Indian,₹₹,450,4.2,31,0.83,0.66,0.33,0.29,0.76,0.33,0.7,0.21,0
+R0032,Biryani House 32,Delhi,Saket,Italian,Biryani,₹₹₹,550,4.3,34,0.74,0.87,0.6,0.53,0.24,0.68,0.59,0.7,0
+R0033,Royal Tandoor 33,Pune,Viman Nagar,Cafe,North Indian,₹₹,450,4.2,33,0.65,0.24,0.48,0.35,0.39,0.88,0.35,0.21,0
+R0034,The Curry Lab 34,Mumbai,Andheri,Burgers,Biryani,₹₹,400,4.8,40,0.92,0.27,0.83,0.7,0.74,0.23,0.58,0.81,0
+R0035,The Food Project 35,Kolkata,Salt Lake,Desserts,Biryani,₹₹,400,4.6,27,0.9,0.5,0.52,0.37,0.28,0.44,0.21,0.69,0
+R0036,Burger Theory 36,Pune,Viman Nagar,Biryani,Chinese,₹₹₹₹,800,3.9,40,0.69,0.41,0.67,0.23,0.86,0.51,0.78,0.57,0
+R0037,Green Bowl 37,Kolkata,Salt Lake,Maharashtrian,Chinese,₹₹,350,4.6,45,0.65,0.94,0.72,0.71,0.93,0.72,0.45,0.68,0
+R0038,Spice Junction 38,Chennai,T Nagar,Chinese,Desserts,₹₹₹,550,4.0,29,0.88,0.54,0.58,0.76,0.58,0.73,0.21,0.22,0
+R0039,Burger Theory 39,Bengaluru,Whitefield,Biryani,Desserts,₹₹₹,650,3.7,28,0.26,0.3,0.57,0.35,0.48,0.68,0.38,0.74,1
+R0040,Pasta & Co 40,Pune,Hinjewadi,South Indian,Cafe,₹₹,450,4.6,27,0.79,0.23,0.79,0.51,0.81,0.76,0.37,0.75,0
+R0041,Urban Tiffin 41,Bengaluru,Indiranagar,Biryani,Cafe,₹₹₹₹,1000,4.5,30,0.94,0.8,0.72,0.37,0.85,0.59,0.34,0.67,0
+R0042,Urban Tiffin 42,Chennai,T Nagar,Chinese,Cafe,₹₹,400,4.4,21,0.94,0.9,0.29,0.33,0.61,0.8,0.35,0.58,1
+R0043,Pizza Craft 43,Hyderabad,Hitech City,Pizza,Biryani,₹₹,350,4.3,15,0.52,0.65,0.43,0.63,0.93,0.35,0.85,0.56,0
+R0044,Street Wok 44,Pune,Viman Nagar,Thai,Healthy,₹₹,350,4.2,17,0.52,0.66,0.53,0.32,0.92,0.56,0.77,0.52,0
+R0045,Dosa District 45,Bengaluru,Whitefield,Maharashtrian,Healthy,₹₹₹₹,1000,4.7,38,0.74,0.39,0.55,0.54,0.48,0.65,0.25,0.3,1
+R0046,Spice Junction 46,Delhi,Dwarka,South Indian,North Indian,₹₹,400,4.4,45,0.85,0.75,0.48,0.5,0.51,0.5,0.76,0.49,0
+R0047,Urban Tiffin 47,Ahmedabad,Navrangpura,Chinese,South Indian,₹₹₹,650,3.9,47,0.49,0.62,0.35,0.53,0.39,0.88,0.74,0.58,1
+R0048,Healthy Hub 48,Pune,Kothrud,Cafe,Thai,₹,250,4.6,29,0.75,0.38,0.23,0.81,0.67,0.71,0.72,0.68,0
+R0049,Green Bowl 49,Hyderabad,Hitech City,Desserts,Biryani,₹₹,350,4.6,22,0.65,0.91,0.83,0.21,0.78,0.68,0.89,0.5,0
+R0050,Biryani House 50,Chennai,Anna Nagar,Biryani,Italian,₹₹₹,650,4.0,26,0.39,0.43,0.93,0.69,0.49,0.43,0.51,0.86,0
+R0051,Dosa District 51,Mumbai,Lower Parel,Desserts,Pizza,₹₹₹,550,4.1,22,0.76,0.9,0.5,0.43,0.94,0.81,0.2,0.25,1
+R0052,Cafe Chapter 52,Chennai,Anna Nagar,Thai,South Indian,₹₹,450,4.7,29,0.33,0.34,0.3,0.56,0.58,0.28,0.63,0.36,0
+R0053,Pizza Craft 53,Mumbai,Powai,Cafe,Pizza,₹₹,350,4.4,26,0.94,0.85,0.53,0.88,0.28,0.68,0.26,0.26,0
+R0054,Spice Junction 54,Bengaluru,Koramangala,Chinese,Desserts,₹₹₹,550,3.6,34,0.38,0.56,0.77,0.21,0.4,0.92,0.7,0.79,0
+R0055,Spice Junction 55,Mumbai,Lower Parel,Biryani,Italian,₹₹₹₹,1000,3.6,31,0.65,0.94,0.77,0.9,0.55,0.45,0.52,0.48,0
+R0056,Healthy Hub 56,Pune,Hinjewadi,Biryani,Italian,₹₹₹,550,3.8,49,0.66,0.93,0.85,0.8,0.2,0.85,0.5,0.83,0
+R0057,The Breakfast Club 57,Mumbai,Andheri,Maharashtrian,Pizza,₹₹,300,4.6,32,0.91,0.76,0.39,0.54,0.71,0.85,0.59,0.7,0
+R0058,Urban Tiffin 58,Pune,Hinjewadi,North Indian,Thai,₹₹₹,550,4.7,24,0.71,0.38,0.56,0.75,0.8,0.46,0.9,0.91,1
+R0059,Thai Street 59,Mumbai,Lower Parel,Cafe,Maharashtrian,₹₹₹,650,4.4,33,0.35,0.31,0.59,0.63,0.84,0.58,0.3,0.8,0
+R0060,Royal Tandoor 60,Kolkata,Salt Lake,Italian,Chinese,₹₹,350,4.3,43,0.56,0.61,0.38,0.33,0.91,0.72,0.28,0.95,0
+R0061,Green Bowl 61,Delhi,Connaught Place,Burgers,Biryani,₹₹₹,650,4.5,34,0.74,0.7,0.91,0.7,0.7,0.89,0.68,0.57,0
+R0062,Pasta & Co 62,Bengaluru,Indiranagar,Maharashtrian,Thai,₹₹,300,3.7,23,0.88,0.76,0.74,0.69,0.79,0.92,0.53,0.38,0
+R0063,Wok Republic 63,Mumbai,Lower Parel,Pizza,Chinese,₹₹,300,4.2,32,0.46,0.64,0.34,0.91,0.63,0.3,0.44,0.49,0
+R0064,Pizza Craft 64,Bengaluru,Whitefield,North Indian,Italian,₹₹₹₹,1000,3.9,53,0.93,0.44,0.47,0.71,0.8,0.59,0.65,0.37,1
+R0065,Pasta & Co 65,Mumbai,Andheri,Healthy,South Indian,₹₹₹₹,800,4.8,37,0.81,0.42,0.36,0.71,0.31,0.41,0.76,0.84,0
+R0066,Wok Republic 66,Pune,Hinjewadi,Pizza,Burgers,₹₹₹₹,1000,4.3,30,0.95,0.73,0.56,0.82,0.57,0.73,0.48,0.94,0
+R0067,Burger Theory 67,Delhi,Saket,Cafe,North Indian,₹₹,400,3.9,32,0.89,0.78,0.84,0.75,0.42,0.81,0.88,0.32,0
+R0068,Cafe Chapter 68,Kolkata,Salt Lake,Thai,Cafe,₹₹₹,550,4.3,20,0.56,0.46,0.49,0.25,0.75,0.41,0.89,0.73,1
+R0069,Chaat Factory 69,Mumbai,Lower Parel,South Indian,North Indian,₹₹₹,550,4.4,30,0.84,0.73,0.54,0.32,0.3,0.72,0.42,0.31,0
+R0070,Mumbai Masala 70,Delhi,Dwarka,Cafe,Maharashtrian,₹,250,3.6,24,0.28,0.79,0.84,0.48,0.94,0.71,0.33,0.24,0
+R0071,Wok Republic 71,Chennai,T Nagar,South Indian,Maharashtrian,₹,250,4.1,48,0.69,0.65,0.93,0.67,0.5,0.23,0.38,0.57,0
+R0072,Royal Tandoor 72,Pune,Viman Nagar,Cafe,Desserts,₹₹,300,4.4,19,0.49,0.67,0.53,0.21,0.29,0.29,0.68,0.88,0
+R0073,Green Bowl 73,Mumbai,Andheri,Maharashtrian,Chinese,₹₹₹₹,800,4.4,18,0.8,0.34,0.56,0.68,0.53,0.63,0.27,0.25,0
+R0074,Healthy Hub 74,Pune,Viman Nagar,Cafe,Healthy,₹,250,4.6,27,0.81,0.79,0.6,0.25,0.83,0.6,0.81,0.69,0
+R0075,Spice Junction 75,Mumbai,Lower Parel,South Indian,Maharashtrian,₹₹,350,4.2,43,0.54,0.44,0.23,0.63,0.69,0.27,0.39,0.76,0
+R0076,Mumbai Masala 76,Mumbai,Lower Parel,Healthy,Maharashtrian,₹₹,450,3.8,19,0.33,0.93,0.69,0.39,0.23,0.91,0.88,0.42,1
+R0077,Pasta & Co 77,Delhi,Saket,Maharashtrian,Healthy,₹₹₹₹,800,4.0,41,0.88,0.95,0.65,0.58,0.72,0.7,0.23,0.23,0
+R0078,The Food Project 78,Bengaluru,Whitefield,Biryani,Maharashtrian,₹₹,350,3.7,15,0.36,0.47,0.3,0.67,0.26,0.39,0.49,0.88,1
+R0079,Cafe Chapter 79,Hyderabad,Hitech City,Chinese,Biryani,₹₹,450,4.1,36,0.6,0.25,0.75,0.95,0.72,0.34,0.48,0.69,0
+R0080,Cafe Chapter 80,Hyderabad,Banjara Hills,South Indian,Italian,₹₹₹,550,4.7,27,0.22,0.65,0.26,0.29,0.28,0.61,0.25,0.68,0
+R0081,Burger Theory 81,Pune,Hinjewadi,Pizza,Burgers,₹₹,350,4.1,42,0.21,0.48,0.93,0.48,0.28,0.89,0.33,0.75,0
+R0082,The Breakfast Club 82,Ahmedabad,Navrangpura,Italian,Burgers,₹₹,300,3.6,28,0.73,0.85,0.61,0.66,0.87,0.33,0.91,0.49,0
+R0083,Street Wok 83,Kolkata,Salt Lake,Healthy,Desserts,₹₹₹,650,4.3,36,0.3,0.21,0.59,0.32,0.29,0.48,0.75,0.24,0
+R0084,Royal Tandoor 84,Bengaluru,Indiranagar,Desserts,South Indian,₹₹₹,650,4.1,32,0.53,0.47,0.55,0.42,0.91,0.59,0.74,0.89,0
+R0085,Thai Street 85,Bengaluru,Whitefield,Desserts,Thai,₹₹,300,3.4,26,0.78,0.83,0.68,0.26,0.38,0.27,0.63,0.26,0
+R0086,Cafe Chapter 86,Kolkata,Salt Lake,Italian,Cafe,₹,250,4.4,23,0.58,0.75,0.56,0.59,0.95,0.87,0.72,0.5,0
+R0087,Desi Zaika 87,Mumbai,Andheri,Cafe,Burgers,₹₹₹,650,4.3,36,0.38,0.75,0.91,0.82,0.86,0.6,0.66,0.66,0
+R0088,The Curry Lab 88,Chennai,Anna Nagar,Biryani,Thai,₹₹,350,4.1,33,0.83,0.59,0.91,0.52,0.48,0.48,0.28,0.89,0
+R0089,Thai Street 89,Kolkata,Salt Lake,Chinese,Healthy,₹₹,450,3.9,30,0.42,0.36,0.75,0.63,0.36,0.43,0.9,0.68,0
+R0090,Urban Tiffin 90,Hyderabad,Hitech City,Maharashtrian,Burgers,₹₹₹₹,800,4.5,33,0.2,0.55,0.42,0.28,0.46,0.74,0.5,0.21,1
+R0091,The Breakfast Club 91,Chennai,T Nagar,Biryani,Maharashtrian,₹₹,300,4.0,34,0.87,0.51,0.88,0.21,0.78,0.39,0.55,0.48,0
+R0092,Green Bowl 92,Hyderabad,Banjara Hills,South Indian,Chinese,₹₹₹₹,1000,4.5,15,0.94,0.69,0.53,0.3,0.76,0.2,0.86,0.73,0
+R0093,Dosa District 93,Delhi,Dwarka,Pizza,Italian,₹,250,4.7,28,0.52,0.45,0.22,0.7,0.91,0.92,0.94,0.29,1
+R0094,Pasta & Co 94,Kolkata,Salt Lake,Italian,Thai,₹₹,350,4.4,42,0.58,0.89,0.83,0.49,0.28,0.28,0.22,0.32,0
+R0095,Cafe Chapter 95,Bengaluru,Indiranagar,North Indian,Desserts,₹₹₹,550,3.8,25,0.75,0.53,0.42,0.56,0.77,0.39,0.31,0.58,0
+R0096,Burger Theory 96,Bengaluru,Koramangala,Chinese,Cafe,₹₹,450,4.1,24,0.82,0.35,0.73,0.81,0.73,0.58,0.34,0.94,0
+R0097,Healthy Hub 97,Bengaluru,Indiranagar,Chinese,North Indian,₹₹,350,4.9,24,0.41,0.34,0.31,0.21,0.35,0.85,0.49,0.59,0
+R0098,Street Wok 98,Bengaluru,Indiranagar,Burgers,North Indian,₹₹₹,650,4.1,33,0.58,0.68,0.43,0.4,0.41,0.46,0.51,0.44,0
+R0099,Urban Tiffin 99,Delhi,Connaught Place,North Indian,Cafe,₹,250,3.8,28,0.76,0.36,0.55,0.88,0.28,0.34,0.91,0.47,0
+R0100,Desi Zaika 100,Mumbai,Lower Parel,Chinese,Biryani,₹,250,4.4,29,0.45,0.76,0.47,0.78,0.6,0.48,0.69,0.36,1
+R0101,The Food Project 101,Mumbai,Bandra,Chinese,South Indian,₹₹,350,4.2,27,0.23,0.93,0.86,0.81,0.34,0.53,0.27,0.91,0
+R0102,Pizza Craft 102,Bengaluru,Whitefield,Cafe,Healthy,₹₹₹₹,800,3.7,34,0.74,0.23,0.34,0.61,0.39,0.86,0.84,0.88,0
+R0103,Cafe Chapter 103,Pune,Kothrud,Italian,Chinese,₹₹,300,4.9,32,0.56,0.59,0.91,0.79,0.33,0.41,0.93,0.42,0
+R0104,Street Wok 104,Delhi,Dwarka,Cafe,Desserts,₹₹₹,650,4.3,38,0.6,0.59,0.26,0.53,0.58,0.62,0.49,0.66,0
+R0105,Chaat Factory 105,Delhi,Connaught Place,North Indian,Pizza,₹₹,350,3.8,47,0.64,0.21,0.9,0.58,0.58,0.74,0.39,0.84,0
+R0106,Biryani House 106,Bengaluru,Koramangala,Healthy,Biryani,₹₹,300,4.3,46,0.23,0.38,0.23,0.31,0.86,0.9,0.4,0.79,0
+R0107,Spice Junction 107,Delhi,Dwarka,Healthy,Cafe,₹₹,300,4.0,48,0.46,0.65,0.48,0.26,0.73,0.61,0.74,0.51,0
+R0108,Mumbai Masala 108,Pune,Hinjewadi,North Indian,Pizza,₹,250,4.5,36,0.75,0.41,0.39,0.21,0.69,0.85,0.9,0.64,1
+R0109,Pizza Craft 109,Bengaluru,Koramangala,Desserts,Italian,₹₹₹₹,1000,4.3,29,0.37,0.4,0.64,0.81,0.76,0.32,0.37,0.74,0
+R0110,Street Wok 110,Delhi,Saket,Italian,South Indian,₹₹,300,4.7,33,0.54,0.81,0.33,0.63,0.91,0.34,0.41,0.43,0
+R0111,The Curry Lab 111,Pune,Viman Nagar,Desserts,South Indian,₹₹,400,3.6,21,0.25,0.38,0.88,0.93,0.28,0.6,0.75,0.81,0
+R0112,Wok Republic 112,Pune,Viman Nagar,Thai,North Indian,₹,250,4.2,34,0.77,0.68,0.23,0.39,0.26,0.31,0.67,0.21,0
+R0113,The Curry Lab 113,Mumbai,Lower Parel,Healthy,Biryani,₹₹₹,550,4.2,42,0.3,0.77,0.87,0.81,0.43,0.56,0.38,0.61,0
+R0114,Urban Tiffin 114,Kolkata,Salt Lake,Chinese,South Indian,₹,250,3.6,33,0.61,0.28,0.86,0.51,0.2,0.37,0.37,0.49,0
+R0115,Wok Republic 115,Bengaluru,Whitefield,Biryani,Healthy,₹₹₹,650,3.6,38,0.33,0.28,0.28,0.92,0.47,0.66,0.29,0.89,0
+R0116,Biryani House 116,Mumbai,Powai,Maharashtrian,Thai,₹₹,350,4.2,35,0.6,0.65,0.71,0.31,0.7,0.43,0.81,0.46,0
+R0117,Green Bowl 117,Bengaluru,Koramangala,Italian,Chinese,₹₹₹,550,3.9,43,0.79,0.85,0.93,0.78,0.31,0.31,0.54,0.8,1
+R0118,Green Bowl 118,Mumbai,Bandra,Chinese,Biryani,₹₹₹,650,4.6,37,0.27,0.95,0.34,0.49,0.44,0.52,0.72,0.51,0
+R0119,Healthy Hub 119,Delhi,Saket,Desserts,Thai,₹₹,400,4.2,37,0.61,0.6,0.57,0.6,0.37,0.26,0.74,0.6,0
+R0120,Spice Junction 120,Mumbai,Bandra,Biryani,Pizza,₹₹₹,550,4.0,39,0.95,0.21,0.62,0.92,0.89,0.24,0.46,0.84,0
+R0121,Desi Zaika 121,Bengaluru,Whitefield,Italian,Thai,₹₹,350,4.8,41,0.38,0.82,0.24,0.3,0.92,0.73,0.48,0.22,1
+R0122,Chaat Factory 122,Pune,Kothrud,North Indian,South Indian,₹₹,300,4.0,35,0.56,0.65,0.32,0.31,0.31,0.38,0.21,0.82,1
+R0123,Dosa District 123,Delhi,Saket,South Indian,Maharashtrian,₹₹₹₹,800,3.8,37,0.72,0.42,0.51,0.45,0.79,0.72,0.42,0.32,0
+R0124,Spice Junction 124,Delhi,Connaught Place,Healthy,Thai,₹₹,350,4.4,15,0.82,0.71,0.86,0.62,0.82,0.89,0.58,0.73,1
+R0125,The Breakfast Club 125,Delhi,Connaught Place,Pizza,Italian,₹₹,300,3.8,29,0.93,0.29,0.36,0.66,0.36,0.34,0.76,0.62,0
+R0126,Healthy Hub 126,Hyderabad,Hitech City,Italian,Thai,₹₹₹,550,4.1,21,0.32,0.8,0.68,0.35,0.28,0.26,0.65,0.83,0
+R0127,Desi Zaika 127,Bengaluru,Indiranagar,Pizza,Chinese,₹₹,350,4.4,34,0.25,0.65,0.77,0.43,0.61,0.68,0.22,0.4,0
+R0128,Urban Tiffin 128,Ahmedabad,Navrangpura,Italian,Burgers,₹,250,4.2,25,0.27,0.43,0.94,0.76,0.92,0.58,0.44,0.49,0
+R0129,Pasta & Co 129,Delhi,Saket,Cafe,Thai,₹₹,300,4.6,46,0.87,0.58,0.58,0.78,0.22,0.8,0.56,0.85,0
+R0130,Royal Tandoor 130,Bengaluru,Whitefield,South Indian,Chinese,₹₹,350,4.1,26,0.86,0.27,0.74,0.86,0.81,0.69,0.78,0.32,0
+R0131,Thai Street 131,Hyderabad,Hitech City,South Indian,Thai,₹₹₹,550,4.4,28,0.67,0.91,0.23,0.73,0.71,0.38,0.95,0.66,0
+R0132,Wok Republic 132,Ahmedabad,Navrangpura,Desserts,North Indian,₹₹₹₹,800,4.2,38,0.31,0.85,0.61,0.93,0.79,0.27,0.27,0.44,0
+R0133,Chaat Factory 133,Delhi,Connaught Place,Chinese,Thai,₹₹,450,3.6,43,0.47,0.25,0.73,0.55,0.94,0.93,0.77,0.53,0
+R0134,Urban Tiffin 134,Mumbai,Lower Parel,Maharashtrian,Burgers,₹₹₹₹,800,4.3,28,0.84,0.5,0.84,0.89,0.3,0.48,0.83,0.91,0
+R0135,The Breakfast Club 135,Mumbai,Bandra,Desserts,Italian,₹₹₹,650,4.2,31,0.4,0.86,0.71,0.67,0.68,0.76,0.38,0.82,0
+R0136,Healthy Hub 136,Delhi,Saket,Chinese,Biryani,₹₹,450,3.6,45,0.63,0.84,0.37,0.86,0.7,0.46,0.55,0.6,1
+R0137,Wok Republic 137,Mumbai,Lower Parel,Chinese,Italian,₹₹,350,4.3,35,0.78,0.35,0.45,0.44,0.95,0.56,0.73,0.56,0
+R0138,Dosa District 138,Hyderabad,Hitech City,North Indian,Healthy,₹₹₹₹,1000,4.6,22,0.31,0.36,0.63,0.94,0.78,0.25,0.81,0.79,1
+R0139,Spice Junction 139,Delhi,Dwarka,North Indian,Cafe,₹₹,400,4.4,29,0.52,0.39,0.33,0.31,0.41,0.26,0.86,0.54,1
+R0140,Biryani House 140,Chennai,Anna Nagar,Biryani,North Indian,₹₹,450,4.5,15,0.27,0.88,0.46,0.76,0.32,0.46,0.51,0.56,0
+R0141,Spice Junction 141,Hyderabad,Banjara Hills,Burgers,Maharashtrian,₹₹₹,650,4.2,26,0.79,0.65,0.26,0.7,0.66,0.44,0.94,0.9,0
+R0142,Dosa District 142,Mumbai,Andheri,South Indian,Healthy,₹₹₹₹,800,4.4,36,0.85,0.29,0.93,0.5,0.59,0.2,0.54,0.82,0
+R0143,Urban Tiffin 143,Hyderabad,Hitech City,Desserts,Biryani,₹₹,300,4.0,25,0.76,0.34,0.72,0.78,0.65,0.36,0.36,0.34,0
+R0144,Thai Street 144,Pune,Kothrud,Burgers,Pizza,₹,250,4.2,23,0.58,0.85,0.72,0.69,0.54,0.51,0.46,0.61,0
+R0145,Cafe Chapter 145,Mumbai,Lower Parel,South Indian,Thai,₹₹₹₹,800,4.5,28,0.33,0.65,0.61,0.49,0.83,0.72,0.53,0.41,0
+R0146,Spice Junction 146,Mumbai,Bandra,Chinese,Desserts,₹₹,300,3.2,28,0.9,0.28,0.76,0.67,0.61,0.68,0.58,0.8,0
+R0147,Royal Tandoor 147,Hyderabad,Banjara Hills,Biryani,Maharashtrian,₹₹,400,3.9,17,0.49,0.35,0.55,0.29,0.93,0.89,0.51,0.82,1
+R0148,The Breakfast Club 148,Mumbai,Andheri,Burgers,Pizza,₹₹,400,3.8,32,0.4,0.69,0.43,0.88,0.88,0.7,0.2,0.88,0
+R0149,Mumbai Masala 149,Mumbai,Andheri,North Indian,Maharashtrian,₹₹,350,4.7,34,0.82,0.65,0.45,0.92,0.94,0.38,0.93,0.34,1
+R0150,Dosa District 150,Mumbai,Powai,Maharashtrian,Cafe,₹₹₹,650,4.0,36,0.49,0.75,0.5,0.44,0.32,0.37,0.73,0.29,0

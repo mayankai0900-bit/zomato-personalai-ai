@@ -1,0 +1,501 @@
+customer_id,age,city,area,occupation,income_band,preferred_cuisine,secondary_cuisine,dietary_preference,avg_order_value,orders_per_month,preferred_order_time,weekend_order_share,discount_sensitivity,rating_tendency,new_restaurant_affinity,restaurant_loyalty,healthy_food_affinity,spicy_food_affinity,premium_affinity,customer_segment
+C0001,19,Mumbai,Lower Parel,Healthcare,3-6L,South Indian,Chinese,Vegetarian,430.0,5,Late Night,0.2,0.49,0.37,0.27,0.53,0.12,0.27,0.6,Food Explorer
+C0002,44,Kolkata,Salt Lake,Consulting,6-10L,Pizza,North Indian,Vegan,486.0,6,Lunch,0.57,0.42,0.44,0.87,0.4,0.18,0.18,0.77,Food Explorer
+C0003,20,Bengaluru,Koramangala,Marketing,6-10L,Thai,Chinese,Vegetarian,442.0,5,Late Night,0.68,0.44,0.47,0.16,0.65,0.76,0.94,0.78,Health Conscious
+C0004,42,Mumbai,Lower Parel,Healthcare,6-10L,Burgers,South Indian,No Preference,447.0,5,Lunch,0.55,0.71,0.76,0.16,0.63,0.55,0.31,0.44,Food Explorer
+C0005,53,Bengaluru,Koramangala,Consulting,6-10L,North Indian,Pizza,Jain,437.0,5,Evening Snack,0.39,0.2,0.9,0.55,0.69,0.28,0.52,0.8,Food Explorer
+C0006,27,Hyderabad,Hitech City,Healthcare,<3L,Cafe,Healthy,Vegetarian,360.0,6,Late Night,0.41,0.62,0.57,0.9,0.25,0.52,0.74,0.78,Budget Explorer
+C0007,28,Delhi,Saket,Entrepreneur,6-10L,Thai,Italian,Vegetarian,440.0,3,Dinner,0.47,0.93,0.87,0.11,0.69,0.68,0.56,0.28,Convenience Seeker
+C0008,25,Pune,Hinjewadi,Healthcare,6-10L,Italian,North Indian,Low-Calorie,685.0,7,Evening Snack,0.73,0.76,0.65,0.19,0.62,0.82,0.53,0.22,Health Conscious
+C0009,28,Pune,Kothrud,Engineering,20L+,Healthy,North Indian,Vegetarian,1074.0,3,Dinner,0.16,0.89,0.88,0.77,0.38,0.15,0.85,0.85,Food Explorer
+C0010,49,Mumbai,Bandra,IT/Tech,20L+,Healthy,South Indian,No Preference,1017.0,6,Dinner,0.72,0.28,0.67,0.59,0.87,0.89,0.74,0.64,Food Explorer
+C0011,43,Bengaluru,Whitefield,Government,6-10L,Healthy,Italian,No Preference,387.0,6,Lunch,0.19,0.17,0.68,0.57,0.16,0.7,0.15,0.11,Food Explorer
+C0012,39,Mumbai,Powai,IT/Tech,6-10L,Pizza,Cafe,Vegetarian,513.0,7,Late Night,0.23,0.9,0.69,0.48,0.74,0.79,0.26,0.13,Convenience Seeker
+C0013,40,Hyderabad,Banjara Hills,Entrepreneur,3-6L,Cafe,North Indian,Vegetarian,413.0,3,Breakfast,0.19,0.73,0.83,0.19,0.29,0.56,0.22,0.21,Food Explorer
+C0014,33,Hyderabad,Hitech City,IT/Tech,6-10L,Healthy,Chinese,No Preference,598.0,7,Late Night,0.65,0.93,0.91,0.78,0.27,0.51,0.28,0.39,Food Explorer
+C0015,28,Mumbai,Powai,Entrepreneur,<3L,Thai,Pizza,High-Protein,336.0,5,Dinner,0.32,0.71,0.79,0.73,0.65,0.51,0.26,0.24,Budget Explorer
+C0016,55,Mumbai,Powai,Engineering,<3L,Burgers,North Indian,No Preference,454.0,2,Dinner,0.45,0.83,0.44,0.87,0.21,0.26,0.61,0.62,Food Explorer
+C0017,43,Bengaluru,Indiranagar,IT/Tech,20L+,Maharashtrian,Biryani,Vegetarian,858.0,7,Breakfast,0.52,0.49,0.7,0.52,0.85,0.27,0.71,0.25,Convenience Seeker
+C0018,26,Pune,Viman Nagar,Healthcare,6-10L,Chinese,North Indian,Vegetarian,604.0,8,Late Night,0.75,0.21,0.48,0.31,0.85,0.85,0.85,0.36,Health Conscious
+C0019,46,Delhi,Connaught Place,Engineering,6-10L,Maharashtrian,Cafe,Vegetarian,510.0,5,Late Night,0.33,0.68,0.91,0.21,0.24,0.19,0.57,0.28,Food Explorer
+C0020,39,Delhi,Dwarka,Consulting,6-10L,Pizza,Maharashtrian,Vegetarian,597.0,4,Breakfast,0.21,0.49,0.52,0.1,0.73,0.64,0.32,0.68,Food Explorer
+C0021,45,Kolkata,Salt Lake,Engineering,<3L,Chinese,Biryani,Vegetarian,150.0,5,Evening Snack,0.5,0.27,0.43,0.35,0.82,0.78,0.83,0.81,Health Conscious
+C0022,33,Delhi,Dwarka,IT/Tech,3-6L,Healthy,Thai,Low-Calorie,415.0,8,Lunch,0.71,0.34,0.45,0.74,0.28,0.45,0.25,0.84,Food Explorer
+C0023,33,Hyderabad,Banjara Hills,Healthcare,3-6L,Cafe,Chinese,No Preference,386.0,4,Breakfast,0.67,0.33,0.84,0.47,0.38,0.78,0.29,0.07,Health Conscious
+C0024,43,Delhi,Dwarka,Government,3-6L,Chinese,Burgers,No Preference,626.0,7,Late Night,0.39,0.93,0.67,0.85,0.24,0.92,0.25,0.87,Health Conscious
+C0025,20,Bengaluru,Koramangala,IT/Tech,6-10L,Burgers,Thai,No Preference,420.0,6,Late Night,0.22,0.87,0.46,0.14,0.48,0.54,0.79,0.63,Food Explorer
+C0026,41,Delhi,Dwarka,Entrepreneur,<3L,Desserts,Burgers,Vegetarian,438.0,3,Breakfast,0.58,0.39,0.54,0.43,0.45,0.35,0.21,0.41,Food Explorer
+C0027,29,Pune,Viman Nagar,Other,6-10L,Thai,Maharashtrian,Jain,345.0,6,Evening Snack,0.32,0.49,0.7,0.62,0.5,0.48,0.28,0.45,Food Explorer
+C0028,23,Delhi,Connaught Place,Healthcare,6-10L,Desserts,Maharashtrian,No Preference,507.0,6,Lunch,0.55,0.33,0.47,0.12,0.33,0.5,0.82,0.11,Food Explorer
+C0029,54,Hyderabad,Banjara Hills,Consulting,6-10L,Thai,Healthy,No Preference,523.0,6,Lunch,0.54,0.15,0.8,0.72,0.23,0.46,0.25,0.86,Food Explorer
+C0030,47,Chennai,Anna Nagar,Student,6-10L,Chinese,Healthy,No Preference,631.0,8,Dinner,0.55,0.94,0.71,0.86,0.82,0.62,0.71,0.48,Food Explorer
+C0031,46,Kolkata,Salt Lake,Finance,10-20L,Italian,Healthy,No Preference,729.0,1,Lunch,0.65,0.37,0.82,0.49,0.33,0.47,0.71,0.25,Food Explorer
+C0032,38,Pune,Hinjewadi,Engineering,<3L,South Indian,Pizza,No Preference,229.0,6,Lunch,0.57,0.2,0.59,0.53,0.46,0.28,0.46,0.82,Food Explorer
+C0033,19,Ahmedabad,Navrangpura,Other,3-6L,North Indian,Thai,No Preference,305.0,7,Dinner,0.66,0.91,0.6,0.7,0.56,0.61,0.29,0.24,Budget Explorer
+C0034,49,Hyderabad,Banjara Hills,Student,3-6L,Desserts,Cafe,Vegan,267.0,8,Lunch,0.65,0.89,0.94,0.53,0.83,0.6,0.66,0.12,Convenience Seeker
+C0035,26,Hyderabad,Banjara Hills,Marketing,3-6L,Pizza,Italian,No Preference,354.0,4,Dinner,0.35,0.76,0.58,0.7,0.77,0.31,0.17,0.07,Budget Explorer
+C0036,21,Kolkata,Salt Lake,Government,3-6L,Chinese,Cafe,No Preference,652.0,7,Breakfast,0.72,0.31,0.36,0.22,0.24,0.67,0.58,0.24,Food Explorer
+C0037,41,Bengaluru,Koramangala,Finance,6-10L,Cafe,Chinese,Vegan,488.0,8,Lunch,0.73,0.24,0.37,0.35,0.66,0.91,0.44,0.66,Health Conscious
+C0038,55,Mumbai,Bandra,Consulting,<3L,Pizza,Cafe,Vegetarian,374.0,8,Breakfast,0.63,0.6,0.37,0.53,0.65,0.16,0.65,0.06,Food Explorer
+C0039,49,Hyderabad,Banjara Hills,IT/Tech,6-10L,Burgers,Cafe,High-Protein,606.0,11,Dinner,0.57,0.5,0.79,0.87,0.35,0.79,0.56,0.46,Health Conscious
+C0040,55,Hyderabad,Banjara Hills,Healthcare,3-6L,Biryani,Chinese,No Preference,385.0,8,Dinner,0.3,0.52,0.72,0.4,0.17,0.82,0.25,0.23,Health Conscious
+C0041,39,Bengaluru,Koramangala,Healthcare,10-20L,Cafe,Pizza,Vegetarian,651.0,5,Late Night,0.72,0.22,0.78,0.49,0.72,0.69,0.65,0.47,Convenience Seeker
+C0042,23,Mumbai,Andheri,Healthcare,3-6L,Cafe,Biryani,No Preference,388.0,4,Late Night,0.37,0.59,0.56,0.9,0.56,0.4,0.49,0.31,Budget Explorer
+C0043,25,Bengaluru,Indiranagar,Consulting,3-6L,Cafe,Healthy,Low-Calorie,536.0,4,Lunch,0.26,0.74,0.52,0.57,0.72,0.61,0.93,0.76,Food Explorer
+C0044,32,Bengaluru,Whitefield,Government,3-6L,North Indian,Maharashtrian,No Preference,393.0,9,Breakfast,0.73,0.59,0.77,0.2,0.8,0.52,0.84,0.54,Convenience Seeker
+C0045,48,Chennai,T Nagar,Marketing,3-6L,North Indian,Burgers,Low-Calorie,301.0,5,Dinner,0.22,0.2,0.65,0.56,0.66,0.23,0.79,0.86,Food Explorer
+C0046,33,Mumbai,Bandra,IT/Tech,6-10L,Thai,Desserts,Vegetarian,489.0,4,Late Night,0.29,0.57,0.62,0.45,0.8,0.94,0.36,0.58,Health Conscious
+C0047,31,Mumbai,Lower Parel,Consulting,3-6L,Chinese,Biryani,No Preference,475.0,8,Late Night,0.2,0.15,0.62,0.58,0.37,0.3,0.7,0.65,Food Explorer
+C0048,22,Hyderabad,Hitech City,Consulting,10-20L,Desserts,Maharashtrian,Vegetarian,827.0,3,Lunch,0.41,0.59,0.74,0.83,0.77,0.16,0.24,0.31,Food Explorer
+C0049,36,Ahmedabad,Navrangpura,Marketing,<3L,Cafe,Pizza,Vegetarian,344.0,5,Evening Snack,0.45,0.55,0.4,0.13,0.47,0.37,0.31,0.13,Food Explorer
+C0050,55,Ahmedabad,Navrangpura,Student,20L+,Desserts,Pizza,Vegetarian,1077.0,5,Lunch,0.43,0.67,0.9,0.25,0.59,0.64,0.52,0.13,Food Explorer
+C0051,44,Pune,Kothrud,Government,3-6L,Chinese,Biryani,No Preference,524.0,5,Dinner,0.32,0.91,0.84,0.54,0.49,0.37,0.37,0.87,Food Explorer
+C0052,50,Pune,Viman Nagar,Student,6-10L,Healthy,Italian,No Preference,356.0,5,Lunch,0.46,0.65,0.65,0.45,0.19,0.33,0.21,0.29,Food Explorer
+C0053,25,Chennai,T Nagar,Student,20L+,Maharashtrian,Biryani,Vegetarian,1159.0,8,Evening Snack,0.48,0.59,0.41,0.89,0.83,0.49,0.2,0.76,Food Explorer
+C0054,36,Chennai,T Nagar,Engineering,6-10L,Thai,Healthy,Low-Calorie,376.0,2,Lunch,0.42,0.27,0.46,0.58,0.71,0.22,0.16,0.71,Food Explorer
+C0055,39,Hyderabad,Banjara Hills,Engineering,3-6L,North Indian,Burgers,Vegetarian,408.0,4,Late Night,0.5,0.68,0.87,0.46,0.51,0.38,0.75,0.37,Food Explorer
+C0056,30,Pune,Hinjewadi,Consulting,6-10L,Biryani,Italian,No Preference,438.0,8,Dinner,0.57,0.8,0.58,0.63,0.77,0.93,0.52,0.08,Health Conscious
+C0057,55,Chennai,Anna Nagar,Government,10-20L,Italian,Chinese,Vegetarian,617.0,11,Dinner,0.16,0.27,0.87,0.88,0.21,0.76,0.33,0.58,Health Conscious
+C0058,23,Pune,Viman Nagar,Government,10-20L,Healthy,Thai,Low-Calorie,644.0,8,Dinner,0.67,0.18,0.39,0.6,0.84,0.95,0.73,0.42,Health Conscious
+C0059,24,Mumbai,Lower Parel,Marketing,3-6L,Pizza,North Indian,No Preference,353.0,10,Breakfast,0.33,0.45,0.44,0.52,0.57,0.77,0.24,0.12,Health Conscious
+C0060,33,Pune,Viman Nagar,Marketing,10-20L,South Indian,Pizza,Vegetarian,639.0,4,Evening Snack,0.43,0.68,0.89,0.47,0.37,0.56,0.16,0.85,Food Explorer
+C0061,37,Ahmedabad,Navrangpura,Entrepreneur,6-10L,Italian,Pizza,No Preference,291.0,4,Dinner,0.66,0.24,0.58,0.39,0.37,0.69,0.12,0.76,Food Explorer
+C0062,35,Pune,Viman Nagar,Student,6-10L,Desserts,North Indian,High-Protein,677.0,4,Dinner,0.65,0.87,0.82,0.28,0.75,0.29,0.26,0.26,Convenience Seeker
+C0063,24,Delhi,Saket,Student,3-6L,Italian,North Indian,Vegetarian,337.0,4,Lunch,0.2,0.39,0.8,0.24,0.25,0.56,0.93,0.5,Food Explorer
+C0064,28,Bengaluru,Koramangala,Healthcare,10-20L,Italian,Pizza,Vegetarian,720.0,9,Evening Snack,0.63,0.52,0.4,0.7,0.32,0.67,0.67,0.39,Food Explorer
+C0065,41,Kolkata,Salt Lake,IT/Tech,10-20L,North Indian,Burgers,Vegetarian,731.0,5,Dinner,0.37,0.75,0.51,0.4,0.63,0.42,0.67,0.45,Food Explorer
+C0066,38,Kolkata,Salt Lake,Other,3-6L,Chinese,Cafe,Jain,528.0,3,Evening Snack,0.54,0.24,0.38,0.13,0.9,0.2,0.3,0.51,Food Explorer
+C0067,47,Pune,Viman Nagar,Government,6-10L,Cafe,Healthy,No Preference,532.0,9,Lunch,0.68,0.67,0.85,0.59,0.85,0.34,0.69,0.23,Food Explorer
+C0068,33,Hyderabad,Hitech City,Government,<3L,Desserts,Burgers,Vegetarian,217.0,6,Evening Snack,0.19,0.37,0.93,0.86,0.77,0.18,0.28,0.59,Food Explorer
+C0069,21,Mumbai,Andheri,Government,3-6L,South Indian,Desserts,No Preference,427.0,8,Late Night,0.27,0.32,0.87,0.36,0.26,0.87,0.1,0.78,Health Conscious
+C0070,26,Delhi,Saket,Engineering,3-6L,South Indian,Chinese,Vegetarian,385.0,7,Breakfast,0.23,0.44,0.82,0.57,0.16,0.33,0.21,0.41,Food Explorer
+C0071,22,Mumbai,Lower Parel,Marketing,6-10L,Burgers,Maharashtrian,Vegetarian,288.0,7,Dinner,0.45,0.91,0.38,0.73,0.8,0.54,0.49,0.87,Budget Explorer
+C0072,48,Mumbai,Powai,Entrepreneur,3-6L,Chinese,Healthy,Vegetarian,327.0,12,Dinner,0.19,0.21,0.71,0.15,0.36,0.64,0.57,0.33,Food Explorer
+C0073,36,Chennai,Anna Nagar,Marketing,6-10L,Thai,Chinese,Vegan,493.0,10,Breakfast,0.66,0.67,0.81,0.68,0.31,0.48,0.29,0.34,Food Explorer
+C0074,43,Hyderabad,Hitech City,Entrepreneur,6-10L,Burgers,Italian,No Preference,472.0,7,Evening Snack,0.37,0.27,0.9,0.15,0.77,0.18,0.18,0.68,Convenience Seeker
+C0075,53,Delhi,Saket,Student,6-10L,Healthy,Maharashtrian,No Preference,455.0,6,Breakfast,0.4,0.85,0.91,0.44,0.84,0.14,0.34,0.32,Convenience Seeker
+C0076,54,Mumbai,Lower Parel,Engineering,3-6L,Desserts,Italian,No Preference,442.0,7,Breakfast,0.36,0.6,0.42,0.32,0.32,0.46,0.58,0.7,Food Explorer
+C0077,19,Kolkata,Salt Lake,Other,10-20L,Cafe,Pizza,No Preference,717.0,5,Evening Snack,0.57,0.4,0.55,0.1,0.8,0.58,0.44,0.17,Food Explorer
+C0078,23,Mumbai,Andheri,Engineering,3-6L,Thai,Healthy,No Preference,495.0,6,Evening Snack,0.34,0.41,0.91,0.58,0.81,0.23,0.74,0.09,Food Explorer
+C0079,35,Mumbai,Bandra,Marketing,6-10L,Italian,Desserts,No Preference,606.0,8,Evening Snack,0.28,0.56,0.56,0.19,0.66,0.6,0.55,0.31,Food Explorer
+C0080,43,Bengaluru,Indiranagar,Other,<3L,Biryani,Burgers,Low-Calorie,150.0,7,Lunch,0.61,0.38,0.42,0.5,0.47,0.21,0.55,0.25,Food Explorer
+C0081,40,Kolkata,Salt Lake,IT/Tech,3-6L,Cafe,North Indian,No Preference,379.0,4,Dinner,0.7,0.84,0.7,0.56,0.68,0.46,0.2,0.07,Budget Explorer
+C0082,28,Pune,Hinjewadi,Other,6-10L,Cafe,Burgers,No Preference,540.0,3,Breakfast,0.3,0.62,0.66,0.42,0.38,0.39,0.38,0.19,Food Explorer
+C0083,25,Chennai,Anna Nagar,Engineering,6-10L,Burgers,Thai,Vegetarian,537.0,6,Lunch,0.29,0.27,0.47,0.58,0.72,0.66,0.25,0.71,Food Explorer
+C0084,47,Chennai,T Nagar,Other,10-20L,Italian,Cafe,High-Protein,606.0,3,Late Night,0.54,0.94,0.54,0.88,0.39,0.47,0.5,0.59,Food Explorer
+C0085,55,Bengaluru,Koramangala,Student,3-6L,Chinese,Burgers,Vegetarian,298.0,3,Breakfast,0.18,0.82,0.4,0.79,0.79,0.62,0.53,0.44,Budget Explorer
+C0086,20,Kolkata,Salt Lake,Marketing,10-20L,Maharashtrian,Cafe,No Preference,644.0,5,Late Night,0.44,0.27,0.39,0.18,0.82,0.39,0.71,0.48,Food Explorer
+C0087,20,Delhi,Connaught Place,Consulting,6-10L,Italian,Maharashtrian,Vegetarian,551.0,4,Lunch,0.37,0.88,0.58,0.72,0.66,0.14,0.64,0.33,Food Explorer
+C0088,24,Pune,Hinjewadi,Engineering,6-10L,Pizza,Burgers,Vegetarian,620.0,5,Late Night,0.67,0.42,0.7,0.21,0.41,0.92,0.69,0.38,Health Conscious
+C0089,37,Mumbai,Bandra,Engineering,3-6L,Burgers,South Indian,Vegetarian,352.0,5,Late Night,0.21,0.69,0.66,0.11,0.38,0.91,0.39,0.7,Health Conscious
+C0090,32,Delhi,Dwarka,Finance,3-6L,Pizza,Chinese,Vegetarian,150.0,6,Late Night,0.65,0.86,0.37,0.37,0.72,0.21,0.42,0.19,Food Explorer
+C0091,46,Delhi,Connaught Place,Student,3-6L,Desserts,Biryani,Low-Calorie,532.0,4,Late Night,0.32,0.75,0.62,0.53,0.38,0.79,0.5,0.76,Health Conscious
+C0092,54,Pune,Kothrud,Marketing,6-10L,Pizza,Italian,Vegetarian,254.0,4,Dinner,0.73,0.8,0.83,0.21,0.34,0.65,0.84,0.52,Food Explorer
+C0093,51,Mumbai,Lower Parel,IT/Tech,3-6L,South Indian,Burgers,No Preference,402.0,7,Late Night,0.24,0.5,0.92,0.28,0.49,0.4,0.12,0.1,Food Explorer
+C0094,41,Chennai,Anna Nagar,Consulting,3-6L,Chinese,Thai,No Preference,471.0,4,Evening Snack,0.71,0.82,0.74,0.73,0.25,0.34,0.81,0.64,Food Explorer
+C0095,48,Delhi,Saket,Marketing,6-10L,Chinese,North Indian,No Preference,593.0,5,Lunch,0.48,0.73,0.67,0.19,0.37,0.36,0.14,0.41,Food Explorer
+C0096,22,Hyderabad,Hitech City,IT/Tech,10-20L,Italian,Desserts,Vegetarian,891.0,3,Late Night,0.5,0.72,0.52,0.1,0.41,0.59,0.26,0.62,Food Explorer
+C0097,41,Chennai,Anna Nagar,IT/Tech,20L+,Healthy,Maharashtrian,Vegan,941.0,4,Late Night,0.48,0.46,0.63,0.61,0.89,0.32,0.11,0.72,Food Explorer
+C0098,33,Pune,Kothrud,IT/Tech,10-20L,Cafe,Burgers,No Preference,614.0,8,Evening Snack,0.48,0.8,0.46,0.72,0.5,0.69,0.64,0.74,Food Explorer
+C0099,47,Mumbai,Bandra,Student,3-6L,North Indian,Pizza,High-Protein,430.0,7,Evening Snack,0.71,0.56,0.94,0.53,0.34,0.74,0.26,0.35,Health Conscious
+C0100,39,Mumbai,Powai,Healthcare,<3L,Burgers,Italian,High-Protein,202.0,4,Dinner,0.69,0.46,0.93,0.5,0.52,0.89,0.54,0.73,Health Conscious
+C0101,23,Hyderabad,Banjara Hills,Entrepreneur,6-10L,South Indian,Maharashtrian,No Preference,348.0,5,Breakfast,0.2,0.68,0.53,0.58,0.47,0.69,0.4,0.09,Budget Explorer
+C0102,45,Pune,Kothrud,Healthcare,6-10L,North Indian,South Indian,Vegetarian,580.0,3,Dinner,0.37,0.79,0.76,0.86,0.26,0.62,0.76,0.08,Food Explorer
+C0103,33,Mumbai,Bandra,Government,3-6L,Maharashtrian,North Indian,Vegetarian,320.0,10,Dinner,0.72,0.45,0.81,0.56,0.55,0.44,0.65,0.26,Food Explorer
+C0104,19,Mumbai,Lower Parel,Finance,6-10L,Thai,Maharashtrian,No Preference,576.0,5,Evening Snack,0.57,0.32,0.72,0.66,0.9,0.27,0.22,0.11,Food Explorer
+C0105,46,Delhi,Connaught Place,IT/Tech,10-20L,Burgers,Cafe,No Preference,817.0,4,Breakfast,0.48,0.38,0.53,0.23,0.68,0.7,0.25,0.36,Food Explorer
+C0106,25,Bengaluru,Indiranagar,Consulting,10-20L,Biryani,Healthy,No Preference,725.0,7,Late Night,0.49,0.52,0.94,0.2,0.81,0.16,0.44,0.66,Convenience Seeker
+C0107,51,Chennai,T Nagar,Entrepreneur,10-20L,Maharashtrian,Chinese,No Preference,675.0,6,Evening Snack,0.54,0.51,0.76,0.38,0.81,0.76,0.64,0.2,Convenience Seeker
+C0108,45,Delhi,Saket,Engineering,10-20L,North Indian,South Indian,Vegetarian,830.0,9,Evening Snack,0.25,0.41,0.78,0.38,0.86,0.86,0.82,0.26,Convenience Seeker
+C0109,35,Kolkata,Salt Lake,Finance,6-10L,Maharashtrian,Healthy,No Preference,534.0,7,Lunch,0.51,0.61,0.45,0.6,0.83,0.39,0.89,0.09,Food Explorer
+C0110,23,Mumbai,Andheri,Student,20L+,Maharashtrian,Pizza,Vegetarian,958.0,6,Late Night,0.4,0.66,0.65,0.6,0.37,0.91,0.51,0.73,Health Conscious
+C0111,37,Pune,Viman Nagar,Marketing,<3L,North Indian,Biryani,No Preference,429.0,7,Dinner,0.43,0.42,0.44,0.79,0.39,0.94,0.39,0.39,Health Conscious
+C0112,50,Pune,Kothrud,Engineering,<3L,Biryani,Healthy,No Preference,256.0,6,Dinner,0.3,0.23,0.52,0.41,0.61,0.31,0.84,0.19,Food Explorer
+C0113,54,Pune,Hinjewadi,Government,3-6L,South Indian,Healthy,Low-Calorie,445.0,5,Dinner,0.45,0.4,0.36,0.86,0.53,0.92,0.28,0.35,Health Conscious
+C0114,36,Mumbai,Powai,Marketing,6-10L,Desserts,Cafe,Vegetarian,494.0,10,Late Night,0.15,0.24,0.43,0.31,0.42,0.44,0.14,0.09,Food Explorer
+C0115,30,Kolkata,Salt Lake,Government,6-10L,Chinese,Italian,Vegetarian,518.0,6,Late Night,0.32,0.94,0.76,0.2,0.88,0.43,0.78,0.34,Convenience Seeker
+C0116,27,Pune,Kothrud,Consulting,6-10L,Thai,Maharashtrian,No Preference,510.0,6,Breakfast,0.23,0.42,0.63,0.47,0.6,0.54,0.38,0.57,Food Explorer
+C0117,43,Delhi,Connaught Place,Other,10-20L,Pizza,Desserts,No Preference,807.0,1,Late Night,0.47,0.72,0.53,0.75,0.43,0.67,0.93,0.55,Food Explorer
+C0118,48,Mumbai,Andheri,Healthcare,20L+,Maharashtrian,Desserts,No Preference,942.0,7,Breakfast,0.5,0.29,0.73,0.6,0.78,0.23,0.68,0.08,Food Explorer
+C0119,30,Mumbai,Lower Parel,Student,6-10L,Thai,South Indian,No Preference,350.0,4,Lunch,0.4,0.77,0.9,0.8,0.7,0.15,0.22,0.23,Budget Explorer
+C0120,48,Pune,Hinjewadi,Engineering,3-6L,South Indian,Healthy,High-Protein,354.0,6,Evening Snack,0.48,0.69,0.87,0.64,0.75,0.32,0.51,0.86,Budget Explorer
+C0121,53,Bengaluru,Koramangala,Healthcare,3-6L,Pizza,Burgers,Vegetarian,278.0,4,Dinner,0.34,0.43,0.91,0.74,0.36,0.2,0.68,0.37,Food Explorer
+C0122,40,Pune,Viman Nagar,Finance,3-6L,Pizza,Chinese,No Preference,432.0,6,Dinner,0.54,0.75,0.48,0.76,0.35,0.58,0.33,0.14,Food Explorer
+C0123,33,Ahmedabad,Navrangpura,Consulting,<3L,Healthy,Biryani,Vegetarian,289.0,3,Breakfast,0.21,0.41,0.63,0.64,0.25,0.92,0.93,0.18,Health Conscious
+C0124,48,Chennai,T Nagar,Consulting,10-20L,Pizza,Thai,No Preference,716.0,6,Breakfast,0.69,0.22,0.69,0.53,0.69,0.9,0.88,0.2,Convenience Seeker
+C0125,20,Delhi,Connaught Place,Entrepreneur,10-20L,South Indian,Burgers,High-Protein,825.0,6,Breakfast,0.33,0.63,0.91,0.37,0.49,0.65,0.55,0.81,Food Explorer
+C0126,50,Delhi,Saket,Marketing,3-6L,Chinese,Thai,No Preference,173.0,3,Dinner,0.54,0.72,0.36,0.37,0.37,0.67,0.26,0.57,Food Explorer
+C0127,45,Pune,Viman Nagar,Engineering,3-6L,Thai,Cafe,No Preference,429.0,3,Lunch,0.44,0.9,0.35,0.41,0.49,0.33,0.38,0.55,Food Explorer
+C0128,18,Ahmedabad,Navrangpura,Healthcare,6-10L,Cafe,Biryani,No Preference,423.0,3,Breakfast,0.43,0.28,0.76,0.84,0.82,0.75,0.69,0.59,Food Explorer
+C0129,41,Bengaluru,Whitefield,Other,3-6L,South Indian,Healthy,No Preference,390.0,4,Late Night,0.37,0.71,0.9,0.71,0.75,0.8,0.75,0.63,Budget Explorer
+C0130,51,Mumbai,Bandra,Marketing,6-10L,Burgers,Chinese,High-Protein,487.0,8,Breakfast,0.19,0.59,0.65,0.56,0.26,0.38,0.54,0.15,Food Explorer
+C0131,55,Delhi,Dwarka,Marketing,<3L,Healthy,Italian,Jain,150.0,7,Dinner,0.23,0.48,0.69,0.55,0.65,0.36,0.12,0.27,Food Explorer
+C0132,31,Mumbai,Andheri,Other,<3L,Thai,Burgers,Vegetarian,476.0,8,Late Night,0.75,0.9,0.39,0.85,0.17,0.45,0.75,0.7,Food Explorer
+C0133,41,Hyderabad,Banjara Hills,Entrepreneur,6-10L,Thai,Italian,No Preference,496.0,5,Late Night,0.23,0.84,0.42,0.89,0.44,0.21,0.93,0.76,Food Explorer
+C0134,37,Mumbai,Andheri,Marketing,6-10L,Healthy,Thai,Vegetarian,610.0,7,Lunch,0.3,0.43,0.52,0.85,0.69,0.2,0.79,0.41,Food Explorer
+C0135,33,Mumbai,Andheri,Consulting,<3L,Maharashtrian,North Indian,No Preference,246.0,3,Breakfast,0.3,0.19,0.61,0.53,0.72,0.76,0.22,0.89,Health Conscious
+C0136,54,Bengaluru,Indiranagar,Government,6-10L,Desserts,Burgers,No Preference,422.0,7,Lunch,0.74,0.57,0.6,0.32,0.57,0.6,0.72,0.2,Food Explorer
+C0137,53,Hyderabad,Banjara Hills,Marketing,<3L,Burgers,Cafe,Vegetarian,326.0,7,Late Night,0.34,0.48,0.44,0.4,0.72,0.5,0.82,0.31,Food Explorer
+C0138,47,Delhi,Saket,Student,6-10L,Thai,Maharashtrian,Vegetarian,598.0,3,Dinner,0.3,0.31,0.74,0.84,0.79,0.18,0.72,0.21,Food Explorer
+C0139,42,Bengaluru,Koramangala,Other,6-10L,Chinese,Pizza,Jain,519.0,6,Late Night,0.58,0.6,0.64,0.8,0.4,0.91,0.11,0.85,Health Conscious
+C0140,48,Mumbai,Lower Parel,Consulting,6-10L,Cafe,Biryani,No Preference,424.0,7,Lunch,0.48,0.77,0.58,0.53,0.42,0.32,0.54,0.47,Food Explorer
+C0141,48,Mumbai,Lower Parel,Government,10-20L,Burgers,Thai,No Preference,761.0,4,Late Night,0.67,0.74,0.36,0.54,0.59,0.71,0.35,0.22,Food Explorer
+C0142,42,Bengaluru,Indiranagar,Other,10-20L,Italian,Maharashtrian,Vegetarian,548.0,3,Evening Snack,0.3,0.81,0.93,0.61,0.52,0.24,0.78,0.19,Food Explorer
+C0143,49,Kolkata,Salt Lake,Finance,10-20L,Healthy,Cafe,Low-Calorie,697.0,8,Late Night,0.17,0.83,0.92,0.63,0.72,0.45,0.82,0.25,Food Explorer
+C0144,18,Delhi,Saket,Consulting,6-10L,Burgers,North Indian,Vegetarian,677.0,4,Late Night,0.7,0.68,0.36,0.53,0.46,0.11,0.71,0.51,Food Explorer
+C0145,19,Bengaluru,Whitefield,Engineering,10-20L,Desserts,Thai,Jain,693.0,9,Lunch,0.21,0.23,0.44,0.25,0.54,0.79,0.33,0.39,Health Conscious
+C0146,43,Pune,Kothrud,Marketing,6-10L,Cafe,Biryani,No Preference,562.0,5,Breakfast,0.54,0.84,0.81,0.17,0.43,0.57,0.15,0.06,Food Explorer
+C0147,23,Delhi,Connaught Place,Marketing,10-20L,Desserts,Burgers,Vegetarian,743.0,4,Breakfast,0.69,0.89,0.49,0.82,0.67,0.58,0.33,0.84,Food Explorer
+C0148,52,Bengaluru,Koramangala,Other,6-10L,South Indian,Thai,No Preference,521.0,11,Lunch,0.5,0.75,0.78,0.42,0.21,0.24,0.3,0.76,Food Explorer
+C0149,52,Pune,Viman Nagar,Government,3-6L,Cafe,South Indian,Vegan,239.0,3,Breakfast,0.45,0.93,0.38,0.45,0.78,0.39,0.75,0.86,Food Explorer
+C0150,38,Pune,Viman Nagar,Student,6-10L,Italian,Healthy,No Preference,550.0,4,Late Night,0.71,0.5,0.76,0.63,0.21,0.63,0.78,0.66,Food Explorer
+C0151,35,Mumbai,Bandra,Finance,3-6L,Desserts,South Indian,Vegetarian,525.0,6,Evening Snack,0.37,0.22,0.92,0.46,0.72,0.19,0.17,0.42,Convenience Seeker
+C0152,53,Kolkata,Salt Lake,Engineering,3-6L,North Indian,South Indian,No Preference,400.0,6,Breakfast,0.51,0.78,0.87,0.11,0.46,0.76,0.72,0.53,Food Explorer
+C0153,54,Bengaluru,Indiranagar,Engineering,3-6L,Thai,South Indian,No Preference,328.0,9,Evening Snack,0.31,0.27,0.45,0.32,0.37,0.77,0.41,0.85,Health Conscious
+C0154,30,Chennai,T Nagar,Marketing,<3L,Pizza,North Indian,Low-Calorie,441.0,4,Evening Snack,0.65,0.45,0.87,0.45,0.47,0.8,0.65,0.56,Health Conscious
+C0155,38,Bengaluru,Whitefield,Other,20L+,Biryani,Healthy,No Preference,807.0,6,Dinner,0.73,0.38,0.77,0.49,0.58,0.31,0.42,0.74,Food Explorer
+C0156,41,Pune,Viman Nagar,IT/Tech,20L+,Biryani,Desserts,Low-Calorie,879.0,9,Lunch,0.56,0.59,0.92,0.47,0.68,0.47,0.35,0.64,Convenience Seeker
+C0157,49,Hyderabad,Banjara Hills,Finance,6-10L,Biryani,Burgers,Vegetarian,529.0,4,Dinner,0.62,0.21,0.94,0.48,0.45,0.53,0.88,0.64,Food Explorer
+C0158,20,Kolkata,Salt Lake,Government,6-10L,Healthy,Desserts,Vegetarian,746.0,8,Breakfast,0.22,0.35,0.75,0.23,0.61,0.58,0.65,0.6,Food Explorer
+C0159,45,Pune,Hinjewadi,IT/Tech,<3L,Pizza,Biryani,Vegetarian,442.0,5,Late Night,0.48,0.7,0.48,0.4,0.5,0.68,0.69,0.18,Food Explorer
+C0160,48,Mumbai,Andheri,IT/Tech,3-6L,Chinese,South Indian,Jain,323.0,6,Lunch,0.36,0.42,0.82,0.52,0.41,0.18,0.71,0.43,Food Explorer
+C0161,37,Mumbai,Bandra,Student,10-20L,Chinese,North Indian,Jain,754.0,5,Breakfast,0.56,0.28,0.94,0.3,0.28,0.24,0.58,0.86,Food Explorer
+C0162,43,Bengaluru,Indiranagar,Finance,3-6L,Desserts,Thai,No Preference,488.0,4,Late Night,0.68,0.51,0.61,0.1,0.31,0.34,0.7,0.73,Food Explorer
+C0163,24,Ahmedabad,Navrangpura,Engineering,3-6L,Burgers,Biryani,Vegetarian,328.0,9,Evening Snack,0.55,0.54,0.93,0.35,0.44,0.43,0.2,0.35,Food Explorer
+C0164,29,Hyderabad,Hitech City,Healthcare,10-20L,Maharashtrian,Chinese,Vegetarian,722.0,13,Evening Snack,0.22,0.39,0.46,0.65,0.53,0.46,0.22,0.38,Food Explorer
+C0165,49,Delhi,Connaught Place,Engineering,6-10L,Desserts,South Indian,Vegetarian,483.0,7,Dinner,0.32,0.3,0.86,0.6,0.8,0.91,0.51,0.22,Health Conscious
+C0166,53,Pune,Viman Nagar,Engineering,6-10L,Thai,Cafe,Vegetarian,515.0,9,Dinner,0.44,0.22,0.37,0.71,0.37,0.33,0.56,0.19,Food Explorer
+C0167,54,Hyderabad,Hitech City,Marketing,6-10L,Chinese,Desserts,No Preference,525.0,8,Late Night,0.64,0.44,0.84,0.13,0.69,0.56,0.94,0.14,Convenience Seeker
+C0168,37,Bengaluru,Indiranagar,Student,6-10L,Burgers,Chinese,No Preference,658.0,5,Breakfast,0.62,0.34,0.84,0.57,0.41,0.7,0.64,0.19,Food Explorer
+C0169,31,Delhi,Saket,Consulting,10-20L,Maharashtrian,Burgers,Vegetarian,652.0,7,Late Night,0.47,0.41,0.77,0.33,0.35,0.83,0.94,0.63,Health Conscious
+C0170,26,Mumbai,Lower Parel,Entrepreneur,10-20L,Pizza,Cafe,No Preference,713.0,3,Lunch,0.3,0.72,0.85,0.71,0.66,0.52,0.59,0.28,Food Explorer
+C0171,42,Hyderabad,Banjara Hills,Marketing,<3L,Chinese,Italian,Vegetarian,373.0,6,Evening Snack,0.57,0.85,0.62,0.49,0.59,0.84,0.82,0.13,Health Conscious
+C0172,40,Hyderabad,Hitech City,IT/Tech,10-20L,Thai,Biryani,Low-Calorie,808.0,6,Lunch,0.45,0.41,0.52,0.54,0.25,0.82,0.77,0.81,Health Conscious
+C0173,20,Mumbai,Powai,IT/Tech,6-10L,Italian,North Indian,No Preference,478.0,9,Lunch,0.41,0.15,0.92,0.26,0.67,0.21,0.65,0.19,Food Explorer
+C0174,23,Bengaluru,Koramangala,Government,3-6L,Burgers,Cafe,High-Protein,265.0,2,Lunch,0.18,0.65,0.79,0.7,0.47,0.18,0.18,0.23,Budget Explorer
+C0175,26,Mumbai,Bandra,Other,3-6L,Desserts,Italian,No Preference,255.0,11,Evening Snack,0.64,0.94,0.6,0.21,0.2,0.43,0.72,0.14,Food Explorer
+C0176,41,Pune,Hinjewadi,Healthcare,<3L,South Indian,Cafe,Low-Calorie,444.0,6,Lunch,0.19,0.6,0.72,0.23,0.41,0.28,0.74,0.83,Food Explorer
+C0177,31,Hyderabad,Hitech City,IT/Tech,10-20L,South Indian,Chinese,Vegetarian,737.0,4,Dinner,0.36,0.49,0.82,0.3,0.63,0.31,0.61,0.66,Food Explorer
+C0178,19,Bengaluru,Whitefield,Healthcare,3-6L,Maharashtrian,Healthy,No Preference,304.0,6,Dinner,0.33,0.19,0.89,0.86,0.52,0.2,0.52,0.55,Food Explorer
+C0179,18,Chennai,Anna Nagar,Government,20L+,South Indian,Italian,High-Protein,983.0,7,Late Night,0.4,0.59,0.45,0.48,0.89,0.16,0.6,0.06,Food Explorer
+C0180,20,Delhi,Dwarka,Student,20L+,Thai,Maharashtrian,No Preference,931.0,5,Late Night,0.61,0.49,0.59,0.61,0.55,0.23,0.17,0.12,Food Explorer
+C0181,27,Delhi,Dwarka,Engineering,3-6L,Maharashtrian,Cafe,Vegan,620.0,3,Breakfast,0.34,0.5,0.92,0.29,0.33,0.89,0.2,0.57,Health Conscious
+C0182,37,Mumbai,Powai,Finance,<3L,Cafe,South Indian,Vegetarian,298.0,4,Lunch,0.45,0.43,0.66,0.76,0.34,0.42,0.74,0.79,Food Explorer
+C0183,19,Mumbai,Lower Parel,Government,10-20L,Pizza,Maharashtrian,No Preference,600.0,6,Late Night,0.53,0.55,0.66,0.14,0.79,0.24,0.23,0.71,Convenience Seeker
+C0184,25,Ahmedabad,Navrangpura,Consulting,10-20L,North Indian,Chinese,High-Protein,672.0,5,Breakfast,0.3,0.53,0.58,0.22,0.85,0.83,0.57,0.83,Health Conscious
+C0185,32,Hyderabad,Banjara Hills,Government,3-6L,Cafe,Burgers,No Preference,561.0,8,Breakfast,0.49,0.25,0.75,0.14,0.32,0.54,0.14,0.39,Food Explorer
+C0186,36,Hyderabad,Hitech City,Healthcare,3-6L,Healthy,Italian,No Preference,416.0,7,Lunch,0.32,0.78,0.79,0.29,0.43,0.93,0.95,0.71,Food Explorer
+C0187,33,Kolkata,Salt Lake,Finance,<3L,Thai,North Indian,No Preference,235.0,7,Evening Snack,0.53,0.7,0.36,0.37,0.72,0.42,0.73,0.31,Food Explorer
+C0188,51,Delhi,Dwarka,Consulting,3-6L,North Indian,Biryani,Vegetarian,332.0,8,Breakfast,0.18,0.34,0.86,0.43,0.82,0.49,0.74,0.54,Convenience Seeker
+C0189,26,Chennai,Anna Nagar,Entrepreneur,<3L,Maharashtrian,North Indian,No Preference,250.0,3,Lunch,0.29,0.36,0.54,0.74,0.68,0.73,0.37,0.28,Health Conscious
+C0190,30,Mumbai,Bandra,Finance,10-20L,Maharashtrian,Chinese,No Preference,721.0,8,Lunch,0.42,0.4,0.42,0.39,0.73,0.48,0.49,0.77,Food Explorer
+C0191,28,Mumbai,Bandra,Healthcare,10-20L,Cafe,Maharashtrian,No Preference,722.0,10,Evening Snack,0.24,0.72,0.93,0.42,0.19,0.35,0.8,0.2,Food Explorer
+C0192,46,Pune,Viman Nagar,Engineering,10-20L,Biryani,Chinese,Vegetarian,805.0,7,Lunch,0.22,0.2,0.82,0.28,0.3,0.44,0.68,0.85,Food Explorer
+C0193,55,Mumbai,Bandra,Other,3-6L,Chinese,North Indian,Low-Calorie,412.0,7,Lunch,0.69,0.5,0.43,0.82,0.77,0.38,0.14,0.44,Food Explorer
+C0194,54,Delhi,Connaught Place,Entrepreneur,10-20L,Thai,Healthy,No Preference,671.0,6,Dinner,0.25,0.32,0.46,0.32,0.81,0.13,0.63,0.26,Food Explorer
+C0195,49,Bengaluru,Whitefield,Entrepreneur,10-20L,Italian,North Indian,No Preference,653.0,5,Dinner,0.23,0.31,0.88,0.52,0.62,0.78,0.78,0.89,Food Explorer
+C0196,48,Pune,Kothrud,Engineering,10-20L,Burgers,Desserts,Vegetarian,735.0,8,Dinner,0.31,0.17,0.71,0.12,0.76,0.34,0.79,0.45,Convenience Seeker
+C0197,55,Pune,Kothrud,Consulting,20L+,Chinese,Pizza,Vegetarian,1085.0,7,Evening Snack,0.47,0.78,0.79,0.71,0.86,0.59,0.94,0.38,Food Explorer
+C0198,29,Delhi,Connaught Place,Consulting,6-10L,Cafe,Burgers,High-Protein,622.0,5,Breakfast,0.57,0.43,0.69,0.21,0.86,0.81,0.79,0.87,Convenience Seeker
+C0199,37,Kolkata,Salt Lake,Finance,6-10L,Chinese,North Indian,No Preference,487.0,4,Lunch,0.16,0.53,0.55,0.59,0.75,0.39,0.25,0.73,Food Explorer
+C0200,21,Pune,Hinjewadi,Student,<3L,Cafe,South Indian,Vegan,197.0,4,Late Night,0.67,0.92,0.57,0.85,0.45,0.19,0.36,0.17,Budget Explorer
+C0201,45,Delhi,Connaught Place,Marketing,6-10L,South Indian,Maharashtrian,Vegetarian,514.0,7,Late Night,0.62,0.33,0.7,0.24,0.38,0.69,0.21,0.67,Food Explorer
+C0202,43,Ahmedabad,Navrangpura,Other,<3L,Maharashtrian,Burgers,High-Protein,345.0,6,Late Night,0.28,0.6,0.91,0.21,0.71,0.3,0.94,0.19,Convenience Seeker
+C0203,39,Mumbai,Bandra,Marketing,<3L,Biryani,Pizza,Vegetarian,238.0,11,Evening Snack,0.3,0.24,0.35,0.41,0.7,0.92,0.85,0.47,Health Conscious
+C0204,40,Pune,Viman Nagar,Engineering,3-6L,Italian,Desserts,Vegetarian,571.0,8,Lunch,0.25,0.21,0.86,0.34,0.39,0.91,0.16,0.19,Health Conscious
+C0205,28,Pune,Viman Nagar,IT/Tech,6-10L,Chinese,Thai,Vegetarian,601.0,11,Late Night,0.69,0.71,0.61,0.62,0.61,0.47,0.15,0.33,Food Explorer
+C0206,44,Delhi,Dwarka,Engineering,6-10L,Cafe,Healthy,No Preference,475.0,4,Evening Snack,0.33,0.23,0.59,0.54,0.52,0.15,0.1,0.12,Food Explorer
+C0207,30,Chennai,T Nagar,IT/Tech,<3L,South Indian,Cafe,No Preference,190.0,6,Breakfast,0.43,0.24,0.82,0.48,0.82,0.33,0.65,0.38,Convenience Seeker
+C0208,42,Pune,Kothrud,Government,3-6L,North Indian,Burgers,No Preference,236.0,4,Evening Snack,0.29,0.36,0.39,0.7,0.65,0.17,0.39,0.51,Food Explorer
+C0209,32,Ahmedabad,Navrangpura,Engineering,<3L,Thai,Maharashtrian,No Preference,231.0,5,Late Night,0.56,0.9,0.69,0.29,0.37,0.44,0.83,0.08,Food Explorer
+C0210,51,Ahmedabad,Navrangpura,Other,6-10L,Maharashtrian,South Indian,No Preference,725.0,8,Dinner,0.25,0.94,0.93,0.75,0.24,0.46,0.94,0.42,Food Explorer
+C0211,34,Delhi,Saket,Government,10-20L,Chinese,South Indian,No Preference,675.0,5,Dinner,0.48,0.84,0.66,0.83,0.16,0.7,0.6,0.71,Food Explorer
+C0212,44,Mumbai,Lower Parel,Finance,<3L,Maharashtrian,Desserts,Vegan,339.0,6,Breakfast,0.7,0.6,0.41,0.33,0.55,0.39,0.45,0.38,Food Explorer
+C0213,54,Chennai,T Nagar,Other,6-10L,South Indian,Burgers,No Preference,592.0,5,Late Night,0.52,0.7,0.37,0.81,0.4,0.3,0.73,0.83,Food Explorer
+C0214,19,Pune,Kothrud,Government,10-20L,Pizza,Burgers,No Preference,543.0,5,Dinner,0.66,0.7,0.93,0.28,0.38,0.73,0.76,0.32,Food Explorer
+C0215,23,Hyderabad,Banjara Hills,Consulting,6-10L,Thai,Healthy,Vegan,341.0,6,Evening Snack,0.64,0.56,0.45,0.35,0.53,0.22,0.82,0.8,Food Explorer
+C0216,29,Mumbai,Andheri,Consulting,10-20L,Biryani,North Indian,No Preference,744.0,8,Dinner,0.18,0.44,0.47,0.39,0.5,0.44,0.88,0.63,Food Explorer
+C0217,41,Bengaluru,Indiranagar,Marketing,6-10L,South Indian,Healthy,Vegetarian,376.0,6,Evening Snack,0.36,0.82,0.51,0.76,0.22,0.12,0.14,0.78,Budget Explorer
+C0218,32,Delhi,Dwarka,Consulting,6-10L,Pizza,Cafe,No Preference,431.0,7,Breakfast,0.67,0.92,0.76,0.48,0.25,0.25,0.78,0.24,Food Explorer
+C0219,35,Bengaluru,Whitefield,Entrepreneur,10-20L,Burgers,Healthy,No Preference,822.0,7,Dinner,0.33,0.57,0.72,0.57,0.16,0.95,0.92,0.76,Food Explorer
+C0220,36,Kolkata,Salt Lake,Healthcare,6-10L,Italian,Chinese,No Preference,662.0,8,Evening Snack,0.53,0.84,0.51,0.67,0.82,0.35,0.23,0.7,Food Explorer
+C0221,43,Mumbai,Powai,Government,6-10L,Cafe,North Indian,Vegetarian,557.0,3,Evening Snack,0.31,0.48,0.58,0.13,0.68,0.59,0.26,0.67,Food Explorer
+C0222,52,Bengaluru,Indiranagar,Marketing,10-20L,Desserts,Burgers,Vegetarian,863.0,5,Lunch,0.65,0.85,0.46,0.18,0.25,0.32,0.79,0.7,Food Explorer
+C0223,39,Delhi,Connaught Place,IT/Tech,3-6L,Biryani,Burgers,No Preference,383.0,5,Evening Snack,0.37,0.62,0.63,0.19,0.19,0.64,0.59,0.58,Food Explorer
+C0224,30,Chennai,T Nagar,Engineering,<3L,Desserts,Thai,Vegetarian,223.0,9,Dinner,0.18,0.83,0.43,0.26,0.46,0.58,0.87,0.44,Food Explorer
+C0225,29,Pune,Hinjewadi,IT/Tech,6-10L,Desserts,South Indian,No Preference,429.0,7,Breakfast,0.15,0.37,0.81,0.23,0.72,0.52,0.75,0.12,Convenience Seeker
+C0226,45,Hyderabad,Banjara Hills,Entrepreneur,3-6L,Italian,Thai,No Preference,374.0,8,Late Night,0.27,0.45,0.36,0.36,0.77,0.26,0.68,0.58,Food Explorer
+C0227,32,Bengaluru,Indiranagar,Government,3-6L,Chinese,Italian,Vegetarian,387.0,6,Evening Snack,0.25,0.81,0.53,0.33,0.7,0.61,0.39,0.8,Food Explorer
+C0228,39,Delhi,Saket,Marketing,3-6L,Biryani,South Indian,Low-Calorie,458.0,5,Dinner,0.16,0.33,0.94,0.27,0.17,0.53,0.2,0.65,Food Explorer
+C0229,42,Mumbai,Powai,Healthcare,10-20L,Maharashtrian,North Indian,Vegetarian,621.0,5,Breakfast,0.55,0.67,0.36,0.65,0.46,0.42,0.57,0.45,Food Explorer
+C0230,31,Delhi,Saket,Student,3-6L,Desserts,Chinese,Vegetarian,247.0,10,Evening Snack,0.52,0.71,0.6,0.82,0.53,0.63,0.34,0.72,Budget Explorer
+C0231,30,Chennai,T Nagar,Other,3-6L,Pizza,Maharashtrian,Low-Calorie,336.0,7,Evening Snack,0.57,0.39,0.37,0.5,0.31,0.89,0.38,0.05,Health Conscious
+C0232,25,Mumbai,Bandra,Other,6-10L,South Indian,Chinese,Vegan,617.0,7,Breakfast,0.58,0.23,0.5,0.28,0.89,0.35,0.49,0.13,Food Explorer
+C0233,20,Delhi,Connaught Place,Healthcare,3-6L,Desserts,Burgers,No Preference,626.0,5,Breakfast,0.21,0.76,0.38,0.78,0.65,0.24,0.4,0.42,Food Explorer
+C0234,23,Bengaluru,Koramangala,Government,10-20L,South Indian,Chinese,No Preference,670.0,3,Dinner,0.31,0.46,0.86,0.74,0.64,0.78,0.2,0.64,Health Conscious
+C0235,28,Mumbai,Powai,IT/Tech,3-6L,Maharashtrian,Italian,Jain,431.0,5,Dinner,0.26,0.45,0.57,0.12,0.66,0.81,0.93,0.16,Health Conscious
+C0236,25,Chennai,T Nagar,Entrepreneur,6-10L,Chinese,Burgers,Vegetarian,505.0,6,Breakfast,0.57,0.69,0.81,0.56,0.57,0.93,0.67,0.34,Health Conscious
+C0237,24,Chennai,Anna Nagar,Entrepreneur,6-10L,Biryani,Healthy,No Preference,479.0,3,Dinner,0.24,0.81,0.89,0.59,0.16,0.89,0.53,0.45,Health Conscious
+C0238,28,Chennai,T Nagar,IT/Tech,10-20L,Burgers,Biryani,No Preference,849.0,5,Evening Snack,0.18,0.33,0.74,0.42,0.33,0.49,0.78,0.43,Food Explorer
+C0239,46,Chennai,T Nagar,Government,<3L,Italian,Cafe,No Preference,239.0,7,Dinner,0.4,0.6,0.35,0.17,0.6,0.63,0.36,0.48,Food Explorer
+C0240,47,Delhi,Dwarka,Government,3-6L,North Indian,Pizza,Jain,350.0,7,Evening Snack,0.49,0.65,0.63,0.63,0.69,0.2,0.75,0.24,Budget Explorer
+C0241,40,Pune,Hinjewadi,Healthcare,6-10L,Burgers,Chinese,No Preference,383.0,4,Lunch,0.45,0.81,0.8,0.43,0.34,0.27,0.2,0.77,Food Explorer
+C0242,47,Delhi,Dwarka,Consulting,6-10L,Chinese,Italian,No Preference,320.0,3,Late Night,0.22,0.86,0.62,0.57,0.53,0.92,0.1,0.68,Budget Explorer
+C0243,45,Kolkata,Salt Lake,Other,6-10L,Healthy,South Indian,Vegetarian,586.0,4,Lunch,0.59,0.25,0.58,0.58,0.81,0.53,0.43,0.88,Food Explorer
+C0244,35,Bengaluru,Indiranagar,Entrepreneur,20L+,Pizza,Healthy,Jain,920.0,7,Lunch,0.4,0.71,0.8,0.34,0.68,0.83,0.71,0.85,Convenience Seeker
+C0245,30,Delhi,Dwarka,Consulting,6-10L,Pizza,Cafe,No Preference,620.0,4,Lunch,0.74,0.67,0.92,0.5,0.67,0.37,0.2,0.35,Food Explorer
+C0246,55,Chennai,T Nagar,Other,20L+,Cafe,Thai,Vegetarian,984.0,10,Late Night,0.32,0.83,0.83,0.52,0.17,0.22,0.67,0.22,Food Explorer
+C0247,36,Delhi,Connaught Place,Healthcare,<3L,North Indian,Burgers,No Preference,239.0,5,Late Night,0.17,0.8,0.41,0.79,0.7,0.84,0.73,0.53,Budget Explorer
+C0248,50,Bengaluru,Indiranagar,Healthcare,6-10L,North Indian,Italian,No Preference,683.0,7,Evening Snack,0.73,0.19,0.8,0.26,0.8,0.83,0.48,0.24,Convenience Seeker
+C0249,55,Pune,Kothrud,Engineering,10-20L,Biryani,Pizza,No Preference,746.0,4,Lunch,0.74,0.21,0.93,0.69,0.24,0.13,0.34,0.27,Food Explorer
+C0250,55,Delhi,Connaught Place,Healthcare,<3L,Italian,South Indian,No Preference,232.0,3,Evening Snack,0.51,0.77,0.73,0.77,0.38,0.77,0.57,0.11,Budget Explorer
+C0251,51,Pune,Hinjewadi,Consulting,20L+,Healthy,Chinese,Vegan,920.0,6,Lunch,0.4,0.58,0.41,0.28,0.31,0.38,0.41,0.24,Food Explorer
+C0252,48,Chennai,Anna Nagar,Engineering,10-20L,Desserts,North Indian,No Preference,830.0,5,Evening Snack,0.42,0.87,0.72,0.6,0.87,0.68,0.37,0.83,Food Explorer
+C0253,42,Mumbai,Lower Parel,Healthcare,6-10L,Pizza,North Indian,High-Protein,600.0,4,Evening Snack,0.46,0.56,0.64,0.34,0.64,0.37,0.17,0.13,Food Explorer
+C0254,52,Kolkata,Salt Lake,Student,6-10L,Biryani,Cafe,Vegetarian,424.0,6,Lunch,0.67,0.49,0.41,0.53,0.68,0.93,0.76,0.6,Health Conscious
+C0255,27,Mumbai,Bandra,Student,6-10L,Burgers,North Indian,No Preference,436.0,8,Breakfast,0.26,0.35,0.39,0.76,0.83,0.45,0.48,0.39,Food Explorer
+C0256,19,Pune,Hinjewadi,Entrepreneur,6-10L,Healthy,North Indian,Vegetarian,593.0,8,Late Night,0.19,0.75,0.38,0.78,0.42,0.53,0.35,0.63,Food Explorer
+C0257,36,Mumbai,Bandra,Marketing,3-6L,Desserts,North Indian,Vegetarian,358.0,11,Late Night,0.28,0.75,0.83,0.78,0.37,0.64,0.35,0.8,Budget Explorer
+C0258,18,Pune,Kothrud,Engineering,10-20L,South Indian,Chinese,No Preference,672.0,8,Late Night,0.51,0.58,0.92,0.34,0.71,0.87,0.39,0.4,Convenience Seeker
+C0259,27,Chennai,Anna Nagar,Finance,3-6L,Maharashtrian,Pizza,No Preference,371.0,9,Lunch,0.55,0.6,0.38,0.7,0.89,0.57,0.65,0.11,Budget Explorer
+C0260,34,Mumbai,Bandra,IT/Tech,3-6L,Maharashtrian,Italian,Low-Calorie,371.0,8,Evening Snack,0.23,0.67,0.41,0.6,0.83,0.37,0.48,0.57,Budget Explorer
+C0261,55,Bengaluru,Whitefield,Finance,6-10L,Burgers,Thai,Low-Calorie,479.0,7,Lunch,0.15,0.35,0.48,0.69,0.48,0.81,0.21,0.67,Health Conscious
+C0262,47,Chennai,T Nagar,Marketing,3-6L,Pizza,Healthy,Vegetarian,295.0,3,Lunch,0.54,0.22,0.52,0.76,0.82,0.27,0.72,0.58,Food Explorer
+C0263,19,Mumbai,Bandra,Engineering,6-10L,Maharashtrian,Desserts,No Preference,422.0,5,Late Night,0.28,0.18,0.51,0.82,0.55,0.66,0.23,0.38,Food Explorer
+C0264,36,Ahmedabad,Navrangpura,Finance,6-10L,Healthy,Chinese,No Preference,565.0,10,Late Night,0.16,0.34,0.93,0.89,0.66,0.74,0.22,0.19,Health Conscious
+C0265,54,Ahmedabad,Navrangpura,Finance,10-20L,Italian,Burgers,No Preference,817.0,5,Dinner,0.29,0.36,0.49,0.63,0.54,0.77,0.43,0.83,Health Conscious
+C0266,20,Mumbai,Powai,Government,<3L,Healthy,Cafe,Jain,243.0,9,Evening Snack,0.5,0.61,0.58,0.4,0.59,0.86,0.17,0.26,Health Conscious
+C0267,51,Bengaluru,Indiranagar,Entrepreneur,3-6L,Burgers,Healthy,Vegan,492.0,6,Late Night,0.15,0.86,0.61,0.28,0.54,0.34,0.23,0.18,Food Explorer
+C0268,32,Mumbai,Lower Parel,Entrepreneur,10-20L,Cafe,Chinese,Vegetarian,635.0,4,Dinner,0.44,0.62,0.74,0.43,0.33,0.21,0.6,0.16,Food Explorer
+C0269,20,Chennai,Anna Nagar,Other,<3L,South Indian,Burgers,High-Protein,319.0,7,Late Night,0.72,0.63,0.69,0.11,0.69,0.66,0.34,0.12,Convenience Seeker
+C0270,48,Hyderabad,Hitech City,Marketing,3-6L,Thai,Desserts,No Preference,438.0,6,Late Night,0.64,0.3,0.75,0.31,0.69,0.39,0.49,0.55,Convenience Seeker
+C0271,42,Bengaluru,Indiranagar,Entrepreneur,<3L,North Indian,Pizza,Vegetarian,314.0,7,Late Night,0.56,0.81,0.71,0.24,0.83,0.61,0.85,0.5,Convenience Seeker
+C0272,23,Mumbai,Lower Parel,Marketing,6-10L,Maharashtrian,Healthy,Jain,323.0,5,Dinner,0.46,0.45,0.38,0.52,0.32,0.78,0.77,0.37,Health Conscious
+C0273,54,Ahmedabad,Navrangpura,IT/Tech,3-6L,Pizza,Healthy,Vegan,377.0,6,Breakfast,0.32,0.85,0.6,0.25,0.68,0.77,0.59,0.15,Health Conscious
+C0274,42,Mumbai,Andheri,Consulting,6-10L,Burgers,Italian,No Preference,677.0,5,Lunch,0.41,0.62,0.51,0.53,0.57,0.62,0.94,0.39,Food Explorer
+C0275,44,Delhi,Dwarka,Engineering,10-20L,Italian,South Indian,No Preference,602.0,6,Late Night,0.44,0.94,0.7,0.72,0.45,0.22,0.83,0.15,Food Explorer
+C0276,46,Bengaluru,Indiranagar,Finance,<3L,Healthy,Thai,Vegan,211.0,4,Late Night,0.52,0.7,0.38,0.41,0.63,0.78,0.8,0.45,Health Conscious
+C0277,23,Hyderabad,Banjara Hills,IT/Tech,3-6L,Burgers,Chinese,Vegetarian,390.0,4,Dinner,0.71,0.47,0.74,0.33,0.87,0.15,0.76,0.2,Convenience Seeker
+C0278,46,Chennai,T Nagar,Student,3-6L,Desserts,Healthy,No Preference,267.0,7,Breakfast,0.62,0.56,0.77,0.59,0.66,0.41,0.66,0.88,Budget Explorer
+C0279,35,Mumbai,Bandra,Entrepreneur,3-6L,Thai,Italian,Vegetarian,459.0,7,Late Night,0.16,0.71,0.9,0.54,0.69,0.58,0.6,0.35,Convenience Seeker
+C0280,32,Bengaluru,Koramangala,Other,20L+,Italian,Thai,Vegetarian,875.0,5,Evening Snack,0.26,0.55,0.69,0.5,0.4,0.2,0.54,0.27,Food Explorer
+C0281,54,Kolkata,Salt Lake,Healthcare,6-10L,Thai,Desserts,Vegetarian,398.0,6,Lunch,0.6,0.92,0.63,0.47,0.59,0.12,0.2,0.11,Food Explorer
+C0282,32,Bengaluru,Indiranagar,Government,3-6L,Burgers,Maharashtrian,Vegetarian,386.0,8,Evening Snack,0.3,0.22,0.75,0.76,0.21,0.89,0.51,0.35,Health Conscious
+C0283,35,Ahmedabad,Navrangpura,Finance,20L+,Desserts,Biryani,Vegetarian,1062.0,5,Lunch,0.29,0.34,0.51,0.28,0.78,0.81,0.4,0.71,Health Conscious
+C0284,23,Mumbai,Lower Parel,Marketing,6-10L,Healthy,North Indian,Jain,706.0,5,Evening Snack,0.52,0.54,0.94,0.82,0.8,0.52,0.94,0.83,Food Explorer
+C0285,43,Bengaluru,Koramangala,Consulting,10-20L,South Indian,North Indian,Vegetarian,712.0,9,Dinner,0.44,0.58,0.65,0.41,0.66,0.25,0.93,0.64,Food Explorer
+C0286,38,Hyderabad,Hitech City,Student,<3L,Biryani,Italian,Vegetarian,462.0,6,Evening Snack,0.37,0.84,0.46,0.31,0.35,0.91,0.39,0.21,Health Conscious
+C0287,31,Hyderabad,Banjara Hills,Entrepreneur,6-10L,Burgers,Thai,High-Protein,604.0,8,Evening Snack,0.42,0.61,0.94,0.65,0.76,0.71,0.78,0.52,Food Explorer
+C0288,30,Pune,Viman Nagar,Finance,10-20L,Cafe,South Indian,Vegetarian,751.0,9,Breakfast,0.26,0.55,0.95,0.78,0.54,0.71,0.77,0.31,Food Explorer
+C0289,54,Kolkata,Salt Lake,Student,3-6L,Cafe,South Indian,No Preference,347.0,6,Evening Snack,0.44,0.65,0.62,0.37,0.42,0.58,0.89,0.27,Food Explorer
+C0290,44,Mumbai,Andheri,IT/Tech,3-6L,Desserts,Maharashtrian,No Preference,340.0,9,Late Night,0.54,0.58,0.94,0.33,0.39,0.53,0.76,0.43,Food Explorer
+C0291,42,Mumbai,Bandra,Other,3-6L,Desserts,South Indian,High-Protein,261.0,3,Evening Snack,0.4,0.64,0.59,0.83,0.21,0.39,0.37,0.61,Budget Explorer
+C0292,43,Bengaluru,Koramangala,Healthcare,10-20L,Burgers,Desserts,Vegetarian,674.0,6,Dinner,0.4,0.3,0.36,0.68,0.65,0.9,0.7,0.12,Health Conscious
+C0293,43,Delhi,Connaught Place,IT/Tech,<3L,Italian,Maharashtrian,No Preference,317.0,8,Dinner,0.46,0.95,0.41,0.59,0.21,0.89,0.43,0.24,Budget Explorer
+C0294,46,Bengaluru,Whitefield,Finance,<3L,South Indian,North Indian,No Preference,432.0,5,Evening Snack,0.67,0.41,0.64,0.88,0.56,0.33,0.48,0.87,Food Explorer
+C0295,29,Kolkata,Salt Lake,Other,6-10L,Desserts,Cafe,High-Protein,443.0,8,Dinner,0.46,0.66,0.54,0.38,0.55,0.78,0.48,0.36,Health Conscious
+C0296,27,Bengaluru,Koramangala,Healthcare,<3L,Healthy,South Indian,No Preference,259.0,7,Dinner,0.47,0.7,0.65,0.7,0.37,0.75,0.78,0.56,Budget Explorer
+C0297,53,Mumbai,Andheri,Government,3-6L,Healthy,Thai,No Preference,408.0,7,Lunch,0.58,0.67,0.85,0.28,0.21,0.63,0.54,0.73,Food Explorer
+C0298,36,Bengaluru,Koramangala,Engineering,10-20L,Thai,Biryani,High-Protein,674.0,3,Lunch,0.23,0.24,0.62,0.46,0.68,0.52,0.37,0.18,Food Explorer
+C0299,19,Kolkata,Salt Lake,Finance,20L+,Pizza,Burgers,No Preference,1051.0,9,Dinner,0.59,0.34,0.44,0.49,0.41,0.36,0.78,0.9,Food Explorer
+C0300,20,Hyderabad,Hitech City,Government,<3L,South Indian,North Indian,No Preference,318.0,7,Dinner,0.19,0.53,0.47,0.77,0.76,0.8,0.2,0.7,Health Conscious
+C0301,42,Bengaluru,Indiranagar,Marketing,3-6L,North Indian,Pizza,Vegetarian,326.0,9,Breakfast,0.46,0.94,0.63,0.65,0.38,0.37,0.63,0.09,Budget Explorer
+C0302,51,Kolkata,Salt Lake,IT/Tech,3-6L,Desserts,Pizza,No Preference,371.0,7,Breakfast,0.67,0.32,0.42,0.61,0.39,0.24,0.33,0.15,Food Explorer
+C0303,18,Bengaluru,Indiranagar,Student,6-10L,Cafe,Italian,Vegetarian,537.0,3,Lunch,0.37,0.22,0.44,0.17,0.61,0.89,0.95,0.58,Health Conscious
+C0304,40,Mumbai,Powai,Finance,6-10L,Chinese,Biryani,Vegetarian,684.0,6,Evening Snack,0.74,0.78,0.8,0.74,0.48,0.26,0.69,0.35,Food Explorer
+C0305,34,Delhi,Saket,Student,6-10L,Italian,Maharashtrian,No Preference,543.0,5,Dinner,0.26,0.3,0.56,0.69,0.36,0.81,0.88,0.52,Food Explorer
+C0306,51,Mumbai,Bandra,Finance,6-10L,Pizza,Maharashtrian,No Preference,590.0,7,Breakfast,0.62,0.55,0.79,0.81,0.61,0.41,0.63,0.32,Food Explorer
+C0307,52,Mumbai,Bandra,Entrepreneur,3-6L,Desserts,Italian,Vegan,415.0,4,Lunch,0.52,0.41,0.73,0.19,0.54,0.16,0.81,0.16,Food Explorer
+C0308,30,Mumbai,Powai,IT/Tech,6-10L,Chinese,North Indian,Vegetarian,616.0,9,Dinner,0.54,0.57,0.77,0.3,0.42,0.62,0.16,0.84,Food Explorer
+C0309,49,Delhi,Dwarka,IT/Tech,6-10L,Desserts,North Indian,No Preference,486.0,7,Dinner,0.64,0.79,0.38,0.59,0.55,0.72,0.81,0.12,Food Explorer
+C0310,51,Delhi,Dwarka,IT/Tech,<3L,Biryani,Maharashtrian,No Preference,395.0,9,Lunch,0.47,0.35,0.73,0.24,0.71,0.45,0.19,0.59,Convenience Seeker
+C0311,47,Pune,Kothrud,Entrepreneur,10-20L,South Indian,Biryani,Vegetarian,626.0,3,Late Night,0.35,0.28,0.95,0.45,0.41,0.37,0.94,0.33,Food Explorer
+C0312,44,Pune,Kothrud,Entrepreneur,10-20L,Burgers,Desserts,No Preference,568.0,6,Late Night,0.28,0.76,0.91,0.3,0.87,0.48,0.44,0.67,Convenience Seeker
+C0313,19,Bengaluru,Whitefield,Engineering,<3L,Pizza,North Indian,No Preference,211.0,2,Lunch,0.28,0.4,0.81,0.85,0.77,0.88,0.53,0.54,Health Conscious
+C0314,27,Ahmedabad,Navrangpura,IT/Tech,<3L,Burgers,South Indian,No Preference,233.0,2,Evening Snack,0.68,0.35,0.5,0.34,0.58,0.58,0.28,0.12,Food Explorer
+C0315,48,Pune,Hinjewadi,Finance,6-10L,Cafe,Maharashtrian,Jain,608.0,6,Breakfast,0.51,0.39,0.79,0.56,0.21,0.15,0.76,0.35,Food Explorer
+C0316,44,Hyderabad,Banjara Hills,IT/Tech,10-20L,Biryani,Cafe,Jain,642.0,6,Breakfast,0.53,0.66,0.38,0.52,0.39,0.58,0.38,0.64,Food Explorer
+C0317,21,Delhi,Saket,Entrepreneur,20L+,Maharashtrian,Desserts,Vegetarian,960.0,9,Lunch,0.41,0.78,0.44,0.37,0.51,0.73,0.57,0.27,Health Conscious
+C0318,50,Pune,Viman Nagar,Entrepreneur,10-20L,South Indian,Biryani,Vegetarian,635.0,2,Lunch,0.44,0.67,0.47,0.59,0.7,0.31,0.16,0.71,Food Explorer
+C0319,54,Pune,Hinjewadi,IT/Tech,<3L,Thai,Italian,No Preference,252.0,4,Lunch,0.34,0.63,0.36,0.34,0.89,0.62,0.94,0.43,Food Explorer
+C0320,46,Delhi,Saket,Student,10-20L,Biryani,Pizza,Vegetarian,715.0,5,Lunch,0.6,0.83,0.42,0.14,0.86,0.89,0.84,0.75,Health Conscious
+C0321,39,Mumbai,Andheri,IT/Tech,3-6L,Italian,North Indian,No Preference,532.0,2,Late Night,0.28,0.59,0.8,0.54,0.62,0.94,0.69,0.62,Food Explorer
+C0322,55,Pune,Viman Nagar,Engineering,<3L,South Indian,North Indian,No Preference,251.0,7,Late Night,0.31,0.52,0.92,0.15,0.65,0.66,0.88,0.36,Food Explorer
+C0323,19,Mumbai,Lower Parel,Healthcare,10-20L,Desserts,Thai,No Preference,771.0,6,Dinner,0.46,0.72,0.89,0.49,0.6,0.17,0.27,0.87,Food Explorer
+C0324,19,Kolkata,Salt Lake,Student,3-6L,Healthy,Pizza,No Preference,403.0,3,Dinner,0.6,0.16,0.76,0.38,0.38,0.95,0.93,0.28,Food Explorer
+C0325,34,Mumbai,Powai,Entrepreneur,10-20L,North Indian,Maharashtrian,Low-Calorie,530.0,4,Lunch,0.24,0.87,0.74,0.17,0.44,0.92,0.62,0.58,Health Conscious
+C0326,44,Bengaluru,Indiranagar,Consulting,6-10L,Thai,Pizza,High-Protein,435.0,9,Evening Snack,0.42,0.26,0.74,0.56,0.66,0.27,0.22,0.64,Food Explorer
+C0327,26,Chennai,Anna Nagar,Entrepreneur,20L+,South Indian,Cafe,Low-Calorie,1100.0,10,Lunch,0.34,0.6,0.92,0.19,0.39,0.85,0.72,0.7,Health Conscious
+C0328,44,Hyderabad,Banjara Hills,Healthcare,6-10L,Desserts,Pizza,No Preference,433.0,6,Lunch,0.21,0.3,0.81,0.59,0.35,0.58,0.3,0.25,Food Explorer
+C0329,40,Mumbai,Andheri,IT/Tech,6-10L,Italian,South Indian,Vegetarian,469.0,2,Late Night,0.43,0.67,0.46,0.41,0.51,0.24,0.29,0.4,Food Explorer
+C0330,35,Mumbai,Andheri,Entrepreneur,3-6L,Desserts,Biryani,Vegan,458.0,5,Breakfast,0.26,0.91,0.61,0.59,0.67,0.84,0.85,0.41,Health Conscious
+C0331,42,Mumbai,Powai,Government,3-6L,Cafe,Maharashtrian,Vegetarian,491.0,7,Late Night,0.53,0.71,0.37,0.19,0.49,0.85,0.85,0.26,Health Conscious
+C0332,43,Kolkata,Salt Lake,Student,6-10L,Healthy,Cafe,Low-Calorie,382.0,4,Lunch,0.32,0.47,0.53,0.76,0.5,0.46,0.62,0.1,Food Explorer
+C0333,27,Chennai,Anna Nagar,Marketing,10-20L,Italian,Chinese,Vegetarian,656.0,3,Breakfast,0.26,0.62,0.89,0.54,0.44,0.37,0.12,0.44,Food Explorer
+C0334,47,Delhi,Dwarka,IT/Tech,3-6L,Cafe,Desserts,High-Protein,369.0,4,Lunch,0.58,0.25,0.42,0.46,0.42,0.55,0.43,0.72,Food Explorer
+C0335,28,Chennai,Anna Nagar,Entrepreneur,6-10L,North Indian,Biryani,High-Protein,491.0,9,Late Night,0.67,0.84,0.45,0.22,0.73,0.14,0.36,0.67,Food Explorer
+C0336,36,Hyderabad,Hitech City,Finance,<3L,South Indian,Pizza,No Preference,323.0,8,Evening Snack,0.16,0.55,0.65,0.75,0.61,0.52,0.28,0.61,Budget Explorer
+C0337,44,Hyderabad,Hitech City,Marketing,<3L,Maharashtrian,North Indian,No Preference,221.0,3,Late Night,0.32,0.65,0.84,0.27,0.29,0.15,0.4,0.17,Food Explorer
+C0338,54,Mumbai,Powai,Other,3-6L,Chinese,North Indian,No Preference,318.0,6,Lunch,0.25,0.38,0.75,0.66,0.58,0.58,0.92,0.69,Food Explorer
+C0339,20,Pune,Kothrud,IT/Tech,10-20L,Burgers,Thai,High-Protein,679.0,8,Breakfast,0.61,0.82,0.39,0.48,0.24,0.83,0.38,0.4,Health Conscious
+C0340,31,Delhi,Dwarka,Other,<3L,Maharashtrian,Cafe,Vegetarian,533.0,4,Breakfast,0.44,0.7,0.91,0.89,0.37,0.62,0.37,0.5,Food Explorer
+C0341,26,Pune,Kothrud,Other,6-10L,Healthy,Cafe,Vegetarian,527.0,6,Lunch,0.68,0.34,0.52,0.25,0.24,0.5,0.78,0.68,Food Explorer
+C0342,44,Delhi,Dwarka,Entrepreneur,<3L,Burgers,Maharashtrian,Jain,477.0,9,Lunch,0.16,0.31,0.52,0.73,0.38,0.53,0.38,0.06,Food Explorer
+C0343,39,Pune,Hinjewadi,Entrepreneur,6-10L,Maharashtrian,North Indian,Jain,409.0,11,Lunch,0.35,0.42,0.75,0.83,0.75,0.65,0.51,0.58,Food Explorer
+C0344,39,Kolkata,Salt Lake,Marketing,10-20L,Thai,North Indian,Jain,635.0,6,Evening Snack,0.49,0.69,0.68,0.11,0.58,0.38,0.88,0.73,Food Explorer
+C0345,27,Mumbai,Bandra,Healthcare,10-20L,Burgers,Italian,Vegetarian,686.0,4,Lunch,0.49,0.46,0.71,0.79,0.71,0.7,0.37,0.08,Food Explorer
+C0346,23,Hyderabad,Banjara Hills,Marketing,10-20L,Burgers,Healthy,Jain,800.0,6,Evening Snack,0.28,0.39,0.42,0.73,0.73,0.88,0.48,0.07,Health Conscious
+C0347,50,Chennai,T Nagar,Finance,3-6L,Italian,Maharashtrian,No Preference,495.0,4,Evening Snack,0.24,0.85,0.84,0.85,0.66,0.21,0.72,0.44,Food Explorer
+C0348,25,Chennai,Anna Nagar,Student,3-6L,North Indian,Cafe,Jain,327.0,5,Breakfast,0.35,0.86,0.41,0.71,0.71,0.12,0.74,0.59,Budget Explorer
+C0349,38,Delhi,Dwarka,Consulting,3-6L,Pizza,Maharashtrian,No Preference,453.0,9,Dinner,0.55,0.37,0.44,0.19,0.87,0.58,0.19,0.51,Food Explorer
+C0350,38,Kolkata,Salt Lake,Healthcare,<3L,Cafe,Pizza,Vegetarian,352.0,4,Lunch,0.19,0.64,0.55,0.45,0.25,0.5,0.67,0.14,Food Explorer
+C0351,23,Mumbai,Powai,Entrepreneur,3-6L,Cafe,Maharashtrian,High-Protein,361.0,4,Dinner,0.52,0.4,0.84,0.67,0.65,0.55,0.93,0.69,Food Explorer
+C0352,54,Hyderabad,Hitech City,Finance,<3L,Cafe,Italian,No Preference,245.0,5,Evening Snack,0.56,0.72,0.63,0.29,0.32,0.83,0.62,0.83,Food Explorer
+C0353,29,Pune,Viman Nagar,Government,10-20L,Burgers,Healthy,Vegetarian,766.0,2,Breakfast,0.44,0.43,0.63,0.24,0.73,0.61,0.21,0.14,Food Explorer
+C0354,38,Mumbai,Lower Parel,Engineering,6-10L,Pizza,Maharashtrian,Vegetarian,594.0,5,Late Night,0.4,0.65,0.68,0.88,0.44,0.39,0.79,0.55,Food Explorer
+C0355,54,Hyderabad,Banjara Hills,Government,6-10L,Biryani,South Indian,Vegetarian,485.0,8,Breakfast,0.59,0.72,0.85,0.19,0.6,0.38,0.18,0.43,Food Explorer
+C0356,43,Bengaluru,Whitefield,IT/Tech,6-10L,Desserts,Maharashtrian,Vegan,570.0,7,Dinner,0.35,0.67,0.39,0.27,0.25,0.59,0.74,0.74,Food Explorer
+C0357,27,Delhi,Saket,Marketing,6-10L,Thai,Desserts,Vegetarian,521.0,7,Lunch,0.27,0.85,0.53,0.74,0.66,0.88,0.9,0.66,Health Conscious
+C0358,23,Pune,Kothrud,Other,<3L,Healthy,Thai,Jain,251.0,5,Evening Snack,0.19,0.87,0.93,0.1,0.57,0.93,0.19,0.29,Health Conscious
+C0359,33,Mumbai,Andheri,Entrepreneur,6-10L,Thai,Cafe,No Preference,448.0,3,Dinner,0.39,0.5,0.48,0.24,0.25,0.57,0.82,0.36,Food Explorer
+C0360,27,Hyderabad,Banjara Hills,Healthcare,20L+,Desserts,South Indian,No Preference,1015.0,3,Breakfast,0.54,0.27,0.88,0.63,0.88,0.22,0.22,0.74,Food Explorer
+C0361,45,Hyderabad,Hitech City,Other,3-6L,Healthy,Thai,Vegetarian,347.0,2,Dinner,0.38,0.33,0.6,0.11,0.52,0.72,0.71,0.28,Health Conscious
+C0362,54,Kolkata,Salt Lake,Government,<3L,North Indian,Desserts,Vegetarian,316.0,4,Evening Snack,0.22,0.54,0.76,0.21,0.7,0.94,0.94,0.71,Convenience Seeker
+C0363,51,Hyderabad,Hitech City,IT/Tech,6-10L,Maharashtrian,Chinese,No Preference,365.0,9,Breakfast,0.56,0.58,0.7,0.59,0.83,0.55,0.11,0.44,Budget Explorer
+C0364,54,Chennai,T Nagar,Government,3-6L,Pizza,Burgers,No Preference,298.0,6,Late Night,0.6,0.73,0.69,0.15,0.5,0.24,0.14,0.89,Food Explorer
+C0365,36,Mumbai,Andheri,Marketing,<3L,Healthy,Chinese,High-Protein,352.0,9,Evening Snack,0.3,0.64,0.52,0.31,0.71,0.61,0.87,0.68,Food Explorer
+C0366,41,Hyderabad,Hitech City,Finance,3-6L,Cafe,Biryani,Vegetarian,298.0,5,Late Night,0.67,0.42,0.4,0.22,0.85,0.23,0.52,0.89,Food Explorer
+C0367,33,Pune,Viman Nagar,Marketing,6-10L,South Indian,Pizza,Vegetarian,356.0,4,Evening Snack,0.18,0.36,0.84,0.14,0.5,0.5,0.5,0.86,Food Explorer
+C0368,32,Kolkata,Salt Lake,Entrepreneur,6-10L,Thai,Healthy,No Preference,479.0,8,Late Night,0.67,0.16,0.91,0.46,0.66,0.92,0.68,0.08,Food Explorer
+C0369,40,Kolkata,Salt Lake,Entrepreneur,6-10L,Desserts,Pizza,No Preference,597.0,5,Evening Snack,0.63,0.35,0.7,0.47,0.66,0.31,0.67,0.7,Food Explorer
+C0370,39,Chennai,Anna Nagar,Finance,3-6L,North Indian,Cafe,No Preference,540.0,7,Breakfast,0.16,0.23,0.41,0.46,0.31,0.34,0.26,0.07,Food Explorer
+C0371,21,Mumbai,Bandra,Other,6-10L,Biryani,Desserts,Vegetarian,326.0,3,Breakfast,0.2,0.63,0.58,0.71,0.64,0.78,0.26,0.14,Budget Explorer
+C0372,34,Delhi,Connaught Place,Healthcare,6-10L,Chinese,Cafe,Vegetarian,512.0,2,Evening Snack,0.61,0.7,0.75,0.72,0.34,0.76,0.34,0.1,Health Conscious
+C0373,39,Pune,Viman Nagar,Student,3-6L,Pizza,South Indian,No Preference,357.0,5,Dinner,0.74,0.31,0.59,0.62,0.23,0.56,0.47,0.57,Food Explorer
+C0374,46,Mumbai,Lower Parel,Healthcare,<3L,Chinese,South Indian,Vegetarian,201.0,10,Evening Snack,0.62,0.17,0.65,0.62,0.15,0.13,0.43,0.18,Food Explorer
+C0375,43,Pune,Hinjewadi,Other,<3L,Cafe,Italian,Vegetarian,276.0,2,Dinner,0.66,0.77,0.82,0.53,0.15,0.91,0.8,0.46,Health Conscious
+C0376,52,Ahmedabad,Navrangpura,Government,3-6L,Pizza,Italian,No Preference,399.0,6,Breakfast,0.37,0.83,0.55,0.77,0.72,0.35,0.27,0.52,Budget Explorer
+C0377,30,Pune,Viman Nagar,Healthcare,6-10L,Chinese,Cafe,Vegetarian,599.0,7,Dinner,0.2,0.66,0.79,0.21,0.29,0.71,0.6,0.47,Food Explorer
+C0378,52,Mumbai,Bandra,Healthcare,6-10L,Italian,North Indian,No Preference,365.0,4,Breakfast,0.35,0.73,0.59,0.27,0.64,0.54,0.9,0.79,Food Explorer
+C0379,27,Kolkata,Salt Lake,Other,3-6L,Chinese,North Indian,Vegetarian,370.0,10,Dinner,0.54,0.53,0.9,0.14,0.68,0.21,0.25,0.09,Convenience Seeker
+C0380,24,Bengaluru,Whitefield,Marketing,6-10L,Maharashtrian,Chinese,Jain,336.0,4,Breakfast,0.22,0.63,0.72,0.15,0.3,0.39,0.81,0.68,Food Explorer
+C0381,38,Pune,Viman Nagar,IT/Tech,20L+,Maharashtrian,Healthy,No Preference,1128.0,7,Lunch,0.61,0.62,0.55,0.2,0.26,0.45,0.69,0.52,Food Explorer
+C0382,33,Hyderabad,Hitech City,Other,<3L,Chinese,Cafe,Vegetarian,356.0,7,Lunch,0.16,0.54,0.35,0.24,0.22,0.65,0.85,0.4,Food Explorer
+C0383,26,Chennai,T Nagar,Consulting,<3L,Pizza,Maharashtrian,Vegetarian,216.0,6,Lunch,0.71,0.64,0.37,0.24,0.52,0.91,0.63,0.72,Health Conscious
+C0384,44,Pune,Kothrud,Student,6-10L,Biryani,Chinese,Low-Calorie,709.0,5,Breakfast,0.52,0.84,0.94,0.51,0.5,0.63,0.28,0.1,Food Explorer
+C0385,27,Mumbai,Lower Parel,Marketing,6-10L,South Indian,Cafe,High-Protein,444.0,4,Breakfast,0.54,0.38,0.61,0.37,0.75,0.74,0.14,0.68,Health Conscious
+C0386,29,Kolkata,Salt Lake,Finance,10-20L,Italian,Maharashtrian,No Preference,692.0,13,Lunch,0.58,0.62,0.55,0.26,0.66,0.38,0.76,0.33,Food Explorer
+C0387,33,Mumbai,Lower Parel,Entrepreneur,10-20L,Thai,Biryani,No Preference,902.0,5,Late Night,0.44,0.86,0.44,0.84,0.49,0.43,0.22,0.66,Food Explorer
+C0388,35,Pune,Kothrud,Consulting,3-6L,North Indian,Desserts,No Preference,244.0,10,Lunch,0.22,0.52,0.6,0.71,0.31,0.35,0.23,0.73,Food Explorer
+C0389,54,Delhi,Connaught Place,Engineering,10-20L,Chinese,Italian,High-Protein,839.0,5,Dinner,0.67,0.32,0.63,0.47,0.16,0.46,0.84,0.26,Food Explorer
+C0390,55,Hyderabad,Banjara Hills,Consulting,10-20L,Maharashtrian,South Indian,High-Protein,818.0,2,Breakfast,0.4,0.19,0.94,0.69,0.53,0.46,0.44,0.74,Food Explorer
+C0391,46,Mumbai,Lower Parel,Marketing,3-6L,Healthy,North Indian,Vegetarian,255.0,6,Dinner,0.72,0.26,0.53,0.62,0.22,0.51,0.36,0.65,Food Explorer
+C0392,55,Ahmedabad,Navrangpura,Student,20L+,Italian,South Indian,High-Protein,1060.0,5,Dinner,0.26,0.85,0.73,0.66,0.15,0.63,0.43,0.64,Food Explorer
+C0393,20,Chennai,Anna Nagar,Healthcare,3-6L,Pizza,Desserts,Vegetarian,246.0,9,Lunch,0.62,0.21,0.88,0.69,0.19,0.9,0.67,0.8,Health Conscious
+C0394,42,Mumbai,Lower Parel,Government,6-10L,North Indian,Thai,No Preference,340.0,5,Late Night,0.57,0.6,0.81,0.21,0.4,0.56,0.65,0.68,Food Explorer
+C0395,31,Ahmedabad,Navrangpura,Consulting,3-6L,Pizza,Maharashtrian,Vegetarian,227.0,2,Evening Snack,0.18,0.45,0.62,0.5,0.77,0.5,0.55,0.75,Food Explorer
+C0396,46,Bengaluru,Whitefield,Other,3-6L,Desserts,Chinese,No Preference,383.0,7,Dinner,0.2,0.46,0.46,0.87,0.21,0.24,0.2,0.18,Food Explorer
+C0397,31,Delhi,Saket,Engineering,20L+,North Indian,Burgers,No Preference,1162.0,9,Late Night,0.71,0.53,0.6,0.69,0.17,0.26,0.12,0.73,Food Explorer
+C0398,39,Chennai,Anna Nagar,Entrepreneur,6-10L,Desserts,Cafe,Vegan,510.0,5,Dinner,0.51,0.71,0.86,0.46,0.38,0.21,0.77,0.2,Food Explorer
+C0399,32,Bengaluru,Koramangala,Marketing,3-6L,Pizza,North Indian,No Preference,150.0,9,Evening Snack,0.42,0.28,0.9,0.67,0.36,0.93,0.81,0.64,Food Explorer
+C0400,28,Delhi,Saket,Consulting,<3L,Burgers,Desserts,No Preference,320.0,3,Evening Snack,0.37,0.31,0.77,0.63,0.88,0.23,0.48,0.88,Food Explorer
+C0401,37,Kolkata,Salt Lake,IT/Tech,10-20L,Thai,Healthy,Vegan,735.0,1,Dinner,0.71,0.27,0.93,0.54,0.53,0.65,0.35,0.81,Food Explorer
+C0402,27,Ahmedabad,Navrangpura,Other,6-10L,Italian,Burgers,Vegetarian,451.0,5,Dinner,0.69,0.26,0.68,0.35,0.45,0.81,0.48,0.13,Health Conscious
+C0403,30,Mumbai,Powai,Other,6-10L,Pizza,Biryani,No Preference,391.0,2,Late Night,0.66,0.69,0.92,0.88,0.45,0.52,0.61,0.48,Budget Explorer
+C0404,41,Mumbai,Powai,Entrepreneur,<3L,Thai,Burgers,No Preference,191.0,9,Breakfast,0.32,0.43,0.94,0.8,0.22,0.72,0.48,0.89,Health Conscious
+C0405,36,Hyderabad,Hitech City,Finance,10-20L,Thai,Italian,No Preference,786.0,9,Late Night,0.51,0.26,0.53,0.89,0.54,0.39,0.89,0.55,Food Explorer
+C0406,23,Pune,Viman Nagar,Student,3-6L,Pizza,Italian,No Preference,438.0,4,Dinner,0.58,0.75,0.43,0.25,0.44,0.57,0.14,0.75,Food Explorer
+C0407,37,Ahmedabad,Navrangpura,Marketing,6-10L,Italian,Biryani,No Preference,542.0,4,Breakfast,0.24,0.39,0.73,0.61,0.24,0.67,0.34,0.2,Food Explorer
+C0408,19,Bengaluru,Indiranagar,IT/Tech,10-20L,Italian,Chinese,Vegetarian,840.0,6,Evening Snack,0.5,0.6,0.87,0.6,0.51,0.69,0.2,0.49,Food Explorer
+C0409,19,Ahmedabad,Navrangpura,Healthcare,3-6L,North Indian,Biryani,No Preference,441.0,11,Lunch,0.36,0.19,0.57,0.61,0.87,0.14,0.35,0.59,Food Explorer
+C0410,50,Mumbai,Bandra,Consulting,10-20L,South Indian,Chinese,Vegetarian,682.0,10,Lunch,0.48,0.85,0.85,0.65,0.38,0.68,0.69,0.13,Food Explorer
+C0411,40,Ahmedabad,Navrangpura,Finance,<3L,Healthy,Pizza,No Preference,345.0,4,Dinner,0.4,0.89,0.45,0.27,0.53,0.81,0.78,0.52,Food Explorer
+C0412,52,Chennai,Anna Nagar,Engineering,6-10L,Chinese,Italian,Vegetarian,447.0,4,Breakfast,0.22,0.25,0.36,0.38,0.67,0.22,0.48,0.89,Food Explorer
+C0413,39,Chennai,Anna Nagar,Finance,6-10L,North Indian,South Indian,No Preference,577.0,8,Lunch,0.56,0.4,0.48,0.88,0.47,0.75,0.19,0.07,Health Conscious
+C0414,45,Chennai,T Nagar,Student,3-6L,North Indian,Cafe,Vegetarian,280.0,6,Breakfast,0.43,0.88,0.38,0.34,0.16,0.18,0.21,0.56,Food Explorer
+C0415,30,Ahmedabad,Navrangpura,Finance,6-10L,North Indian,South Indian,No Preference,388.0,9,Evening Snack,0.72,0.43,0.45,0.5,0.7,0.31,0.58,0.13,Food Explorer
+C0416,18,Ahmedabad,Navrangpura,Engineering,3-6L,Biryani,Burgers,No Preference,279.0,4,Late Night,0.15,0.73,0.9,0.84,0.79,0.5,0.69,0.21,Budget Explorer
+C0417,29,Mumbai,Lower Parel,Government,20L+,Thai,Biryani,Vegetarian,897.0,5,Dinner,0.22,0.94,0.42,0.19,0.25,0.75,0.7,0.52,Health Conscious
+C0418,23,Mumbai,Powai,Government,6-10L,Thai,Pizza,Vegetarian,365.0,6,Evening Snack,0.56,0.82,0.49,0.43,0.89,0.46,0.83,0.81,Food Explorer
+C0419,41,Chennai,T Nagar,Finance,<3L,Desserts,Italian,Vegetarian,354.0,7,Dinner,0.41,0.68,0.4,0.21,0.45,0.6,0.19,0.84,Food Explorer
+C0420,22,Delhi,Connaught Place,Government,20L+,Burgers,Biryani,Vegetarian,985.0,5,Dinner,0.22,0.82,0.79,0.32,0.69,0.59,0.33,0.72,Convenience Seeker
+C0421,40,Pune,Viman Nagar,Marketing,6-10L,Thai,Healthy,Vegetarian,367.0,7,Lunch,0.61,0.24,0.5,0.5,0.62,0.21,0.18,0.09,Food Explorer
+C0422,49,Mumbai,Bandra,Student,20L+,Thai,Desserts,Vegetarian,1008.0,5,Lunch,0.33,0.65,0.81,0.63,0.54,0.52,0.5,0.3,Food Explorer
+C0423,49,Chennai,T Nagar,Engineering,3-6L,Burgers,Maharashtrian,Vegetarian,475.0,4,Breakfast,0.74,0.85,0.42,0.46,0.79,0.48,0.13,0.2,Food Explorer
+C0424,28,Bengaluru,Whitefield,Marketing,6-10L,Pizza,Italian,Vegetarian,371.0,6,Breakfast,0.49,0.54,0.68,0.53,0.5,0.58,0.23,0.1,Food Explorer
+C0425,49,Bengaluru,Koramangala,Other,20L+,Maharashtrian,Cafe,No Preference,1119.0,7,Evening Snack,0.34,0.17,0.38,0.77,0.41,0.73,0.12,0.81,Health Conscious
+C0426,42,Pune,Hinjewadi,IT/Tech,3-6L,Burgers,Italian,No Preference,481.0,8,Lunch,0.3,0.67,0.71,0.83,0.2,0.36,0.39,0.07,Food Explorer
+C0427,20,Pune,Hinjewadi,Marketing,6-10L,Thai,Desserts,Vegetarian,477.0,7,Dinner,0.31,0.71,0.7,0.89,0.43,0.43,0.59,0.74,Food Explorer
+C0428,31,Mumbai,Lower Parel,Government,6-10L,Desserts,Burgers,No Preference,496.0,4,Evening Snack,0.37,0.5,0.65,0.78,0.74,0.81,0.56,0.29,Food Explorer
+C0429,37,Mumbai,Powai,Other,3-6L,Biryani,Desserts,Vegetarian,294.0,7,Breakfast,0.58,0.61,0.71,0.32,0.57,0.55,0.46,0.35,Food Explorer
+C0430,37,Mumbai,Bandra,Engineering,10-20L,Thai,Cafe,Vegetarian,686.0,6,Lunch,0.4,0.35,0.66,0.64,0.56,0.85,0.63,0.49,Health Conscious
+C0431,54,Delhi,Connaught Place,Marketing,3-6L,Cafe,Italian,No Preference,409.0,3,Late Night,0.64,0.83,0.89,0.85,0.69,0.15,0.27,0.44,Budget Explorer
+C0432,27,Bengaluru,Indiranagar,Healthcare,10-20L,Thai,Burgers,High-Protein,677.0,4,Breakfast,0.53,0.83,0.51,0.33,0.27,0.68,0.3,0.25,Food Explorer
+C0433,30,Delhi,Saket,Student,3-6L,Pizza,Healthy,Vegetarian,551.0,10,Dinner,0.4,0.87,0.47,0.32,0.17,0.77,0.34,0.52,Health Conscious
+C0434,49,Mumbai,Powai,Student,<3L,Chinese,Thai,Vegetarian,270.0,6,Breakfast,0.69,0.48,0.57,0.63,0.22,0.9,0.72,0.17,Health Conscious
+C0435,54,Mumbai,Lower Parel,Engineering,20L+,Healthy,Cafe,Jain,1015.0,9,Late Night,0.3,0.86,0.49,0.2,0.76,0.38,0.6,0.38,Food Explorer
+C0436,45,Bengaluru,Indiranagar,Consulting,<3L,South Indian,Pizza,Low-Calorie,377.0,6,Dinner,0.4,0.84,0.38,0.53,0.67,0.2,0.56,0.45,Food Explorer
+C0437,35,Bengaluru,Indiranagar,Finance,3-6L,Cafe,Burgers,Jain,325.0,3,Breakfast,0.54,0.87,0.37,0.69,0.75,0.15,0.88,0.62,Budget Explorer
+C0438,53,Bengaluru,Koramangala,Entrepreneur,3-6L,Cafe,Burgers,High-Protein,466.0,5,Breakfast,0.47,0.34,0.62,0.11,0.87,0.89,0.88,0.31,Health Conscious
+C0439,37,Bengaluru,Indiranagar,Consulting,10-20L,South Indian,Healthy,Vegetarian,651.0,4,Dinner,0.62,0.37,0.4,0.72,0.52,0.73,0.89,0.33,Health Conscious
+C0440,24,Hyderabad,Banjara Hills,Finance,6-10L,Healthy,Chinese,No Preference,644.0,5,Late Night,0.59,0.59,0.55,0.66,0.72,0.65,0.26,0.43,Food Explorer
+C0441,18,Delhi,Saket,Entrepreneur,3-6L,Pizza,Thai,Vegetarian,311.0,5,Breakfast,0.24,0.56,0.93,0.76,0.72,0.82,0.68,0.72,Budget Explorer
+C0442,46,Pune,Hinjewadi,Marketing,10-20L,South Indian,Burgers,No Preference,733.0,9,Late Night,0.65,0.79,0.47,0.43,0.29,0.84,0.9,0.8,Food Explorer
+C0443,19,Bengaluru,Indiranagar,Student,10-20L,Desserts,Maharashtrian,Vegetarian,771.0,6,Breakfast,0.73,0.31,0.77,0.24,0.45,0.46,0.32,0.13,Food Explorer
+C0444,28,Pune,Kothrud,Other,<3L,Cafe,Healthy,No Preference,301.0,10,Dinner,0.65,0.55,0.48,0.26,0.86,0.79,0.33,0.68,Health Conscious
+C0445,26,Pune,Viman Nagar,Entrepreneur,10-20L,Maharashtrian,Biryani,Low-Calorie,596.0,3,Evening Snack,0.59,0.3,0.46,0.73,0.17,0.93,0.3,0.43,Health Conscious
+C0446,41,Bengaluru,Indiranagar,Other,6-10L,Italian,Chinese,No Preference,574.0,5,Lunch,0.67,0.93,0.59,0.27,0.44,0.46,0.61,0.11,Food Explorer
+C0447,21,Kolkata,Salt Lake,Student,3-6L,Biryani,Healthy,High-Protein,352.0,4,Late Night,0.71,0.92,0.71,0.7,0.18,0.32,0.63,0.31,Budget Explorer
+C0448,41,Pune,Viman Nagar,Finance,20L+,Healthy,North Indian,Vegetarian,1042.0,4,Evening Snack,0.25,0.54,0.55,0.47,0.22,0.7,0.47,0.27,Food Explorer
+C0449,20,Pune,Hinjewadi,Finance,6-10L,Pizza,Thai,High-Protein,426.0,9,Evening Snack,0.69,0.36,0.85,0.84,0.54,0.47,0.24,0.68,Food Explorer
+C0450,27,Chennai,T Nagar,Engineering,10-20L,Desserts,Cafe,Vegan,630.0,7,Breakfast,0.26,0.19,0.46,0.48,0.27,0.5,0.2,0.81,Food Explorer
+C0451,20,Chennai,T Nagar,Marketing,3-6L,Cafe,Healthy,Vegetarian,346.0,6,Dinner,0.22,0.73,0.44,0.38,0.3,0.34,0.81,0.69,Food Explorer
+C0452,54,Bengaluru,Koramangala,Other,3-6L,North Indian,Maharashtrian,Vegan,301.0,3,Lunch,0.4,0.21,0.81,0.64,0.82,0.12,0.68,0.63,Food Explorer
+C0453,41,Pune,Viman Nagar,Other,10-20L,Chinese,Thai,No Preference,962.0,4,Breakfast,0.43,0.72,0.64,0.6,0.35,0.66,0.38,0.09,Food Explorer
+C0454,38,Hyderabad,Hitech City,Other,<3L,North Indian,Cafe,No Preference,189.0,10,Breakfast,0.6,0.59,0.71,0.17,0.34,0.3,0.76,0.39,Food Explorer
+C0455,31,Mumbai,Andheri,Finance,3-6L,Thai,Pizza,Vegetarian,300.0,5,Lunch,0.22,0.54,0.61,0.75,0.38,0.68,0.21,0.62,Food Explorer
+C0456,50,Pune,Kothrud,Consulting,6-10L,Thai,Healthy,No Preference,494.0,7,Late Night,0.4,0.76,0.84,0.59,0.48,0.46,0.13,0.34,Food Explorer
+C0457,32,Hyderabad,Hitech City,Finance,20L+,Healthy,Cafe,Vegetarian,1120.0,6,Breakfast,0.32,0.5,0.89,0.48,0.26,0.21,0.87,0.77,Food Explorer
+C0458,45,Chennai,Anna Nagar,Healthcare,6-10L,Healthy,Chinese,High-Protein,451.0,4,Late Night,0.21,0.49,0.41,0.63,0.58,0.32,0.32,0.12,Food Explorer
+C0459,19,Chennai,Anna Nagar,IT/Tech,10-20L,Italian,South Indian,Vegan,790.0,2,Dinner,0.18,0.48,0.77,0.35,0.69,0.74,0.48,0.74,Convenience Seeker
+C0460,29,Pune,Hinjewadi,Consulting,3-6L,Cafe,Maharashtrian,No Preference,507.0,4,Breakfast,0.41,0.16,0.59,0.11,0.64,0.49,0.44,0.61,Food Explorer
+C0461,37,Chennai,T Nagar,Other,10-20L,Maharashtrian,Burgers,Vegetarian,760.0,8,Dinner,0.63,0.22,0.43,0.25,0.76,0.69,0.26,0.07,Food Explorer
+C0462,27,Chennai,T Nagar,Consulting,6-10L,Desserts,Healthy,No Preference,567.0,6,Evening Snack,0.61,0.27,0.6,0.19,0.83,0.73,0.48,0.46,Health Conscious
+C0463,46,Mumbai,Andheri,Other,3-6L,Pizza,Desserts,Jain,410.0,9,Dinner,0.18,0.16,0.73,0.67,0.88,0.82,0.73,0.56,Health Conscious
+C0464,36,Kolkata,Salt Lake,Student,6-10L,Italian,Maharashtrian,Vegetarian,546.0,5,Late Night,0.71,0.87,0.87,0.29,0.2,0.12,0.59,0.52,Food Explorer
+C0465,44,Bengaluru,Koramangala,Marketing,<3L,Maharashtrian,Cafe,No Preference,263.0,4,Dinner,0.16,0.38,0.47,0.38,0.32,0.29,0.87,0.34,Food Explorer
+C0466,26,Hyderabad,Hitech City,Healthcare,6-10L,Thai,Italian,Jain,359.0,8,Evening Snack,0.63,0.79,0.86,0.6,0.36,0.74,0.67,0.16,Budget Explorer
+C0467,28,Delhi,Dwarka,Other,6-10L,Thai,Healthy,No Preference,517.0,5,Lunch,0.48,0.95,0.57,0.31,0.66,0.25,0.83,0.48,Food Explorer
+C0468,39,Mumbai,Bandra,Entrepreneur,<3L,Biryani,Chinese,Vegetarian,355.0,8,Dinner,0.3,0.42,0.56,0.14,0.81,0.33,0.23,0.64,Food Explorer
+C0469,24,Chennai,Anna Nagar,Student,10-20L,Italian,Healthy,Low-Calorie,605.0,3,Breakfast,0.73,0.78,0.72,0.79,0.23,0.58,0.53,0.19,Food Explorer
+C0470,31,Mumbai,Lower Parel,Government,3-6L,Pizza,Healthy,Vegan,523.0,4,Dinner,0.59,0.23,0.74,0.37,0.25,0.82,0.47,0.4,Health Conscious
+C0471,33,Mumbai,Andheri,Marketing,3-6L,Healthy,South Indian,No Preference,390.0,11,Evening Snack,0.58,0.48,0.73,0.3,0.71,0.55,0.77,0.17,Convenience Seeker
+C0472,44,Hyderabad,Banjara Hills,Entrepreneur,10-20L,Healthy,Cafe,No Preference,674.0,8,Breakfast,0.42,0.77,0.78,0.51,0.2,0.39,0.44,0.71,Food Explorer
+C0473,21,Hyderabad,Banjara Hills,Entrepreneur,10-20L,Desserts,Cafe,No Preference,690.0,2,Late Night,0.18,0.66,0.78,0.63,0.54,0.35,0.44,0.63,Food Explorer
+C0474,37,Kolkata,Salt Lake,Government,10-20L,North Indian,Burgers,High-Protein,650.0,7,Late Night,0.7,0.71,0.62,0.26,0.56,0.77,0.65,0.64,Health Conscious
+C0475,30,Pune,Viman Nagar,Healthcare,<3L,Healthy,Burgers,No Preference,362.0,6,Lunch,0.46,0.58,0.48,0.51,0.38,0.39,0.64,0.07,Food Explorer
+C0476,55,Kolkata,Salt Lake,Healthcare,3-6L,Pizza,Italian,Low-Calorie,513.0,9,Breakfast,0.59,0.82,0.51,0.51,0.24,0.74,0.9,0.43,Health Conscious
+C0477,18,Ahmedabad,Navrangpura,Marketing,3-6L,Biryani,Desserts,Vegetarian,450.0,11,Late Night,0.66,0.34,0.53,0.63,0.76,0.59,0.22,0.37,Food Explorer
+C0478,24,Bengaluru,Indiranagar,Government,6-10L,Biryani,Thai,Vegetarian,516.0,7,Lunch,0.58,0.81,0.4,0.15,0.82,0.5,0.48,0.36,Food Explorer
+C0479,43,Chennai,Anna Nagar,Other,6-10L,Thai,Pizza,Vegetarian,611.0,6,Dinner,0.75,0.7,0.92,0.69,0.46,0.24,0.53,0.46,Food Explorer
+C0480,26,Hyderabad,Hitech City,Engineering,10-20L,Chinese,Pizza,Vegetarian,808.0,6,Breakfast,0.6,0.91,0.57,0.86,0.6,0.45,0.2,0.54,Food Explorer
+C0481,51,Mumbai,Powai,Finance,<3L,Pizza,Thai,No Preference,352.0,9,Dinner,0.17,0.26,0.82,0.44,0.85,0.36,0.34,0.21,Convenience Seeker
+C0482,18,Chennai,T Nagar,IT/Tech,6-10L,Chinese,North Indian,No Preference,633.0,6,Late Night,0.34,0.51,0.55,0.4,0.78,0.81,0.21,0.17,Health Conscious
+C0483,46,Hyderabad,Hitech City,Marketing,<3L,Cafe,Burgers,No Preference,293.0,6,Late Night,0.55,0.48,0.49,0.42,0.56,0.91,0.86,0.68,Food Explorer
+C0484,28,Mumbai,Bandra,Student,6-10L,Cafe,Pizza,Vegetarian,455.0,8,Breakfast,0.54,0.22,0.92,0.53,0.72,0.91,0.54,0.69,Convenience Seeker
+C0485,19,Chennai,Anna Nagar,IT/Tech,6-10L,Healthy,South Indian,Low-Calorie,525.0,6,Evening Snack,0.62,0.35,0.77,0.81,0.48,0.79,0.62,0.39,Health Conscious
+C0486,49,Mumbai,Powai,Student,3-6L,South Indian,Italian,No Preference,462.0,7,Late Night,0.34,0.36,0.42,0.18,0.28,0.22,0.32,0.13,Food Explorer
+C0487,44,Bengaluru,Whitefield,Finance,<3L,Burgers,South Indian,No Preference,234.0,4,Breakfast,0.33,0.23,0.44,0.81,0.34,0.9,0.86,0.09,Food Explorer
+C0488,55,Bengaluru,Indiranagar,Consulting,6-10L,Healthy,Thai,Low-Calorie,430.0,8,Evening Snack,0.19,0.52,0.59,0.49,0.46,0.3,0.85,0.28,Food Explorer
+C0489,24,Ahmedabad,Navrangpura,Consulting,10-20L,Desserts,South Indian,No Preference,599.0,5,Dinner,0.42,0.83,0.65,0.73,0.26,0.56,0.24,0.26,Food Explorer
+C0490,53,Hyderabad,Banjara Hills,Marketing,<3L,Italian,Desserts,No Preference,224.0,6,Lunch,0.15,0.9,0.64,0.58,0.78,0.42,0.4,0.59,Budget Explorer
+C0491,50,Ahmedabad,Navrangpura,Healthcare,<3L,Cafe,Healthy,Vegetarian,297.0,6,Evening Snack,0.2,0.71,0.85,0.68,0.9,0.85,0.28,0.48,Budget Explorer
+C0492,39,Pune,Hinjewadi,Healthcare,20L+,Cafe,Italian,No Preference,915.0,5,Evening Snack,0.35,0.52,0.71,0.11,0.67,0.65,0.1,0.46,Food Explorer
+C0493,29,Mumbai,Andheri,Entrepreneur,6-10L,Cafe,Italian,Vegan,311.0,5,Late Night,0.2,0.85,0.74,0.53,0.82,0.79,0.48,0.15,Convenience Seeker
+C0494,40,Pune,Viman Nagar,Entrepreneur,3-6L,Cafe,North Indian,No Preference,341.0,11,Evening Snack,0.71,0.51,0.48,0.12,0.36,0.88,0.4,0.13,Health Conscious
+C0495,32,Bengaluru,Whitefield,Consulting,20L+,Burgers,North Indian,No Preference,1170.0,8,Late Night,0.28,0.31,0.84,0.42,0.8,0.58,0.52,0.52,Convenience Seeker
+C0496,54,Ahmedabad,Navrangpura,Finance,<3L,South Indian,Chinese,No Preference,293.0,5,Late Night,0.66,0.85,0.79,0.32,0.79,0.12,0.92,0.63,Convenience Seeker
+C0497,53,Bengaluru,Koramangala,Marketing,<3L,Thai,Cafe,Vegetarian,490.0,7,Breakfast,0.66,0.41,0.86,0.43,0.24,0.54,0.52,0.49,Food Explorer
+C0498,32,Mumbai,Powai,Student,3-6L,Thai,Maharashtrian,No Preference,543.0,4,Breakfast,0.39,0.42,0.88,0.75,0.89,0.29,0.69,0.86,Food Explorer
+C0499,30,Bengaluru,Indiranagar,Finance,3-6L,Chinese,Cafe,Vegetarian,424.0,7,Breakfast,0.44,0.8,0.71,0.6,0.4,0.31,0.19,0.25,Food Explorer
+C0500,21,Pune,Hinjewadi,Government,6-10L,Biryani,Chinese,Vegan,457.0,6,Late Night,0.41,0.23,0.62,0.2,0.88,0.88,0.42,0.81,Health Conscious
